@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Thanhtich from "./components/thanhtich";
+import ThanhtichHS from "./components/thanhtichhs";
 
 export default function Home() {
   return (
@@ -27,7 +28,10 @@ export default function Home() {
       </div>
 
       {/* thanh tich  */}
-      <Thanhtich/>
+      <Thanhtich />
+
+      {/* Thanh tich hoc sinh */}
+      <ThanhtichHS />
     </div>
   );
 }

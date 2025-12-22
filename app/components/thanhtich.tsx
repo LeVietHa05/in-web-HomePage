@@ -71,9 +71,9 @@ export default function Thanhtich() {
         return () => clearInterval(timer)
     }, [totalPages])
 
-    const startIndex = currentPage * ITEMS_PER_PAGE
-    const endIndex = startIndex + ITEMS_PER_PAGE
-    const currentData = data.slice(startIndex, endIndex)
+    // const startIndex = currentPage * ITEMS_PER_PAGE
+    // const endIndex = startIndex + ITEMS_PER_PAGE
+    // const currentData = data.slice(startIndex, endIndex)
 
     const goToPage = (pageIndex: number) => {
         setCurrentPage(pageIndex)
