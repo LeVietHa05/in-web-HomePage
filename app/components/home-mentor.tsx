@@ -3,7 +3,7 @@ import { SVNHelveticaNeueHeavy } from "./font";
 
 export default function Doingumentor() {
     return (
-        <div className="bg-[#3253BC] min-h-[1200px] w-full rounded-[60px]  relative z-1 overflow-hidden -mt-24 pt-50">
+        <div className="bg-[#3253BC] min-h-[1000px] w-full rounded-[60px]  relative z-1 overflow-hidden -mt-24 pt-24">
             <div className={`text-[#ADDDFF] ${SVNHelveticaNeueHeavy.className} text-[196px] text-center`}>
                 ĐỘI NGŨ <br></br>MENTOR
             </div>

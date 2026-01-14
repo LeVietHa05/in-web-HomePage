@@ -3,6 +3,8 @@ import Thanhtich from "./components/thanhtich";
 import ThanhtichHS from "./components/thanhtichhs";
 import Dichvucuachungtoi from "./components/home-dichvu"
 import Doingumentor from "./components/home-mentor";
+import TrainghiemHs from "./components/home-trainghiem";
+import Dangkytuvan from "./components/dangkytuvan";
 
 export default function Home() {
   return (
@@ -43,6 +45,13 @@ export default function Home() {
 
       {/* doingu mentor  */}
       <Doingumentor />
+
+      {/* Trai nghiem hoc sinh */}
+      <TrainghiemHs />
+
+      {/* Dang ky tu van */}
+      <Dangkytuvan />
+
     </div>
   );
 }

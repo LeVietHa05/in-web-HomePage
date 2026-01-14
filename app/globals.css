@@ -20,14 +20,35 @@
 }
 
 body {
-  background: var(--background);
+  background: #181A4D;
   color: var(--foreground);
   font-family: Helvetica, sans-serif;
 }
 
 .outline-text {
   color: transparent; /* màu chữ */
-  -webkit-text-stroke: 2px #004DEE; /* viền chữ */
+  -webkit-text-stroke: 2px #004dee; /* viền chữ */
   font-size: 60px;
   font-weight: 900;
+}
+
+
+/* to use this: put this in class name: "animate-[infinite-scroll_10s_linear_infinite]" */
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* Translate the entire width of the original content */
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 30s linear infinite; /* Adjust duration as needed */
+}
+
+/* Optional: Pause animation on hover */
+.hover\:pause-on-hover:hover {
+  animation-play-state: paused;
 }
