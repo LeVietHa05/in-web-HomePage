@@ -1,0 +1,17 @@
+[
+    { "name": "Trần Đăng Khôi", "imglink": "/hs/trandangkhoi.png", "school": "Massachusetts Institute of Technology", "text": "Học Bổng Toàn Phần" },
+    { "name": "Lã Châu Giang", "imglink": "/hs/lachaugiang.png", "school": "Brown University", "text": "" },
+    { "name": "Vũ Bảo Khánh", "imglink": "/hs/vubaokhanh.png", "school": "UC Los Angeles", "text": "" },
+    { "name": "Nguyễn Thành Vinh", "imglink": "/hs/nguyenthanhvinh.png", "school": "Rice University", "text": "Học Bổng Toàn Phần" },
+    { "name": "Nguyễn Đặng Minh Anh", "imglink": "/hs/nguyendangminhanh.png", "school": "University of Chicago", "text": "Học Bổng Toàn Phần"  },
+    { "name": "Lê Trung Kiên", "imglink": "/hs/letrungkien.png", "school": "University of North Carolina at Chapel ", "text": "Học Bổng Toàn Phần" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" },
+    { "name": "", "imglink": "", "school": "", "text": "" }
+]

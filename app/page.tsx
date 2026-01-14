@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Thanhtich from "./components/thanhtich";
 import ThanhtichHS from "./components/thanhtichhs";
+import Dichvucuachungtoi from "./components/home-dichvu"
+import Doingumentor from "./components/home-mentor";
 
 export default function Home() {
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div className="max-w-[1440px] mx-auto relative">
       {/* header */}
       <div className="relative h-screen max-h-[840px] w-full z-0">
         <Image src={'/home-bg.png'} fill alt=""></Image>
@@ -32,6 +34,15 @@ export default function Home() {
 
       {/* Thanh tich hoc sinh */}
       <ThanhtichHS />
+      <div className="relative  z-4 -mt-15 w-full ">
+        <div className="absolute -top-5 z-4 w-full h-30 border-y-6 border-[#FFCB1F] skew-y-3 "></div>
+        <div className={`absolute -top-5 z-4 w-full h-30 bg-[#ADDDFF] -skew-y-3  `}> </div>
+      </div>
+      {/* dich vu cua chung toi */}
+      <Dichvucuachungtoi />
+
+      {/* doingu mentor  */}
+      <Doingumentor />
     </div>
   );
 }
