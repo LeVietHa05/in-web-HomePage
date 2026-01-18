@@ -44,7 +44,7 @@ export default function Home() {
       <Dichvucuachungtoi />
 
       {/* doingu mentor  */}
-      <Doingumentor />
+      <Doingumentor imglink="/mentor-2.png" color1="#ADDDFF" color2="#001E7F" />
 
       {/* Trai nghiem hoc sinh */}
       <TrainghiemHs />
