@@ -3,25 +3,29 @@
     "name": "Trần Đăng Khôi",
     "imglink": "/hs/trandangkhoi.png",
     "school": "Massachusetts Institute of Technology",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Lã Châu Giang",
     "imglink": "/hs/lachaugiang.png",
     "school": "Brown University",
-    "hocbong": ""
+    "hocbong": "",
+    "type": "hocsinh"
   },
   {
     "name": "Vũ Bảo Khánh",
     "imglink": "/hs/vubaokhanh.png",
     "school": "UC Los Angeles",
-    "hocbong": ""
+    "hocbong": "",
+    "type": "hocsinh"
   },
   {
     "name": "Nguyễn Thành Vinh",
     "imglink": "/hs/nguyenthanhvinh.png",
     "school": "Rice University",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Nguyễn Đặng Minh Anh",
@@ -29,49 +33,57 @@
     "imglink2": "/hs/nguyendangminhanh2.png",
     "school": "University of Chicago",
     "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh",
     "speech": "“Thực sự thì hành trình app vừa rồi của em rất tuyệt vời, hơn rất nhiều so với em nghĩ. Nhờ sự giúp đỡ của anh chị mà em có cơ hội suy nghĩ sâu hơn vào những gì em “thực sự thích”, và luôn muốn viết ra. Thời gian apply cũng có lẽ là thời gian em đã học nhiều nhất ạ. Cảm ơn anh chị vì luôn quan tâm và thấu hiểu chúng em, và nhất là lắng nghe tất cả những gì chúng em muốn nói. Em rất may mắn vì có anh chị giúp đỡ trong suốt thời gian vừa qua và em tự hào là học sinh Inception <3”"
   },
   {
     "name": "Lê Trung Kiên",
     "imglink": "/hs/letrungkien.png",
     "school": "University of North Carolina at Chapel ",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Hoàng Hữu Đức",
     "imglink": "/hs/hoanghuuduc.png",
     "school": "Case Western Reserve University",
-    "hocbong": "Học Bổng 8.7 Tỷ"
+    "hocbong": "Học Bổng 8.7 Tỷ",
+    "type": "hocsinh"
   },
   {
     "name": "Hồ Ngọc Linh",
     "imglink": "/hs/hongoclinh.png",
     "school": "Colgate University",
-    "hocbong": "Học Bổng 9 Tỷ"
+    "hocbong": "Học Bổng 9 Tỷ",
+    "type": "hocsinh"
   },
   {
     "name": "Lê Duy Đạt",
     "imglink": "/hs/leduydat.png",
     "school": "Bucknell University",
-    "hocbong": "Học Bổng 7.6 Tỷ"
+    "hocbong": "Học Bổng 7.6 Tỷ",
+    "type": "hocsinh"
   },
   {
     "name": "Lê Vũ Ngọc Minh",
     "imglink": "/hs/levungocminh.png",
     "school": "Lehigh University",
-    "hocbong": "Học Bổng 8.5 Tỷ"
+    "hocbong": "Học Bổng 8.5 Tỷ",
+    "type": "hocsinh"
   },
   {
     "name": "Nguyễn Tiến Anh",
     "imglink": "/hs/nguyentienanh.png",
     "school": "Brandeis University",
-    "hocbong": "Học Bổng 7.4 Tỷ"
+    "hocbong": "Học Bổng 7.4 Tỷ",
+    "type": "hocsinh"
   },
   {
     "name": "Phùng Hà Thu",
     "imglink": "/hs/phunghathu.png",
     "school": "Colby College",
-    "hocbong": "Học Bổng 8.7 Tỷ"
+    "hocbong": "Học Bổng 8.7 Tỷ",
+    "type": "hocsinh"
   },
   {
     "name": "Đinh Trần Phương Linh",
@@ -83,13 +95,15 @@
     "name": "Lê Hoàng Tiên",
     "imglink": "/hs/lehoangtien.png",
     "school": "Vassar College",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Nguyễn Hà Vy",
     "imglink": "/hs/nguyenhavy.png",
     "school": "Grinnell College",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Hà Tuấn Hùng",
@@ -97,32 +111,61 @@
     "imglink2": "/hs/hatuanhung2.png",
     "school": "Williams College",
     "hocbong": "Học Bổng Toàn Phần",
-    "speech": "“Chị Chi đã giúp em điền toàn bộ hồ sơ hỗ trợ tài chính vì em rất ngu ngơ lớ ngớ. Chị cũng ngồi điền Common App cùng với em và chỉ em cách viết miêu tả, sắp xếp, nên xin thư giới thiệu của ai. Em đi than thở với chị là không muốn dịch tài liệu đâu thì chị ngay lập tức bảo chị dịch cho. Anh Trung, mentor luận, thì cùng em nói chuyện rất lâu để khơi gợi ý tưởng. Có đợt em bận quá, sát ngày nộp luận mới gửi bài để anh xem mà anh không hề mắng mỏ, ngay lập tức giúp em đến tận 2h sáng. Về mặt tinh thần, hai anh chị vẫn luôn tin tưởng em trong suốt quá trình app, kể cả trong quãng thời gian em không đạt được thành quả như ý.”"
+    "speech": "“Chị Chi đã giúp em điền toàn bộ hồ sơ hỗ trợ tài chính vì em rất ngu ngơ lớ ngớ. Chị cũng ngồi điền Common App cùng với em và chỉ em cách viết miêu tả, sắp xếp, nên xin thư giới thiệu của ai. Em đi than thở với chị là không muốn dịch tài liệu đâu thì chị ngay lập tức bảo chị dịch cho. Anh Trung, mentor luận, thì cùng em nói chuyện rất lâu để khơi gợi ý tưởng. Có đợt em bận quá, sát ngày nộp luận mới gửi bài để anh xem mà anh không hề mắng mỏ, ngay lập tức giúp em đến tận 2h sáng. Về mặt tinh thần, hai anh chị vẫn luôn tin tưởng em trong suốt quá trình app, kể cả trong quãng thời gian em không đạt được thành quả như ý.”",
+    "type": "hocsinh"
   },
   {
     "name": "Đào Thị Quỳnh Anh",
     "imglink": "/hs/daothiquynhanh.png",
     "school": "Amhers College",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Nguyễn Diệu Anh ",
     "imglink": "/hs/nguyendieuanh.png",
     "school": "Pomona College",
-    "hocbong": "Học Bổng Toàn Phần"
+    "hocbong": "Học Bổng Toàn Phần",
+    "type": "hocsinh"
   },
   {
     "name": "Đặng Thanh Vân",
     "imglink": "/hs/dangthanhvan.png",
     "school": "Vanderbilt University (#18NU)",
     "hocbong": "Học Bổng Toàn Phần",
-    "speech": "“Em rất vui khi được là học sinh của chị Phương, chị Chi và là học sinh của Inception. Hành trình vừa rồi em nghĩ đi nghĩ lại thì vẫn thấy khó tin quá nhưng mà nhờ có sự đồng hành của Inception nên nó thành sự thật rồi huhu. Lời này em nói nhiều rồi nhưng nói thêm nhiều lần nữa vẫn chưa đủ: Cảm ơn mọi người nhiều lắm!!”"
+    "speech": "“Em rất vui khi được là học sinh của chị Phương, chị Chi và là học sinh của Inception. Hành trình vừa rồi em nghĩ đi nghĩ lại thì vẫn thấy khó tin quá nhưng mà nhờ có sự đồng hành của Inception nên nó thành sự thật rồi huhu. Lời này em nói nhiều rồi nhưng nói thêm nhiều lần nữa vẫn chưa đủ: Cảm ơn mọi người nhiều lắm!!”",
+    "type": "hocsinh"
   },
   {
     "name": "Vũ Anh Thư",
     "imglink": "/hs/vuanhthu.png",
     "school": "Colby College",
     "hocbong": "Học Bổng Toàn Phần",
-    "speech": "“Em gặp anh Trung và chị Chi vào thời điểm em mất phương hướng nhất. Anh Trung mang cho em nhiều perspective mới, những sự criticism để em phải nhìn lại chính mình. Kể ra em cũng hơi lười tí, gửi bài hơi sát nhưng ít khi anh từ chối giúp. Kể cả em có phải đập PS hoàn toàn, anh vẫn dành cả sáng để ngồi nhìn mấy bức ảnh. Và kể cả em quay lại bài luận ban đầu anh cũng không phản đối. Em biết mình không phải một đứa năng trò chuyện hay đến văn phòng nhiều bằng các bạn. Dẫu vậy, chưa bao giờ em thiếu sự quan tâm của anh, chị. Inception với em viết ra thì khó, nó vượt lên trên một bộ máy, một trung tâm, một cái tên.Em ngưỡng mộ Inception lắm!”"
+    "speech": "“Em gặp anh Trung và chị Chi vào thời điểm em mất phương hướng nhất. Anh Trung mang cho em nhiều perspective mới, những sự criticism để em phải nhìn lại chính mình. Kể ra em cũng hơi lười tí, gửi bài hơi sát nhưng ít khi anh từ chối giúp. Kể cả em có phải đập PS hoàn toàn, anh vẫn dành cả sáng để ngồi nhìn mấy bức ảnh. Và kể cả em quay lại bài luận ban đầu anh cũng không phản đối. Em biết mình không phải một đứa năng trò chuyện hay đến văn phòng nhiều bằng các bạn. Dẫu vậy, chưa bao giờ em thiếu sự quan tâm của anh, chị. Inception với em viết ra thì khó, nó vượt lên trên một bộ máy, một trung tâm, một cái tên.Em ngưỡng mộ Inception lắm!”",
+    "type": "hocsinh"
+  },
+  {
+    "name": "NGUYỄN VIỆT TRUNG",
+    "imglink": "/hs/nguyenviettrung.png",
+    "school": "Washington University in St Louis",
+    "hocbong": "HỌC BỔNG TOÀN PHẦN BẬC TIẾN SĨ",
+    "speech": "“Em đã từng được Inception giúp đỡ khi apply Đại học, và lần này trở lại với apply Tiến sĩ, Inception vẫn luôn là lựa chọn hàng đầu của em. Khó khăn nhất trong quá trình apply đối với em đó là hầu hết các kinh nghiệm, hoạt động thời sinh viên không sử dụng được cho ngành học em mong muốn: nghiên cứu về Ung thư. Anh Tú đã bảo em nên khai thác từ những kinh nghiệm khác, qua đó tìm được những kỹ năng và kiến thức áp dụng vào ung thư.”",
+    "type": "caohoc"
+  },
+  {
+    "name": "HOÀNG CẨM TÚ UYÊN",
+    "imglink": "/hs/hoangcamtuuyen.png",
+    "school": "University of Oklahoma",
+    "hocbong": "HỌC BỔNG TOÀN PHẦN BẬC TIẾN SĨ",
+    "speech": "“Ôn thi GRE là thử thách khó khăn nhất trong suốt thời gian chuẩn bị apply của mình. Anh Tú đã chỉ mình học từ mới phần Verbal, hướng dẫn cách giải các bài toán phần Math và cách viết hai bài luận của phần Writing. Điều khiến mình bất ngờ là dù không đào tạo chứng chỉ, nhưng Inception lại support học sinh rất cẩn thận việc ôn thi chứng chỉ. Nhờ biết đến anh Tú, cuối cùng mình cũng có thể vượt qua kì thi và giành suất học bổng toàn phần ngành Tâm lý học của Oklahoma. Thực sự cảm ơn anh Tú, cảm ơn Inception rất nhiều!”",
+    "type": "caohoc"
+  },
+  {
+    "name": "LÊ NHẬT QUANG",
+    "imglink": "/hs/lenhatquang.png",
+    "school": "VinUniversity tại University of Michigan at Ann-Arbor",
+    "hocbong": "HỌC BỔNG TOÀN PHẦN BẬC THẠC SĨ",
+    "speech": "“Em học ngành kỹ thuật nên không giỏi khoản viết lách lắm, cũng không biết làm sao để mô tả các nghiên cứu của mình trong bài luận. Anh Tú đã hướng dẫn em về cách viết rất nhiều, anh yêu cầu em phải tự tìm hiểu về SLAM model để biết cách viết. Anh còn đốc thúc, nhắc nhở em để đảm bảo tiến độ apply mỗi khi em bù đầu với những công việc ở trường đại học.”",
+    "type": "caohoc"
   }
 ]

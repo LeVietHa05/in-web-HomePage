@@ -6,6 +6,59 @@ import Doingumentor from "./components/home-mentor";
 import TrainghiemHs from "./components/home-trainghiem";
 import Dangkytuvan from "./components/dangkytuvan";
 
+
+const thanhtichData = [
+  {
+    name: "Massachusetts Institute of Technology",
+    imageLink: "/mit.png"
+  }, {
+    name: "Stanford University",
+    imageLink: "/stanford.png"
+  }, {
+    name: "Duke University",
+    imageLink: "/duke.png"
+  }, {
+    name: "Cornell University",
+    imageLink: "/cornell.png"
+  }, {
+    name: "Johns Hopkins University",
+    imageLink: "/johnshopkins.png"
+  }, {
+    name: "Northwestern University",
+    imageLink: "/northwestern.png"
+  }, {
+    name: "University of Chicago",
+    imageLink: "/Chicago.png"
+  }, {
+    name: "Brown University",
+    imageLink: "/Brown.png"
+  }, {
+    name: "University of Melbourne",
+    imageLink: "/Melbourne.png"
+  }, {
+    name: "University of Sydney",
+    imageLink: "/Sydney.png"
+  }, {
+    name: "University of Queensland",
+    imageLink: "/Queensland.png"
+  }, {
+    name: "University of Adelaide",
+    imageLink: "/Adelaide1.png"
+  }, {
+    name: "University of Toronto",
+    imageLink: "/Toronto.png"
+  }, {
+    name: "University of Waterloo",
+    imageLink: "/Waterloo.png"
+  }, {
+    name: "University of British Columbia",
+    imageLink: "/Columbia.png"
+  }, {
+    name: "University of Adelaide",
+    imageLink: "/Adelaide2.png"
+  },
+]
+
 export default function Home() {
   return (
     <div className="max-w-[1440px] mx-auto relative">
@@ -32,7 +85,7 @@ export default function Home() {
       </div>
 
       {/* thanh tich  */}
-      <Thanhtich />
+      <Thanhtich data={thanhtichData} />
 
       {/* Thanh tich hoc sinh */}
       <ThanhtichHS />
@@ -47,7 +100,7 @@ export default function Home() {
       <Doingumentor imglink="/mentor-2.png" color1="#ADDDFF" color2="#001E7F" />
 
       {/* Trai nghiem hoc sinh */}
-      <TrainghiemHs />
+      <TrainghiemHs type="hocsinh" />
 
       {/* Dang ky tu van */}
       <Dangkytuvan />

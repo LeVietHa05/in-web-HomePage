@@ -5,61 +5,16 @@ import { useState, useEffect } from "react"
 import { helveticaNeueHeavy } from "./font"
 import Image from "next/image"
 
-const data = [
-    {
-        name: "Massachusetts Institute of Technology",
-        imageLink: "/mit.png"
-    }, {
-        name: "Stanford University",
-        imageLink: "/stanford.png"
-    }, {
-        name: "Duke University",
-        imageLink: "/duke.png"
-    }, {
-        name: "Cornell University",
-        imageLink: "/cornell.png"
-    }, {
-        name: "Johns Hopkins University",
-        imageLink: "/johnshopkins.png"
-    }, {
-        name: "Northwestern University",
-        imageLink: "/northwestern.png"
-    }, {
-        name: "University of Chicago",
-        imageLink: "/Chicago.png"
-    }, {
-        name: "Brown University",
-        imageLink: "/Brown.png"
-    }, {
-        name: "University of Melbourne",
-        imageLink: "/Melbourne.png"
-    }, {
-        name: "University of Sydney",
-        imageLink: "/Sydney.png"
-    }, {
-        name: "University of Queensland",
-        imageLink: "/Queensland.png"
-    }, {
-        name: "University of Adelaide",
-        imageLink: "/Adelaide1.png"
-    }, {
-        name: "University of Toronto",
-        imageLink: "/Toronto.png"
-    }, {
-        name: "University of Waterloo",
-        imageLink: "/Waterloo.png"
-    }, {
-        name: "University of British Columbia",
-        imageLink: "/Columbia.png"
-    }, {
-        name: "University of Adelaide",
-        imageLink: "/Adelaide2.png"
-    },
-]
+interface ThanhtichProps {
+    name: string,
+    imageLink: string,
+    otherText?: string
+}
+
 
 const ITEMS_PER_PAGE = 8
 
-export default function Thanhtich() {
+export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
     const [currentPage, setCurrentPage] = useState(0)
     const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE)
 
@@ -96,19 +51,19 @@ export default function Thanhtich() {
                             <div className="grid grid-cols-4 gap-6 px-8">
                                 {data.slice(pageIndex * ITEMS_PER_PAGE, (pageIndex + 1) * ITEMS_PER_PAGE).map((item, index) => (
                                     <div key={index} className="flex flex-col items-center text-center">
-                                        <div className="relative w-32 h-32 mb-4 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
+                                        <div className="relative w-32 h-32 mb-4 flex items-center justify-center overflow-hidden">
                                             <Image
                                                 src={item.imageLink}
                                                 alt={item.name}
                                                 fill
-                                                className="w-full h-full object-cover"
+                                                className="w-full h-full object-contain"
                                                 onError={(e) => {
                                                     e.currentTarget.src = '/placeholder.png' // Fallback image
                                                 }}
                                             />
                                         </div>
                                         <h3 className={`${helveticaNeueHeavy.className} text-xl font-medium text-[#407EFF] leading-tight`}>
-                                            {item.name}
+                                            {item.name} <div className="text-[#f27240]">{item.otherText}</div>
                                         </h3>
                                     </div>
                                 ))}

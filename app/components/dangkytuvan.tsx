@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Dangkytuvan() {
     return (
-        <div className="bg-[#407EFF] w-full rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-24 border-24 border-[#004DEE]">
+        <div className="bg-[#407EFF] w-full rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-12 border-24 border-[#004DEE]">
 
             <div className="flex items-center">
                 <div className="bg-[#ADDDFF] w-fit p-12 rounded-[36px] relative">

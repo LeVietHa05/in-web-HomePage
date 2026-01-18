@@ -7,11 +7,11 @@ import Image from 'next/image'
 import datahs from '../../data/datahs.json'
 import { SVNHelveticaNeueHeavy } from './font'
 
-const data = datahs.filter(each => each.speech)
 
 const ITEMS_PER_PAGE = 1
 
-export default function TrainghiemHs() {
+export default function TrainghiemHs({ type }: { type: string }) {
+    const data = datahs.filter(e => e.type == type).filter(each => each.speech)
     const [currentPage, setCurrentPage] = useState(0)
     const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE)
 
@@ -20,7 +20,7 @@ export default function TrainghiemHs() {
     }
 
     return (
-        <div className="bg-[#EAFDFF] min-h-[800px] w-full rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-24 pt-16">
+        <div className="bg-[#EAFDFF] min-h-[700px] w-full rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-24 pt-16">
             <div className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-[72px] font-black text-center`}>
                 TRẢI NGHIỆM HỌC SINH
             </div>

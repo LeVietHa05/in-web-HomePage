@@ -4,7 +4,7 @@ import CardHS from "./CardHS"
 
 import datahs from '../../data/datahs.json'
 
-const cards = datahs.filter(e => e.name)
+const cards = datahs.filter(e => e.type == "hocsinh").filter(e => e.name)
 
 export default function ThanhtichHS() {
     return (
