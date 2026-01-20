@@ -102,6 +102,10 @@ export default function Home() {
       {/* Trai nghiem hoc sinh */}
       <TrainghiemHs type="hocsinh" />
 
+      <div className="my-12">
+
+      </div>
+
       {/* Dang ky tu van */}
       <Dangkytuvan />
 
