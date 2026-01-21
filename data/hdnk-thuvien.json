@@ -1,0 +1,20 @@
+{
+  "bigImgList": ["/hdnk/6.png", "/hdnk/7.png"],
+  "hdnkList": [
+    {
+      "imgLink": "/hdnk/8.png",
+      "title": "Aria Project",
+      "content": "Dự án âm nhạc phi lợi nhuận do học sinh cấp 3 tại Hà Nội khởi xướng và tổ chức. Mùa đầu tiên mang tên “Thanh Sắc Việt - Giao Hưởng Năm Châu” tôn vinh vẻ đẹp âm nhạc dân tộc qua lăng kính giao hưởng hiện đại, đồng thời kết hợp tinh hoa từ năm châu."
+    },
+    {
+      "imgLink": "/hdnk/9.png",
+      "title": "Hang Táu",
+      "content": "Chuyến đi mang đến cho học sinh cơ hội khám phá đời sống và văn hóa của cộng đồng địa phương. Các em được tham gia trực tiếp vào những hoạt động thường ngày như nấu ăn, lao động sản xuất, tìm hiểu phong tục truyền thống và gắn kết với người dân bản xứ. Trải nghiệm này giúp học sinh mở rộng góc nhìn, nuôi dưỡng sự đồng cảm, tinh thần tập thể và khả năng thích nghi trong môi trường mới..."
+    },
+    {
+      "imgLink": "/hdnk/10.png",
+      "title": "Thiện Nguyện Nghệ An",
+      "content": "“Chắp Cánh Ước Mơ” là chương trình do các bạn học sinh cấp 3 tại Hà Nội phối hợp cùng Bệnh viện Đa khoa TTH Vinh, Làng trẻ SOS Vinh và LotusMed Viet Nam tổ chức. Chương trình mang đến hoạt động sàng lọc sức khỏe, các lớp học kỹ năng và quà tặng thiết thực cho trẻ em tại Làng trẻ SOS Vinh, đồng thời tạo cơ hội để học sinh tham gia trải nghiệm, lan tỏa tri thức và yêu thương."
+    }
+  ]
+}
