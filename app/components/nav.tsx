@@ -17,7 +17,8 @@ const navitems = [
         text: "VIẾT LUẬN"
     },
     {
-        link: "/khoahoc",
+        link: "/",
+        // link: "/khoahoc",
         text: "KHÓA HỌC"
     },
     {
@@ -29,7 +30,8 @@ const navitems = [
         text: "HOẠT ĐỘNG CHUYÊN NGÀNH"
     },
     {
-        link: "/tintuc",
+        // link: "/tintuc",
+        link: "/",
         text: "TIN TỨC"
     },
 ]
