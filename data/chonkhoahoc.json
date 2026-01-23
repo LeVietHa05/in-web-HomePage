@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "CHỌN KHÓA HỌC\nPHÙ HỢP NHẤT VỚI BẠN",
+  "slides": [
+    {
+      "id": "ielts",
+      "title": "LỚP LUYỆN THI IELTS",
+      "desc": [
+        "Tăng cường ôn luyện Writing và Speaking",
+        "Phục vụ apply chương trình du học và săn học bổng"
+      ],
+      "image": "/ielts.png",
+      "button": "TÌM HIỂU THÊM"
+    },
+    {
+      "id": "college-prep",
+      "title": "COLLEGE PREP",
+      "desc": [
+        "Trang bị nền tảng kiến thức và kỹ năng đọc - viết bậc đại học",
+        " Làm quen với các lĩnh vực học thuật nền tảng tại bậc đại học, rèn luyện tư duy phản biện và khả năng lập luận chặt chẽ."
+      ],
+      "image": "/college-prep.jpg",
+      "button": "TÌM HIỂU THÊM"
+    },
+
+    {
+      "id": "creative-writing",
+      "title": "CREATIVE WRITING",
+      "desc": [
+        "Khơi mở trí tưởng tượng, làm chủ kỹ năng kể chuyện"
+      ],
+      "image": "/creative-writing.jpg",
+      "button": "TÌM HIỂU THÊM"
+    }
+  ]
+}

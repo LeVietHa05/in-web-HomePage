@@ -1,0 +1,86 @@
+{
+  "sectionTitle": "TRẢI NGHIỆM HỌC SINH",
+  "autoPlay": 5000,
+
+  "slides": [
+    {
+      "id": "dai-minh",
+      "type": "text",
+      "name": "ĐẠI MINH",
+      "class": "Học sinh lớp IELTS/Tháng 7",
+      "content": [
+        {
+          "text": "“Các anh chị giảng dạy tại Inception cực kỳ tận tâm, đặc biệt là phần sửa bài Writing. Không chỉ chỉ ra lỗi sai, anh chị còn phân tích vì sao sai và gợi ý cách viết tự nhiên hơn. Nhờ vậy mà em tiến bộ rất nhanh, từ 6.0 Writing lên 7.0 chỉ sau 2 tháng."
+        },
+
+        {
+          "text":"Học 1-1 ở Inception khác hẳn với những lớp đông người em từng tham gia. Anh chị biết rõ điểm yếu của em ở đâu, ví dụ như Writing hay lặp ý, hoặc Speaking hay bị bí khi gặp câu hỏi lạ. Anh chị luôn kiên nhẫn chỉnh từng chút một, giải thích cụ thể để mình hiểu và thay đổi. Cảm giác có một người theo sát, quan tâm đến sự tiến bộ của riêng mình khiến mình rất yên tâm.”"
+        }
+      ]
+    },
+    {
+      "id": "chau-anh",
+      "type": "image-text",
+      "name": "CHÂU ANH",
+      "class": "Học sinh lớp College Prep",
+      "image": "/chau-anh.png",
+      "content": [
+        {
+          "text": "Hi Anh Nhật Anh! Thực sự em không nghĩ 16 buổi lại trôi qua nhanh thế và siêu thành thật là em muốn học nữa TvT. Học lớp College Prep của anh siêu vui mà cho em biết được nhiều thứ hay ho lắm ạ! Nhờ anh mà em nhận ra econ không chán thế (em thực sự nghĩ tới việc học econ :>?), nhờ anh mà em nhận ra em thích psych thật sự (trước em sợ học sau thật khổ :’)) và em nghĩ em sẽ theo đuổi đam mê này; nhờ anh mà em từ 1 đứa siêu nhút nhát tự ti hơn (nhờ) dám nói lên ý kiến của mình với ạ; nhờ anh mà em biết được điểm yếu trong writing của mình như nào và em sẽ tiếp tục cố gắng ạ!"
+        },
+
+        {
+          "text":"Em cảm ơn anh Na siêu nhiều, em ước là em được học với anh sớm hơn :> và em hơi tiếc khi mà em chưa start làm research như em muốn @@ em sẽ work on it sớm ạ hihi. Em mong là hết khoá với nhưng sau này có gì cần hỏi, anh cho em làm phiền anh tí nha! Anh Na siêu ngầu, em cảm ơn ạ!Hi Anh Nhật Anh! Thực sự em không nghĩ 16 tuổi..."
+        }
+      ]
+    },
+    {
+      "id": "nhat-minh",
+      "type": "image-text",
+      "name": "NHẬT MINH",
+      "class": "",
+      "image": "/nhat-minh.png",
+      "content": [
+        {
+          "text": "Em chào anh Nhật Anh ạ!!"
+        },
+
+        {
+          "text": "Trước hết thì em xin cảm ơn anh Nhật Anh và các anh chị ở Inception vì đã mang lại 1 khoá học College Prep rất tuyệt vời ạ!"
+        },
+
+        {
+          "text":"Feedback 1 chút về khoá học thì em đánh giá là cực hay và cực chất ạ ^^. Kiểu em học được rất nhiều điều hay và biết siêu siêu nhiều cái mới (em nghĩ nếu em không học khoá này thì em sẽ khá là tốn và ngố khi sang Mĩ mất :>))). Và đây cũng là cái mà em thích nhất ở College Prep."
+        },
+
+        {
+          "text":"Nhưng mà chắc là sau việc không phải ghi chép (tại vì em lười kkkk), kiểu em thấy học ở đây nhớ được rất lâu vì mình được trực tiếp engage…"
+        }
+      ]
+    },
+
+    {
+      "id": "minh-chau",
+      "type": "image-text",
+      "name": "MINH CHÂU",
+      "class": "Học sinh lớp IELTS/Tháng 5",
+      "content": [
+        {
+          "text": "Em chào anh Nhật Anh ạ!!"
+        },
+
+        {
+          "text": "Trước hết thì em xin cảm ơn anh Nhật Anh và các anh chị ở Inception vì đã mang lại 1 khoá học College Prep rất tuyệt vời ạ!"
+        },
+
+        {
+          "text":"Feedback 1 chút về khoá học thì em đánh giá là cực hay và cực chất ạ ^^. Kiểu em học được rất nhiều điều hay và biết siêu siêu nhiều cái mới (em nghĩ nếu em không học khoá này thì em sẽ khá là tốn và ngố khi sang Mĩ mất :>))). Và đây cũng là cái mà em thích nhất ở College Prep."
+        },
+
+        {
+          "text":"Nhưng mà chắc là sau việc không phải ghi chép (tại vì em lười kkkk), kiểu em thấy học ở đây nhớ được rất lâu vì mình được trực tiếp engage…"
+        }
+      ]
+    }
+  ]
+}

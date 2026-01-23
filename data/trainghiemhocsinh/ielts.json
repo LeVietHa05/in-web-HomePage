@@ -1,0 +1,44 @@
+{
+  "sectionTitle": "TRẢI NGHIỆM HỌC SINH",
+  "autoPlay": 5000,
+
+  "slides": [
+    {
+      "id": "dai-minh",
+      "type": "text",
+      "name": "ĐẠI MINH",
+      "class": "Học sinh lớp IELTS/Tháng 7",
+      "content": [
+        {
+          "text": "“Các anh chị giảng dạy tại Inception cực kỳ tận tâm, đặc biệt là phần sửa bài Writing. Không chỉ chỉ ra lỗi sai, anh chị còn phân tích vì sao sai và gợi ý cách viết tự nhiên hơn. Nhờ vậy mà em tiến bộ rất nhanh, từ 6.0 Writing lên 7.0 chỉ sau 2 tháng."
+        },
+
+        {
+          "text":"Học 1-1 ở Inception khác hẳn với những lớp đông người em từng tham gia. Anh chị biết rõ điểm yếu của em ở đâu, ví dụ như Writing hay lặp ý, hoặc Speaking hay bị bí khi gặp câu hỏi lạ. Anh chị luôn kiên nhẫn chỉnh từng chút một, giải thích cụ thể để mình hiểu và thay đổi. Cảm giác có một người theo sát, quan tâm đến sự tiến bộ của riêng mình khiến mình rất yên tâm.”"
+        }
+      ]
+    },
+    {
+      "id": "chau-anh",
+      "type": "image-text",
+      "name": "TUẤN ANH JUNIOR",
+      "class": "Học sinh lớp IELTS/Tháng 3",
+      "content": [
+        {
+          "text":"“Writing luôn là cơn ác mộng với em. Suốt cả năm trời em không vượt qua được band 6.0, bài viết lúc nào cũng bị nhận xét là lủng củng. Khi học 1-1, anh Vũ kiên nhẫn sửa từng đoạn văn, từng cách dùng từ. Em được học cách lên dàn ý trong 5 phút, cách phân bổ ý thành từng đoạn rõ ràng, và đặc biệt là cách chọn từ vựng vừa tự nhiên vừa học thuật. Mỗi lần em nộp bài, anh Vũ lại feedback rất chi tiết, có khi dài hơn cả bài viết của em. Ban đầu em hơi nản vì thấy mình sai nhiều quá, nhưng nhờ được hướng dẫn từng bước, em dần nhận ra Writing không khó như em nghĩ. Sau 3 tháng, khi làm mock test, em đã đạt 7.0 Writing - một kết quả mà trước đây em chỉ dám mơ thôi.”"
+        }
+      ]
+    },
+    {
+      "id": "minh-chau",
+      "type": "image-text",
+      "name": "MINH CHÂU",
+      "class": "Học sinh lớp IELTS/Tháng 5",
+      "content": [
+        {
+          "text": "“Em vốn là người khá nhút nhát, mỗi lần phải nói tiếng Anh là em lại run. Trong lớp Speaking 1-1, anh Nhật Anh đã cho em trải qua những buổi mô phỏng thi y như thật, có cả timer và những câu hỏi bất ngờ. Ban đầu em trả lời rất cụt, thậm chí có lúc im lặng vài giây vì không biết nói gì. Nhưng anh Nhật Anh không hề la mắng, mà kiên nhẫn gợi mở, đưa thêm ví dụ và dạy em cách kéo dài câu trả lời một cách tự nhiên. Anh Nhật Anh còn sửa cả phát âm, intonation, và nhắc em những chi tiết nhỏ như ngồi thẳng, cười và giao tiếp bằng mắt. Sau khoảng 2 tháng, em nhận ra mình đã có thể nói liền mạch trong 2 phút mà không bị bí. Đến khi đi thi thật, em bước vào phòng với tâm thế rất tự tin, và kết quả Speaking 7.5.”"
+        }
+      ]
+    }
+  ]
+}
