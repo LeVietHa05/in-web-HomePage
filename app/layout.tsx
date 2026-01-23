@@ -4,7 +4,7 @@ import { helveticaNeueHeavy } from "./components/font";
 import "./globals.css";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
-
+import FloatingButton from "./components/floatingButton";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,6 +33,7 @@ export default function RootLayout({
         <Nav />
         {children}
         <Footer />
+        <FloatingButton/>
       </body>
     </html>
   );

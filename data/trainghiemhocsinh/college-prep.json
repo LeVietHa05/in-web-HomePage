@@ -1,0 +1,75 @@
+{
+  "sectionTitle": "TRẢI NGHIỆM HỌC SINH",
+  "autoPlay": 5000,
+
+  "slides": [
+    {
+      "id": "chau-anh",
+      "type": "image-text",
+      "name": "CHÂU ANH",
+      "class": "Học sinh lớp College Prep",
+      "image": "/chau-anh.png",
+      "content": [
+        {
+          "text": "Hi Anh Nhật Anh! Thực sự em không nghĩ 16 buổi lại trôi qua nhanh thế và siêu thành thật là em muốn học nữa TvT. Học lớp College Prep của anh siêu vui mà cho em biết được nhiều thứ hay ho lắm ạ! Nhờ anh mà em nhận ra econ không chán thế (em thực sự nghĩ tới việc học econ :>?), nhờ anh mà em nhận ra em thích psych thật sự (trước em sợ học sau thật khổ :’)) và em nghĩ em sẽ theo đuổi đam mê này; nhờ anh mà em từ 1 đứa siêu nhút nhát tự ti hơn (nhờ) dám nói lên ý kiến của mình với ạ; nhờ anh mà em biết được điểm yếu trong writing của mình như nào và em sẽ tiếp tục cố gắng ạ!"
+        },
+
+        {
+          "text":"Em cảm ơn anh Na siêu nhiều, em ước là em được học với anh sớm hơn :> và em hơi tiếc khi mà em chưa start làm research như em muốn @@ em sẽ work on it sớm ạ hihi. Em mong là hết khoá với nhưng sau này có gì cần hỏi, anh cho em làm phiền anh tí nha! Anh Na siêu ngầu, em cảm ơn ạ!Hi Anh Nhật Anh! Thực sự em không nghĩ 16 tuổi..."
+        }
+      ]
+    },
+    {
+      "id": "nhat-minh",
+      "type": "image-text",
+      "name": "NHẬT MINH",
+      "class": "",
+      "image": "/nhat-minh.png",
+      "content": [
+        {
+          "text": "Em chào anh Nhật Anh ạ!!\nTrước hết thì em xin cảm ơn anh Nhật Anh và các anh chị ở Inception vì đã mang lại 1 khoá học College Prep rất tuyệt vời ạ!"
+        },
+
+        {
+          "text":"Em cảm ơn anh Na siêu nhiều, em ước là em được học với anh sớm hơn :> và em hơi tiếc khi mà em chưa start làm research như em muốn @@ em sẽ work on it sớm ạ hihi. Em mong là hết khoá với nhưng sau này có gì cần hỏi, anh cho em làm phiền anh tí nha! Anh Na siêu ngầu, em cảm ơn ạ!Hi Anh Nhật Anh! Thực sự em không nghĩ 16 tuổi..."
+        }
+      ]
+    },
+    {
+      "id": "anh-thu",
+      "type": "image-text",
+      "name": "ANH THƯ",
+      "class": "",
+      "image": "/anh-thu.png",
+      "content": [
+        {
+          "text": "Những thứ em được học thực sự khiến em mở mang đầu óc, em được học những lối suy nghĩ mới với việc anh Trung dạy cuốn và sử dụng ngôn ngữ “gần gũi”  với bọn em."
+        },
+
+        {
+          "text":"=> Khoá học không có gì để chê ^^"
+        }
+      ]
+    },
+    {
+      "id": "anh-duy",
+      "type": "image-text",
+      "name": "ANH DUY",
+      "class": "",
+      "image": "/anh-duy.png",
+      "content": [
+        {
+          "text": "Sau khi tham gia khoá College Prep, em đã được anh Trung và anh Nhật Anh truyền đạt những kiến thức về việc viết essay và làm research, đồng thời chia sẻ những kỹ năng để “sinh tồn” bên Mỹ."
+        },
+
+        {
+          "text":"Khoá học đã giúp cho em có cơ hội để chia sẻ kiến thức, suy nghĩ của mình về các vấn đề được học, cũng như cho em được sự tự tin và cái nhìn tổng quan về một trường ĐH. Nếu trước đây em mang định kiến về lớp học thì em mang anh Nhật Anh sẽ “rep” thẳng em =))) (anh Trung sẽ rep thẳng em 5p >)))!!!)."
+        },
+
+        {
+          "text":"Cảm ơn lớp học và các anh."
+        }
+      ]
+    }
+  ]
+}
