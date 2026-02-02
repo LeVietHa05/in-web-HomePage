@@ -79,7 +79,7 @@ export default function Baccaohoc() {
             <Thanhtich data={thanhtichData} />
 
             <div className="-mt-32 text-[#ECFEB0] relative z-1 bg-[#004DEE] py-12 px-32 pt-44 rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl text-center `}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl `}>
                     Inception mang giải pháp học thuật toàn diện cho hành trình chinh phục học bổng cao học tại các trường đại học hàng đầu thế giới.
                 </div>
                 <div className="my-4 ">
@@ -95,8 +95,8 @@ export default function Baccaohoc() {
             </div>
 
             {/* lo trinh appply */}
-            <div className="mt-12 mb-40 relative z-10 px-12">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-[96px] text-center`}>
+            <div className="mt-4 mb-40 relative z-10 px-12">
+                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-[96px] text-center`}>
                     LỘ TRÌNH APPLY
                 </div>
 
@@ -161,7 +161,7 @@ export default function Baccaohoc() {
             <TrainghiemHs type="caohoc"/>
 
             {/* chinh phuc voi */}
-            <div className="bg-[#EAFDFF] min-h-[900px] w-full rounded-[60px]  relative z-0 overflow-hidden my-24 pt-40">
+            <div className="bg-[#EAFDFF] min-h-[600px] w-full rounded-[60px]  relative z-0 overflow-hidden mt-12 mb-24 pt-8">
 
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[60px] text-center text-[#001E7F]`}>
                     CHINH PHỤC HỌC BỔNG VỚI

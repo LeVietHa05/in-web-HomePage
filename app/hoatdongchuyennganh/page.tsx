@@ -48,7 +48,7 @@ export default function HDCN() {
             </div>
 
             {/* goi dich vu ho tr viet luan */}
-            <div className="bg-[#407EFF] min-h-[1450px] -mt-32 mb-16 pt-4 pb-16 relative z-1 rounded-[60px] text-[#004DEE]">
+            <div className="bg-[#407EFF] min-h-[1450px] -mt-32 mb-16 pt-8 pb-16 relative z-1 rounded-[60px] text-[#004DEE]">
                 <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] font-black text-center pb-12 text-[#FFF175]`}>
                     CHƯƠNG TRÌNH HỖ TRỢ <br />
                     TẠI INCEPTION

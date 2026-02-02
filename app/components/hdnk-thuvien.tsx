@@ -24,17 +24,17 @@ export default function Thuvien({ className = '' }: Props) {
     return (
         <div className={`${className} bg-[#0F58EA] -mt-16 mb-24  min-h-[1000px] pt-12 rounded-[60px]`}>
             <div className="max-w-6xl mx-auto  mt-8">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] text-[#FFCB1F]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] text-[#FFCB1F] text-center`}>
                     Thư Viện Hoạt Động Ngoại Khóa
                 </div>
-                <div className="overflow-hidden mt-12">
+                <div className="overflow-hidden mt-12 ">
                     <div
-                        className="flex items-center transition-transform duration-500 ease-in-out"
+                        className="flex items-center  transition-transform duration-500 ease-in-out"
                         style={{ transform: `translateX(-${curBigImg * 100}%)` }}
                     >
                         {Array.from({ length: totalPages }, (_, pageIndex) => (
                             <div key={pageIndex} className="w-full flex-shrink-0">
-                                <div className="flex gap-6">
+                                <div className="flex justify-center">
                                     {data.bigImgList.slice(pageIndex * ITEMS_PER_PAGE, (pageIndex + 1) * ITEMS_PER_PAGE).map((item, index) => (
                                         <div key={index} className="flex flex-col items-center text-center">
                                             <div className="relative w-[1024px] h-[560px] mb-4 flex items-center justify-center overflow-hidden">
@@ -68,7 +68,7 @@ export default function Thuvien({ className = '' }: Props) {
                     </div>
                 </div>
 
-                <div className="flex gap-8 pb-8">
+                <div className="flex gap-8 pb-8 justify-center">
                     {
                         data.hdnkList.map((each, i) => {
                             return (

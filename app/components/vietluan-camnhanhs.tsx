@@ -28,7 +28,7 @@ export default function Camnhanhs() {
                             <div className='flex-1 flex items-center justify-center'>
                                 <Image src={each.studentImgLink} alt={each.name} width={310} height={310}></Image>
                             </div>
-                            <div className='flex-1'>
+                            <div className='flex-1 flex flex-col justify-center'>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-[50px] font-black uppercase `}>{each.name}</div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-[24px] font-black uppercase `}>{each.hocbong}</div>
                                 <div className={` text-[#001E7F] text-[20px]   `}>{each.school}</div>

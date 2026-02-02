@@ -50,7 +50,7 @@ export default function KhoaHocBoTro() {
       <div className="w-full bg-[#3253BC] py-30 -mt-20">
         <div className="max-w-[1200px] mx-auto px-6 flex flex-col items-center gap-14">
 
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
+          <div className="flex flex-col lg:flex-row items-center justify-center  px-10">
             <Image src="/mentor-1.png" alt="Mentor 1" width={386} height={517} className="object-contain" />
             <Image src="/mentor-2.png" alt="Mentor 2" width={386} height={517} className="object-contain" />
             <Image src="/mentor-3.png" alt="Mentor 3" width={386} height={517} className="object-contain" />

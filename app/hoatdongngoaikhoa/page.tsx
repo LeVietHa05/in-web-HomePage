@@ -15,8 +15,8 @@ export default function HDNK() {
                     Lợi Ích Khi Tham Gia
                     Hoạt Động Ngoại Khóa
                 </div>
-                <div className="grid grid-cols-4 grid-rows-5 gap-8 mt-12">
-                    <div className="col-span-2 row-span-2 ">
+                <div className="grid grid-cols-4 gap-8 mt-12">
+                    <div className="col-span-2  ">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
@@ -34,7 +34,7 @@ export default function HDNK() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-2 row-span-2 col-start-3">
+                    <div className="col-span-2  col-start-3">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
@@ -52,7 +52,7 @@ export default function HDNK() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-2 row-span-2 row-start-3">
+                    <div className="col-span-2  row-start-2">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
@@ -70,7 +70,7 @@ export default function HDNK() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-2 row-span-2 col-start-3 row-start-3">
+                    <div className="col-span-2  col-start-3 row-start-2">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
@@ -88,7 +88,7 @@ export default function HDNK() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-4 row-span-2 row-start-5">
+                    <div className="col-span-4 row-span-2 row-start-3">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
@@ -108,7 +108,7 @@ export default function HDNK() {
                 </div>
             </div>
             {/* chuong trinh nk */}
-            <div className="-mt-16 text-[#EAFDFF] relative z-8 bg-[#181A4D] py-16 rounded-b-[60px]">
+            <div className="-mt-16 text-[#EAFDFF] relative z-8 bg-[#181A4D] py-16 pt-24 rounded-b-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} text-[80px] text-center`}>
                     Chương Trình Ngoại Khóa
                 </div>

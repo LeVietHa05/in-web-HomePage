@@ -42,8 +42,8 @@ export default function Vietluan() {
                 </div>
             </div>
 
-            <div className="-mt-32 text-[#004DEE] relative z-1 bg-[#EAFDFF] py-12 px-54 rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl text-center `}>
+            <div className="-mt-32 text-[#004DEE] relative z-1 bg-[#EAFDFF] py-12 pl-28 rounded-[60px]">
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl  `}>
                     Tại Sao Học Sinh Lựa Chọn Inception Để Tư Vấn Bài Luận?
                 </div>
                 <div className="my-4 ">
@@ -62,8 +62,8 @@ export default function Vietluan() {
             </div>
 
             {/* lo trinh appply */}
-            <div className="mt-12 mb-40 relative z-10 px-12">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-[96px] text-center`}>
+            <div className="mt-2 mb-40 relative z-10 px-12">
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-[96px] text-center pb-8`}>
                     QUY TRÌNH TƯ VẤN
                 </div>
 
@@ -121,7 +121,7 @@ export default function Vietluan() {
 
             {/* goi dich vu ho tr viet luan */}
             <div className="bg-[#FDFFD6] min-h-[1450px] -mt-24 pt-50 relative z-1 rounded-[60px] text-[#004DEE]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] font-black text-center `}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] font-black text-center mb-8`}>
                     Gói Dịch Vụ Hỗ Trợ Viết Luận <br />
                     (Essay Packages)
                 </div>

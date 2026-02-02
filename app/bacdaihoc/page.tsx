@@ -55,7 +55,7 @@ export default function Bacdaihoc() {
 
             {/* lo trinh appply */}
             <div className="mt-12 relative z-10">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-[96px] text-center`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-[96px] text-center pb-16`}>
                     LỘ TRÌNH APPLY
                 </div>
 
@@ -246,7 +246,7 @@ export default function Bacdaihoc() {
                 <div className="grid grid-cols-3 gap-4 w-4/5 mx-auto text-[#004DEE] text-[20px] pb-20">
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8">
-                            <ul className="list-disc ml-12 font-bold">
+                            <ul className="list-disc ml-6 font-bold">
                                 <li>Tư vấn chiến lược xây dựng hồ sơ</li>
                                 <li>Xây dựng hoạt động ngoại khóa, thiện nguyện</li>
                                 <li>Hướng dẫn đăng ký, điền thông tin hồ sơ</li>
@@ -262,7 +262,7 @@ export default function Bacdaihoc() {
 
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8 h-full">
-                            <ul className="list-disc ml-12 font-bold ">
+                            <ul className="list-disc ml-6 font-bold ">
                                 <li>Tư vấn chiến lược xây dựng hồ sơ</li>
                                 <li>Xây dựng hoạt động ngoại khóa, thiện nguyện</li>
                                 <li>Tư vấn chọn ngành, chọn trường</li>
@@ -275,7 +275,7 @@ export default function Bacdaihoc() {
                     </div>
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8 h-full">
-                            <ul className="list-disc ml-12 font-bold">
+                            <ul className="list-disc ml-6 font-bold">
                                 <li>Toàn bộ các dịch vụ tại gói Standard</li>
                                 <li>Xây dựng và cố vấn dự án cá nhân (Personal Project)</li>
                                 <li>Định hướng & hướng dẫn nghiên cứu khoa học chuyên sâu</li>
@@ -286,10 +286,10 @@ export default function Bacdaihoc() {
 
                     </div>
                     <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
-                        STANDARD
+                        SPECIAL
                     </div>
                     <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
-                        SPECIAL
+                        STANDARD
                     </div>
                     <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
                         PREMIUM
