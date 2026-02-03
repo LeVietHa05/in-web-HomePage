@@ -38,20 +38,20 @@ const data = [
 
 export default function Dichvucuachungtoi() {
     return (
-        <div className="bg-[#fdffd6] min-h-[1500px] w-full rounded-[60px]  relative z-1 overflow-hidden -mt-24 pt-50">
+        <div className="bg-[#fdffd6] lg:min-h-[1500px] w-full rounded-[32px] lg:rounded-[60px]  relative z-1 overflow-hidden -mt-24 py-32 lg:pt-50">
 
-            <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[60px] text-center text-[#001E7F]`}>
+            <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl lg:text-[60px] text-center text-[#001E7F]`}>
                 DỊCH VỤ <br />
                 CỦA CHÚNG TÔI
             </div>
 
-            <div className="w-[1080px] mx-auto mt-20 grid grid-cols-3 gap-10">
+            <div className="lg:w-[1080px] w-full mx-auto mt-8 lg:mt-20 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-10 px-2 lg:px-0">
                 {data.filter(e => e.title).map((each, i) => {
                     return (
                         <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
                             <Image src={each.img} alt="" width={326} height={204}></Image>
-                            <div className={`${SVNHelveticaNeueHeavy.className} text-[28px] text-[#004DEE] font-black  pt-8`}>{each.title}</div>
-                            <div className="text-[14px] text-[#004DEE] pt-4">{each.content}</div>
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`}>{each.title}</div>
+                            <div className="text-sm lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                         </a>
                     )
                 })}

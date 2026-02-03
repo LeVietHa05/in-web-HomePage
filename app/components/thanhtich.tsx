@@ -15,8 +15,32 @@ interface ThanhtichProps {
 const ITEMS_PER_PAGE = 8
 
 export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
+    const [itemsPerPage, setItemsPerPage] = useState(8)
     const [currentPage, setCurrentPage] = useState(0)
-    const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE)
+
+
+    useEffect(() => {
+        const mobile = window.matchMedia("(max-width: 640px)")
+        const tablet = window.matchMedia("(max-width: 1024px)")
+
+        const update = () => {
+            if (mobile.matches) setItemsPerPage(4)
+            else if (tablet.matches) setItemsPerPage(6)
+            else setItemsPerPage(8)
+            setCurrentPage(1)
+        }
+
+        update()
+        mobile.addEventListener("change", update)
+        tablet.addEventListener("change", update)
+
+        return () => {
+            mobile.removeEventListener("change", update)
+            tablet.removeEventListener("change", update)
+        }
+    }, [])
+
+    const totalPages = Math.ceil(data.length / itemsPerPage)
 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -25,7 +49,6 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
 
         return () => clearInterval(timer)
     }, [totalPages])
-
     // const startIndex = currentPage * ITEMS_PER_PAGE
     // const endIndex = startIndex + ITEMS_PER_PAGE
     // const currentData = data.slice(startIndex, endIndex)
@@ -35,8 +58,8 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
     }
 
     return (
-        <div className="bg-[#fefefe] min-h-96 w-full rounded-[60px] py-4 -mt-24 relative z-3">
-            <div className={`${helveticaNeueHeavy.className} font-bold font-[Helvetica] text-[60px] text-center text-[#001E7F] mb-8`}>
+        <div className="bg-[#fefefe] min-h-96 w-full rounded-[32px] lg:rounded-[60px] py-4 mt-4 lg:-mt-24 relative z-3">
+            <div className={`${helveticaNeueHeavy.className} font-bold font-[Helvetica] text-3xl lg:text-[60px] text-center text-[#001E7F] mb-8`}>
                 THÀNH TÍCH INCEPTION
             </div>
 
@@ -48,8 +71,8 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
                 >
                     {Array.from({ length: totalPages }, (_, pageIndex) => (
                         <div key={pageIndex} className="w-full flex-shrink-0">
-                            <div className="grid grid-cols-4 gap-6 px-8">
-                                {data.slice(pageIndex * ITEMS_PER_PAGE, (pageIndex + 1) * ITEMS_PER_PAGE).map((item, index) => (
+                            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-6 px-8">
+                                {data.slice(pageIndex * itemsPerPage, (pageIndex + 1) * itemsPerPage).map((item, index) => (
                                     <div key={index} className="flex flex-col items-center text-center">
                                         <div className="relative w-32 h-32 mb-4 flex items-center justify-center overflow-hidden">
                                             <Image
@@ -62,7 +85,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
                                                 }}
                                             />
                                         </div>
-                                        <h3 className={`${helveticaNeueHeavy.className} text-xl font-medium text-[#407EFF] leading-tight`}>
+                                        <h3 className={`${helveticaNeueHeavy.className} text-base lg:text-xl font-medium text-[#407EFF] leading-tight`}>
                                             {item.name} <div className="text-[#f27240]">{item.otherText}</div>
                                         </h3>
                                     </div>

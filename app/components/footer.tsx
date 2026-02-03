@@ -4,8 +4,8 @@ import Link from "next/link"
 
 export default function Footer() {
     return (
-        <div className="mt-20 bg-white w-full  relative z-2 ">
-            <div className="max-w-[1080px] mx-auto py-12 flex justify-between text-xs font-light">
+        <div className="mt-20 bg-white w-full  relative z-2 text-black px-2">
+            <div className="max-w-[1080px] mx-auto py-4 lg:py-12 flex justify-between text-xs font-light">
                 <div className="text-xs">
                     <div >
                         <Image src={'/logo-black.svg'} alt="logo" width={190} height={62}></Image>
@@ -24,7 +24,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="space-y-4 *:hover:underline">
+                <div className="space-y-4 *:hover:underline hidden lg:block">
                     <div className="text-sm text-[#032852] font-semibold">Dịch vụ tư vấn</div>
                     <div>
                         <Link href={'/bacdaihoc'}>Bậc Đại Học</Link>
@@ -43,7 +43,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="space-y-4 *:hover:underline">
+                <div className="space-y-4 *:hover:underline  hidden lg:block">
                     <div className="text-sm text-[#032852] font-semibold">Khóa học bổ trợ</div>
                     <div>
                         <Link href={''}>Luyện Thi IELTS</Link>
