@@ -58,7 +58,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
     }
 
     return (
-        <div className="bg-[#fefefe] min-h-96 w-full rounded-[32px] lg:rounded-[60px] py-4 mt-4 lg:-mt-24 relative z-3">
+        <div className="bg-[#fefefe] min-h-96 w-full rounded-[32px] lg:rounded-[60px] py-4  lg:-mt-24 relative z-3">
             <div className={`${helveticaNeueHeavy.className} font-bold font-[Helvetica] text-3xl lg:text-[60px] text-center text-[#001E7F] mb-8`}>
                 THÀNH TÍCH INCEPTION
             </div>

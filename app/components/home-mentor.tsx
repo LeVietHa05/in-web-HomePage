@@ -9,7 +9,7 @@ export default function Doingumentor({ imglink, color1, color2 }: { imglink: str
             </div>
             <div style={{ backgroundColor: color1, color: color2 }} className=" flex gap-6 lg:gap-4 lg:w-[1080px] mx-auto p-4 lg:p-8 text-justify text-base lg:text-[20px] lg:-mt-14 relative rounded-lg">
                 <div className="absolute bottom-1/1 left-1/2 -translate-x-1/2 ">
-                    <Image src={imglink} alt="" width={386} height={518} className="w-48 lg:w-full"></Image>
+                    <Image src={imglink} alt="" width={386} height={518} className="w-48 lg:w-96"></Image>
                 </div>
                 <div className="flex-1">
                     Đội ngũ cố vấn của Inception là những chuyên gia giàu kinh nghiệm, từng dẫn dắt nhiều học sinh chinh phục thành công học bổng tại các trường đại học hàng đầu thế giới.

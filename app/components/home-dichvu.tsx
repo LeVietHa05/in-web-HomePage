@@ -51,7 +51,7 @@ export default function Dichvucuachungtoi() {
                         <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
                             <Image src={each.img} alt="" width={326} height={204}></Image>
                             <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`}>{each.title}</div>
-                            <div className="text-sm lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
+                            <div className="text-[10px] lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                         </a>
                     )
                 })}

@@ -28,16 +28,16 @@ export default function CoursesSlider() {
   }, [total])
 
   return (
-    <div className="bg-[#ECFEB0] rounded-[32px] md:rounded-[40px] py-16 md:py-28 -mt-20 overflow-hidden">
+    <div className="bg-[#ECFEB0] rounded-[32px] md:rounded-[40px] py-8 lg:py-16 md:py-28 -mt-20 overflow-hidden">
       {/* TITLE */}
-      <h2 className={`${SVNHelveticaNeueHeavy.className} whitespace-pre-line text-[#3253BC] text-center text-[32px] md:text-[60px] font-black mb-12 md:mb-16`}>
+      <h2 className={`${SVNHelveticaNeueHeavy.className} whitespace-pre-line text-[#3253BC] text-center text-xl lg:text-[32px] md:text-[60px] font-black mb-4 md:mb-16`}>
         {data.sectionTitle}
       </h2>
 
 
       {/* SLIDE */}
-      <div className="flex justify-center px-4">
-        <div className={`bg-[#FFF175] w-full max-w-[1100px] min-h-[520px] md:h-[460px] rounded-[32px] md:rounded-[40px] p-6 md:p-10 flex flex-col md:flex-row gap-8 md:gap-12 items-center transition-opacity duration-500 ${fade ? "opacity-100" : "opacity-0"}`}>
+      <div className="flex justify-center px-2 lg:px-4">
+        <div className={`bg-[#FFF175] w-full max-w-[1100px] min-h-[520px] md:h-[460px] rounded-[32px] md:rounded-[40px] p-3 lg:p-6 md:p-10 flex flex-col md:flex-row gap-8 md:gap-12 items-center transition-opacity duration-500 ${fade ? "opacity-100" : "opacity-0"}`}>
           
           {/* IMAGE */}
           <div className="w-full md:w-3/5 h-[220px] sm:h-[280px] md:h-[360px] relative">
@@ -51,7 +51,7 @@ export default function CoursesSlider() {
           </div>
 
           {/* CONTENT */}
-          <div className="flex justify-between flex-col p-[30px] h-full w-full md:w-2/5 text-center md:text-right">
+          <div className="flex justify-between flex-col p-4 lg:p-[30px] lg:h-full w-full md:w-2/5 text-center md:text-right">
             <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] text-[22px] md:text-[28px] font-black mb-4`}>
               {slide.title}
             </h3>
@@ -74,7 +74,7 @@ export default function CoursesSlider() {
       </div>
 
       {/* DOTS */}
-      <div className="flex justify-center gap-3 mt-8 md:mt-10">
+      <div className="flex justify-center gap-3 mt-8 md:mt-10 pb-8">
         {Array.from({ length: total }).map((_, i) => (
           <button
             key={i}

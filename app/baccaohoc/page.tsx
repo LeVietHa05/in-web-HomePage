@@ -78,11 +78,11 @@ export default function Baccaohoc() {
 
             <Thanhtich data={thanhtichData} />
 
-            <div className="-mt-32 text-[#ECFEB0] relative z-1 bg-[#004DEE] py-12 px-32 pt-44 rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl `}>
+            <div className="-mt-32 text-[#ECFEB0] relative z-1 bg-[#004DEE] py-12 px-4 lg:px-32 pt-44 rounded-[32px] lg:rounded-[60px]">
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl `}>
                     Inception mang giải pháp học thuật toàn diện cho hành trình chinh phục học bổng cao học tại các trường đại học hàng đầu thế giới.
                 </div>
-                <div className="my-4 ">
+                <div className="my-4 text-sm lg:text-base">
                     <ul className="list-disc ml-4 space-y-4 mt-4">
                         <li>
                             Hồ sơ xin học bổng Thạc sĩ và Tiến sĩ yêu cầu chiều sâu học thuật và định hướng rõ ràng, khác với bậc Đại học vốn tập trung vào cá tính.
@@ -95,12 +95,12 @@ export default function Baccaohoc() {
             </div>
 
             {/* lo trinh appply */}
-            <div className="mt-4 mb-40 relative z-10 px-12">
-                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-[96px] text-center`}>
+            <div className="mt-5 lg:mt-4 mb-16 lg:mb-40 relative z-10 p-2 lg:px-12">
+                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-3xl lg:text-[96px] text-center`}>
                     LỘ TRÌNH APPLY
                 </div>
 
-                <div className=" grid grid-cols-2 text-[#004DEE] text-xl">
+                <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] lg:text-xl">
                     <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                             1
@@ -115,7 +115,7 @@ export default function Baccaohoc() {
                         </div>
                     </div>
 
-                    <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20`}>
+                    <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20 -mt-20 lg:mt-0`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                             2
                         </div>
@@ -128,7 +128,7 @@ export default function Baccaohoc() {
                             </div>
                         </div>
                     </div>
-                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-14`}>
+                    <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-20 pb-20 lg:pb-0`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                             3
                         </div>
@@ -141,7 +141,7 @@ export default function Baccaohoc() {
                             </div>
                         </div>
                     </div>
-                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-14`}>
+                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-20`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                             4
                         </div>
@@ -158,22 +158,22 @@ export default function Baccaohoc() {
             </div>
 
             {/* trai nghiem hoc sinh */}
-            <TrainghiemHs type="caohoc"/>
+            <TrainghiemHs type="caohoc" />
 
             {/* chinh phuc voi */}
-            <div className="bg-[#EAFDFF] min-h-[600px] w-full rounded-[60px]  relative z-0 overflow-hidden mt-12 mb-24 pt-8">
+            <div className="bg-[#EAFDFF] min-h-[600px] w-full rounded-[32px] lg:rounded-[60px]  relative z-0 overflow-hidden mt-4 lg:mt-12 lg:mb-24 mb-16 lg:pt-8 pt-4">
 
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[60px] text-center text-[#001E7F]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl lg:text-[60px] text-center text-[#001E7F]`}>
                     CHINH PHỤC HỌC BỔNG VỚI
                 </div>
 
-                <div className="w-[1080px] mx-auto mt-20 grid grid-cols-4 gap-10">
+                <div className="w-full lg:w-[1080px] mx-auto mt-4 lg:mt-20 grid-cols-2 grid lg:grid-cols-4 gap-2 lg:gap-10 px-2 lg:px-0">
                     {data.filter(e => e.title).map((each, i) => {
                         return (
                             <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
                                 <Image src={each.img} alt="" width={326} height={204}></Image>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-[23px] text-[#004DEE] font-black  pt-4`}>{each.title}</div>
-                                <div className="text-[14px] text-[#004DEE] pt-2">{each.content}</div>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`}>{each.title}</div>
+                                <div className="text-[10px] lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                             </a>
                         )
                     })}

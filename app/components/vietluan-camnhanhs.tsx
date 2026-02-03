@@ -17,22 +17,22 @@ export default function Camnhanhs() {
         setCurrentPage(pageIndex)
     }
     return (
-        <div className="bg-[#EAFDFF] relative z-1 min-h-[550px] -mt-24 mb-16 pt-20 pb-40 rounded-[60px] text-[#004DEE] overflow-hidden">
-            <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] text-center text-[#FFCB1F]`}>
+        <div className="bg-[#EAFDFF] relative z-1 min-h-[550px] -mt-24 mb-16 pt-6 lg:pt-20 pb-12 lg:pb-40 rounded-[32px] lg:rounded-[60px] text-[#004DEE] overflow-hidden">
+            <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] text-center text-[#FFCB1F]`}>
                 CẢM NHẬN HỌC SINH
             </div>
             <div className='flex w-fit' >
                 {data.map((each, i) => {
                     return (
-                        <div key={i} className=' flex w-[1280px] mx-auto transition-transform duration-500 ease-in-out' style={{ transform: `translateX(-${currentPage * 100}%)` }} >
+                        <div key={i} className=' flex flex-col lg:flex-row w-screen lg:w-[1280px] mx-auto transition-transform duration-500 ease-in-out px-8 ' style={{ transform: `translateX(-${currentPage * 100}%)` }} >
                             <div className='flex-1 flex items-center justify-center'>
-                                <Image src={each.studentImgLink} alt={each.name} width={310} height={310}></Image>
+                                <Image className="w-1/2 " src={each.studentImgLink} alt={each.name} width={310} height={310}></Image>
                             </div>
-                            <div className='flex-1 flex flex-col justify-center'>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-[50px] font-black uppercase `}>{each.name}</div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-[24px] font-black uppercase `}>{each.hocbong}</div>
-                                <div className={` text-[#001E7F] text-[20px]   `}>{each.school}</div>
-                                <div className={`pt-4 text-[#001E7F] text-[18px] text-justify  `}>{each.text}</div>
+                            <div className='flex-1 flex flex-col justify-center text-center'>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-xl lg:text-[50px] font-black uppercase `}>{each.name}</div>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-sm lg:text-[24px] font-black uppercase `}>{each.hocbong}</div>
+                                <div className={` text-[#001E7F]  text-[8px] lg:text-[20px] `}>{each.school}</div>
+                                <div className={`pt-4 text-[#001E7F] text-[10px] lg:text-[18px] text-justify  `}>{each.text}</div>
                             </div>
                         </div>
                     )

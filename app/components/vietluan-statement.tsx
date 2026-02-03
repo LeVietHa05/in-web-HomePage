@@ -15,35 +15,37 @@ export default function Statement() {
         setCurrentPage(pageIndex)
     }
     return (
-        <div className="bg-[#ADDDFF] relative z-0 min-h-[1450px] -mt-24 pt-40 pb-40 rounded-[60px] text-[#004DEE] overflow-hidden">
-            <div className='flex w-fit gap-22 pl-22' >
+        <div className="bg-[#ADDDFF] relative z-0 min-h-[900px] lg:min-h-[1450px] -mt-24 pt-28 lg:pt-40 pb-40 rounded-[32px] rounded-[60px] text-[#004DEE] overflow-hidden">
+            <div className='flex w-fit' >
                 {data.map((each, i) => {
                     return (
-                        <div key={i} className="bg-[#F9FFE6] w-[1268px] mx-auto min-h-[1200px] rounded-[40px] transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentPage * 107}%)` }}>
-                            <div className="text-center">
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] `}>
-                                    <div className=" text-[40px]">
-                                        {each.bigTitle}
+                        <div key={i} className="px-2 lg:px-16 w-screen lg:w-[1440px]  mx-auto transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentPage * 100}%)` }}>
+                            <div className="bg-[#F9FFE6] rounded-[24px] lg:rounded-[40px] min-h-[800px] lg:min-h-[1200px]">
+                                <div className="text-center">
+                                    <div className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] `}>
+                                        <div className="text-xl lg:text-[40px]">
+                                            {each.bigTitle}
+                                        </div>
+                                        <div className=" text-base lg:text-[32px] lg:mt-6">
+                                            {each.name}
+                                        </div>
                                     </div>
-                                    <div className=" text-[32px] mt-6">
-                                        {each.name}
+                                    <div className="text-[10px] lg:text-2xl text-[#004DEE] w-3/5 mx-auto mt-2">
+                                        {each.hocbong}
                                     </div>
                                 </div>
-                                <div className="text-2xl text-[#004DEE] w-3/5 mx-auto mt-2">
-                                    {each.hocbong}
-                                </div>
-                            </div>
-                            <div className="w-3/4 border-t-4 mx-auto mt-8 pt-4 text-center text-[#004DEE] text-2xl">
-                                <div className=" text-[#3253BC] font-bold">
-                                    {each.title}
-                                </div>
-                                {
-                                    each.isCut && <div>
-                                        [Trích Lược]
+                                <div className="lg:w-3/4 px-4 border-t-4 mx-auto mt-8 pt-4 text-center text-[#004DEE] lg:text-2xl">
+                                    <div className=" text-[#3253BC] font-bold">
+                                        {each.title}
                                     </div>
-                                }
-                                <div className="text-justify mt-4" dangerouslySetInnerHTML={{ __html: each.content }}>
+                                    {
+                                        each.isCut && <div className="text-">
+                                            [Trích Lược]
+                                        </div>
+                                    }
+                                    <div className="text-[12px] lg:text-2xl text-justify mt-4" dangerouslySetInnerHTML={{ __html: each.content }}>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>

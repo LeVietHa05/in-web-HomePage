@@ -50,8 +50,8 @@ export default function TestimonialsComposite({ course }: Props) {
   const slide = data.slides[index]
 
   return (
-    <div className="bg-[#EAFDFF] rounded-[40px] overflow-hidden -mt-24 mb-5 min-h-[1150px] py-20 md:py-24 flex flex-col justify-start">
-      <h2 className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-[40px] md:text-[72px] font-black text-center mb-10 md:mb-24`}>
+    <div className="bg-[#EAFDFF] rounded-[40px] overflow-hidden -mt-12 lg:-mt-20 mb-5 min-h-[1150px] py-8 lg:py-20 md:py-24 flex flex-col justify-start">
+      <h2 className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-[40px] md:text-[72px] font-black text-center  mb-4 lg:mb-10 md:mb-24`}>
         {data.sectionTitle}
       </h2>
 

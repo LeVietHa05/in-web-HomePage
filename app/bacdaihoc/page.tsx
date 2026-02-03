@@ -36,11 +36,11 @@ export default function Bacdaihoc() {
                 <Image src={'/bacdaihoc/1.png'} alt="" fill></Image>
             </div>
 
-            <div className="-mt-32 text-[#004DEE] relative z-1 bg-[#EAFDFF] py-12 px-32 rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl text-center `}>
+            <div className="-mt-4 lg:-mt-32  text-[#004DEE] relative z-1 bg-[#EAFDFF] py-2 lg:py-12 px-4 lg:px-32 rounded-[32px] lg:rounded-[60px]">
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left lg:text-center `}>
                     Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học hiệu quả và cá nhân hoá
                 </div>
-                <div className="my-4 ">
+                <div className="my-4 text-sm lg:text-base">
                     Mỗi học sinh làm việc cùng Inception được hỗ trợ bởi 2 mentor:
                     <ul className="list-disc ml-4 space-y-4 mt-4">
                         <li>
@@ -55,14 +55,14 @@ export default function Bacdaihoc() {
 
             {/* lo trinh appply */}
             <div className="mt-12 relative z-10">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-[96px] text-center pb-16`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-3xl lg:text-[96px] text-center pb-16`}>
                     LỘ TRÌNH APPLY
                 </div>
 
                 <div className="bg-[#004DEE] rounded-[30px]">
-                    <div className="text-[#FDFFD6]  p-12">
-                        <div className={`${SVNHelveticaNeueHeavy.className}  text-[40px] leading-[68px] font-black flex gap-12`}>
-                            <div className={`w-[68px] aspect-1/1 rounded-full border text-center `}>
+                    <div className="text-[#FDFFD6]  p-3 lg:p-12">
+                        <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
+                            <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
                             <div>
@@ -70,10 +70,10 @@ export default function Bacdaihoc() {
                             </div>
                         </div>
 
-                        <div className="text-xl grid grid-cols-2 mt-4   ">
+                        <div className="text-sm lg:text-xl grid grid-cols-2 mt-4   ">
                             <div>
                                 <b>Tháng 06:</b>
-                                <ul className="list-disc ml-8">
+                                <ul className="list-disc ml-3 lg:ml-8">
                                     <li>
                                         Phân tích chuyên sâu và lên chiến lược tối ưu học bổng
                                     </li>
@@ -81,7 +81,7 @@ export default function Bacdaihoc() {
                             </div>
                             <div>
                                 <b>Tháng 07:</b>
-                                <ul className="list-disc ml-8">
+                                <ul className="list-disc ml-3 lg:ml-8">
                                     <li>
                                         Lên ý tưởng PS, viết bản nháp
                                     </li>
@@ -93,9 +93,9 @@ export default function Bacdaihoc() {
                     </div>
 
                     <div className="bg-[#407EFF] rounded-[30px] ">
-                        <div className="text-[#FDFFD6]  p-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className}  text-[40px] leading-[68px] font-black flex gap-12`}>
-                                <div className={`w-[68px] aspect-1/1 rounded-full border text-center `}>
+                        <div className="text-[#FDFFD6] p-3 lg:p-12">
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
+                                <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div>
@@ -103,10 +103,10 @@ export default function Bacdaihoc() {
                                 </div>
                             </div>
 
-                            <div className="text-xl grid grid-cols-4 mt-4 text-[#EAFDFF]">
+                            <div className="text-sm lg:text-xl grid grid-cols-2 lg:grid-cols-4 gap-2 mt-4 text-[#EAFDFF]">
                                 <div>
                                     <b>Tháng 08:</b>
-                                    <ul className="list-disc ml-8">
+                                    <ul className="list-disc ml-3 lg:ml-8">
                                         <li>Chuẩn bị hồ sơ tài chính</li>
                                         <li>Điền Common App</li>
                                         <li>Viết luận phụ</li>
@@ -114,7 +114,7 @@ export default function Bacdaihoc() {
                                 </div>
                                 <div>
                                     <b>Tháng 09:</b>
-                                    <ul className="list-disc ml-8">
+                                    <ul className="list-disc ml-3 lg:ml-8">
                                         <li>Hoàn thiện PS  </li>
                                         <li>Xin chữ ký thư giới thiệu</li>
                                         <li>Xin bảng điểm</li>
@@ -122,7 +122,7 @@ export default function Bacdaihoc() {
                                 </div>
                                 <div>
                                     <b>Tháng 10:</b>
-                                    <ul className="list-disc ml-8">
+                                    <ul className="list-disc ml-3 lg:ml-8">
                                         <li>Tháng 10:</li>
                                         <li>Điền CSS/ISFAA</li>
                                         <li>Chốt ED1, EA</li>
@@ -130,7 +130,7 @@ export default function Bacdaihoc() {
                                 </div>
                                 <div>
                                     <b>Tháng 11:</b>
-                                    <ul className="list-disc ml-8">
+                                    <ul className="list-disc ml-3 lg:ml-8">
                                         <li>Nộp hồ sơ Common App</li>
                                         <li>Nộp hồ sơ tài chính</li>
                                         <li>Gửi thư giới thiệu</li>
@@ -142,9 +142,9 @@ export default function Bacdaihoc() {
                         </div>
 
                         <div className="bg-[#ADDDFF] rounded-[30px] ">
-                            <div className="text-[#004DEE]  p-12">
-                                <div className={`${SVNHelveticaNeueHeavy.className}  text-[40px] leading-[68px] font-black flex gap-12`}>
-                                    <div className={`w-[68px] aspect-1/1 rounded-full border text-center `}>
+                            <div className="text-[#004DEE] p-3 lg:p-12">
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
+                                    <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                         3
                                     </div>
                                     <div>
@@ -152,16 +152,17 @@ export default function Bacdaihoc() {
                                     </div>
                                 </div>
 
-                                <div className="text-xl grid grid-cols-3 mt-4 text-[#004DEE]">
+                                <div className="text-sm lg:text-xl grid grid-cols-3 mt-4 text-[#004DEE]">
                                     <div>
                                         <b>Tháng 11:</b>
-                                        <ul className="list-disc ml-8">
+                                        <ul className="list-disc ml-3 lg:ml-8">
                                             <li>
                                                 Lên danh sách trường đợt RD
                                             </li>
                                         </ul>
+                                        <br />
                                         <b>Tháng 12:</b>
-                                        <ul className="list-disc ml-8">
+                                        <ul className="list-disc ml-3 lg:ml-8">
                                             <li>Nhận kết quả ED 1, EA</li>
                                             <li>Bổ sung hồ sơ (nếu cần)</li>
                                             <li>Viết luận cho RD</li>
@@ -170,7 +171,7 @@ export default function Bacdaihoc() {
                                     </div>
                                     <div>
                                         <b>Tháng 01 - 02:</b>
-                                        <ul className="list-disc ml-8">
+                                        <ul className="list-disc ml-3 lg:ml-8">
                                             <li>Nộp hồ sơ Common App</li>
                                             <li>Nộp hồ sơ tài chính</li>
                                             <li>Gửi thư giới thiệu</li>
@@ -180,7 +181,7 @@ export default function Bacdaihoc() {
                                     </div>
                                     <div>
                                         <b>Tháng 03 - 04:</b>
-                                        <ul className="list-disc ml-8">
+                                        <ul className="list-disc ml-3 lg:ml-8">
                                             <li>Nhận kết quả RD</li>
                                             <li>Bổ sung hồ sơ (nếu cần)</li>
                                             <li>Hướng dẫn nếu vào waitlist</li>
@@ -191,9 +192,9 @@ export default function Bacdaihoc() {
                             </div>
 
                             <div className="bg-[#D8FBFF] rounded-[30px] ">
-                                <div className="text-[#407EFF]  p-12">
-                                    <div className={`${SVNHelveticaNeueHeavy.className}  text-[40px] leading-[68px] font-black flex gap-12`}>
-                                        <div className={`w-[68px] aspect-1/1 rounded-full border text-center `}>
+                                <div className="text-[#407EFF] p-3 lg:p-12">
+                                    <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
+                                        <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                             4
                                         </div>
                                         <div>
@@ -201,17 +202,17 @@ export default function Bacdaihoc() {
                                         </div>
                                     </div>
 
-                                    <div className="text-xl grid grid-cols-3 mt-4 text-[#407EFF]">
+                                    <div className="text-sm lg:text-xl grid grid-cols-3 mt-4 text-[#407EFF]">
                                         <div>
                                             <b>Tháng 06:</b>
-                                            <ul className="list-disc ml-8">
+                                            <ul className="list-disc ml-3 lg:ml-8">
                                                 <li>Chốt trường, đặt cọc</li>
                                                 <li>Nhận I-20</li>
                                             </ul>
                                         </div>
                                         <div>
                                             <b>Tháng 06 - 07:</b>
-                                            <ul className="list-disc ml-8">
+                                            <ul className="list-disc ml-3 lg:ml-8">
                                                 <li>Điền DS-160</li>
                                                 <li>Hướng dẫn phỏng vấn visa</li>
                                                 <li>Tư vấn các khoá học bổ trợ</li>
@@ -229,21 +230,21 @@ export default function Bacdaihoc() {
 
             {/* thanhtichhs */}
             <ThanhtichHS />
-            <div className="relative  z-4 -mt-15 w-full ">
-                <div className="absolute -top-5 z-4 w-full h-30 border-y-6 border-[#FFCB1F] skew-y-3 "></div>
-                <div className={`absolute -top-5 z-4 w-full h-30 bg-[#EAFDFF] -skew-y-3  `}> </div>
+            <div className="relative  z-4 -mt-6 lg:-mt-15 w-full ">
+                <div className="absolute -top-5 z-4 w-full h-16 lg:h-30 border-y-6 border-[#FFCB1F] skew-y-3 "></div>
+                <div className={`absolute -top-5 z-4 w-full h-16 lg:h-30 bg-[#EAFDFF] -skew-y-3  `}> </div>
             </div>
 
             {/* goi san hoc bong */}
-            <div className=" -mt-24 pt-50 relative z-1 bg-[#ADDDFF] rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-[48px] font-black text-center text-[#3253BC]`}>
+            <div className=" -mt-24 pt-50 relative z-1 bg-[#ADDDFF] rounded-[30px] lg:rounded-[60px]">
+                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[48px] font-black text-center text-[#3253BC]`}>
                     GÓI SĂN HỌC BỔNG TẠI INCEPTION
                 </div>
-                <div className="text-[36px] text-center text-[#3253BC] font-medium mt-4 mb-6">
+                <div className="text-2xl lg:text-[36px] text-center text-[#3253BC] font-medium mt-4 mb-6">
                     BẬC ĐẠI HỌC
                 </div>
 
-                <div className="grid grid-cols-3 gap-4 w-4/5 mx-auto text-[#004DEE] text-[20px] pb-20">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full lg:w-4/5 mx-auto text-[#004DEE] text-base lg:text-[20px] pb-8 lg:pb-20 px-2 lg:px-0">
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8">
                             <ul className="list-disc ml-6 font-bold">
@@ -259,6 +260,9 @@ export default function Bacdaihoc() {
                             </div>
                         </div>
                     </div>
+                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} block lg:hidden font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
+                        SPECIAL
+                    </div>
 
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8 h-full">
@@ -273,6 +277,9 @@ export default function Bacdaihoc() {
                         </div>
 
                     </div>
+                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} block lg:hidden font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
+                        STANDARD
+                    </div>
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8 h-full">
                             <ul className="list-disc ml-6 font-bold">
@@ -285,32 +292,32 @@ export default function Bacdaihoc() {
                         </div>
 
                     </div>
-                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
+                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} hidden lg:block font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
                         SPECIAL
                     </div>
-                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
+                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} hidden lg:block font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
                         STANDARD
                     </div>
-                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
+                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
                         PREMIUM
                     </div>
                 </div>
             </div>
 
             {/* chinh phuc voi */}
-            <div className="bg-[#fdffd6] min-h-[900px] w-full rounded-[60px]  relative z-0 overflow-hidden -mt-24 pt-40">
+            <div className="bg-[#fdffd6] min-h-[900px] w-full   relative z-0 overflow-hidden -mt-24 pt-40 mb-16 lg:mb-0">
 
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[60px] text-center text-[#001E7F]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl lg:text-[60px] text-center text-[#001E7F]`}>
                     CHINH PHỤC HỌC BỔNG VỚI
                 </div>
 
-                <div className="w-[1080px] mx-auto mt-20 grid grid-cols-4 gap-10">
+                <div className="w-full lg:w-[1080px] mx-auto mt-4 lg:mt-20 grid-cols-2 grid lg:grid-cols-4 gap-2 lg:gap-10 px-2 lg:px-0">
                     {data.filter(e => e.title).map((each, i) => {
                         return (
                             <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
                                 <Image src={each.img} alt="" width={326} height={204}></Image>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-[23px] text-[#004DEE] font-black  pt-4`}>{each.title}</div>
-                                <div className="text-[14px] text-[#004DEE] pt-2">{each.content}</div>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`}>{each.title}</div>
+                                <div className="text-[10px] lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                             </a>
                         )
                     })}
