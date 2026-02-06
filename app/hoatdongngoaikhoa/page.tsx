@@ -6,84 +6,84 @@ import Dangkytuvan from "../components/dangkytuvan"
 export default function HDNK() {
     return (
         <div className="max-w-[1440px] mx-auto relative">
-            <div className="w-full aspect-1441/961 relative z-10 border-b-24 border-[#FFCB1F] rounded-[60px]">
+            <div className="w-full aspect-1441/961 relative z-10 border-b-12 lg:border-b-24 border-[#FFCB1F] rounded-[24px] lg:rounded-[60px] mt-16 lg:mt-0">
                 <Image src={'/hdnk/1.png'} alt="" fill></Image>
             </div>
             {/* loi ich khi tham gia hdnk */}
-            <div className="-mt-16 text-[#004DEE] relative z-9 bg-[#ECFEB0] py-16 px-64 rounded-b-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl text-center text-[#004DEE] text-[60px]`}>
+            <div className="-mt-16 text-[#004DEE] relative z-9 bg-[#ECFEB0] py-16 px-2 lg:px-64 rounded-b-[32px] lg:rounded-b-[60px]">
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl text-center text-[#004DEE] lg:text-[60px]`}>
                     Lợi Ích Khi Tham Gia
                     Hoạt Động Ngoại Khóa
                 </div>
-                <div className="grid grid-cols-4 gap-8 mt-12">
+                <div className="grid grid-cols-4 gap-2 lg:gap-8 mt-3 lg:mt-12">
                     <div className="col-span-2  ">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex  items-center gap-4">
+                            <div className="flex flex-col lg:flex-row items-center lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                                     1
                                 </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-4 text-[24px]`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
                                     <div>
                                         Giúp nhà tuyển sinh
                                         hiểu rõ con người bạn
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4">
+                            <div className="font-bold pb-4 text-sm lg:text-base">
                                 Các trường không chỉ đánh giá điểm số, mà còn quan tâm đến tính cách, giá trị sống và cách bạn đóng góp cho tập thể, từ đó có góc nhìn đầy đủ hơn về con người bạn.
                             </div>
                         </div>
                     </div>
                     <div className="col-span-2  col-start-3">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex  items-center gap-4">
+                            <div className="flex  flex-col lg:flex-row  items-center lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                                     2
                                 </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-4 text-[24px]`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
                                     <div>
                                         Rèn luyện khả năng
                                         lãnh đạo và cống hiến
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4">
+                            <div className="font-bold pb-4 text-sm">
                                 Qua việc tham gia, tổ chức hay dẫn dắt CLB và dự án, các bạn học được cách lãnh đạo, phối hợp và sẻ chia với cộng đồng.
                             </div>
                         </div>
                     </div>
                     <div className="col-span-2  row-start-2">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex  items-center gap-4">
+                            <div className="flex flex-col lg:flex-row items-center lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                                     3
                                 </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-4 text-[24px]`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
                                     <div>
                                         Khẳng định và trau dồi
                                         đam mê, năng lực riêng
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4">
+                            <div className="font-bold pb-4 text-sm">
                                 Những trải nghiệm thực tế giúp bạn khám phá sở thích, phát triển kỹ năng và tạo dấu ấn khác biệt gắn với ngành học tương lai.
                             </div>
                         </div>
                     </div>
                     <div className="col-span-2  col-start-3 row-start-2">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex  items-center gap-4">
+                            <div className="flex flex-col lg:flex-row items-center lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                                     4
                                 </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-4 text-[24px]`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
                                     <div>
                                         Tạo nên câu chuyện
                                         cá nhân ấn tượng
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4">
+                            <div className="font-bold pb-4 text-sm">
                                 Hoạt động ngoại khóa là “chất liệu” để viết bài luận và kể câu chuyện riêng, giúp hồ sơ xin học bổng nổi bật và đáng nhớ.
                             </div>
                         </div>
@@ -94,13 +94,13 @@ export default function HDNK() {
                                 <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
                                     5
                                 </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-4 text-[24px]`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
                                     <div>
                                         Mở rộng mối quan hệ và khả năng hòa nhập
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4">
+                            <div className="font-bold pb-4 text-sm">
                                 Bạn có thêm nhiều bạn bè, thầy cô, mentor, tạo nền tảng kết nối xã hội và thích nghi tốt với môi trường học tập quốc tế.
                             </div>
                         </div>
@@ -108,16 +108,16 @@ export default function HDNK() {
                 </div>
             </div>
             {/* chuong trinh nk */}
-            <div className="-mt-16 text-[#EAFDFF] relative z-8 bg-[#181A4D] py-16 pt-24 rounded-b-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-[80px] text-center`}>
+            <div className="-mt-16 text-[#EAFDFF] relative z-8 bg-[#181A4D] pt-20 pb-6 lg:py-16 lg:pt-24 rounded-b-[32px] lg:rounded-b-[60px]">
+                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[80px] text-center`}>
                     Chương Trình Ngoại Khóa
                 </div>
             </div>
             {/* chuong trinh nk content */}
-            <div className="-mt-16 text-[#004DEE] min-h-[1000px] relative z-7 bg-[#001E7F] py-16 rounded-b-[60px]">
-                <div className="max-w-5xl mx-auto  mt-20">
-                    <div className="flex gap-8 ">
-                        <div className="flex-4 bg-[#EAFDFF] rounded-[30px] p-8">
+            <div className="-mt-16 text-[#004DEE] min-h-[1000px] relative z-7 bg-[#001E7F] py-16 rounded-b-[32px] lg:rounded-b-[60px]">
+                <div className="max-w-5xl mx-auto mt-4 lg:mt-20">
+                    <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row">
+                        <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
                             <div className={`${SVNHelveticaNeueHeavy.className} `}>
                                 1. Dự án xã hội, cộng đồng, thiện nguyện
                             </div>
@@ -136,15 +136,15 @@ export default function HDNK() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="bg-[#EAFDFF] relative p-4 rounded-[30px] flex items-center justify-center w-fit h-fit">
+                        <div className="bg-[#EAFDFF] relative p-4 mx-4 lg:m-0 rounded-[20px] lg:rounded-[30px] flex items-center justify-center w-fit h-fit">
                             <Image className="rounded-[22px] shadow-lg" src={'/hdnk/2.png'} alt="" width={616} height={376}></Image>
                         </div>
                     </div>
                 </div>
 
                 <div className="max-w-5xl mx-auto  mt-8">
-                    <div className="flex flex-row-reverse gap-8 ">
-                        <div className="flex-4 bg-[#EAFDFF] rounded-[30px] p-8">
+                    <div className="flex  flex-col lg:flex-row-reverse gap-2 lg:gap-8  ">
+                        <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
                             <div className={`${SVNHelveticaNeueHeavy.className} `}>
                                 2. Câu lạc bộ học thuật và kỹ năng
                             </div>
@@ -161,15 +161,15 @@ export default function HDNK() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="bg-[#EAFDFF] relative p-4 rounded-[30px] flex items-center justify-center w-fit h-fit overflow-hidden">
+                        <div className="bg-[#EAFDFF] relative p-4 mx-4 lg:m-0 rounded-[20px] lg:rounded-[30px] flex items-center justify-center w-fit h-fit">
                             <Image className="rounded-[22px] shadow-lg  h-full w-full" src={'/hdnk/5.png'} alt="" width={616} height={376}></Image>
                         </div>
                     </div>
                 </div>
 
                 <div className="max-w-5xl mx-auto  mt-8">
-                    <div className="flex gap-8 ">
-                        <div className="flex-4 bg-[#EAFDFF] rounded-[30px] p-8">
+                    <div className="flex  flex-col lg:flex-row gap-2 lg:gap-8  ">
+                        <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
                             <div className={`${SVNHelveticaNeueHeavy.className} `}>
                                 3. Hoạt động nghệ thuật &
                                 sáng tạo
@@ -185,7 +185,7 @@ export default function HDNK() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="bg-[#EAFDFF] relative p-4 rounded-[30px] flex items-center justify-center w-fit h-fit">
+                        <div className="bg-[#EAFDFF] relative p-4 mx-4 lg:m-0 rounded-[20px] lg:rounded-[30px] flex items-center justify-center w-fit h-fit">
                             <Image className="rounded-[22px] shadow-lg" src={'/hdnk/4.png'} alt="" width={616} height={376}></Image>
                         </div>
                     </div>
@@ -193,21 +193,21 @@ export default function HDNK() {
             </div>
 
             {/* cach inception ho tro hoc sinh trien khai hoat dong ngoai khoa */}
-            <div className="bg-[#EAFDFF] -mt-16  min-h-[900px] pt-32">
+            <div className="bg-[#EAFDFF] -mt-16 min-h-[740px] lg:min-h-[900px] pt-32">
                 <div className="max-w-5xl mx-auto ">
-                    <div className="text-[#0F58EA] mb-12">
-                        <div className={`${SVNHelveticaNeueHeavy.className} text-[32px] mb-4`}>
+                    <div className="text-[#0F58EA] mb-4 lg:mb-12 px-3 lg:px-0">
+                        <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[32px] mb-4 `}>
                             Cách Inception hỗ trợ học sinh triển khai
                             hoạt động ngoại khoá
                         </div>
-                        <div className="text-xl">
+                        <div className="text-base lg:text-xl">
                             Inception không chỉ đưa ra gợi ý hoạt động mà còn đóng vai trò cố vấn và đồng hành cùng học sinh trong toàn bộ quá trình triển khai:
                         </div>
                     </div>
 
-                    <div className="bg-[#FFF175] rounded-[30px] p-8 text-[#004DEE] text-lg space-y-8">
+                    <div className="bg-[#FFF175] rounded-2xl lg:rounded-[30px] p-8 text-[#004DEE] text-lg space-y-2 lg:space-y-8 text-sm lg:text-base">
                         <div>
-                            <div className="font-semibold">
+                            <div className="font-semibold text-base lg:text-xl">
                                 Tư vấn chiến lược hoạt động:
                             </div>
                             <div>
@@ -215,7 +215,7 @@ export default function HDNK() {
                             </div>
                         </div>
                         <div>
-                            <div className="font-semibold">
+                            <div className="font-semibold text-base lg:text-xl">
                                 Kết nối và trực tiếp triển khai cùng học sinh:
                             </div>
                             <div>
@@ -223,7 +223,7 @@ export default function HDNK() {
                             </div>
                         </div>
                         <div>
-                            <div className="font-semibold">
+                            <div className="font-semibold text-base lg:text-xl">
                                 Quản lý và giám sát tiến độ:
                             </div>
                             <div>
@@ -233,7 +233,7 @@ export default function HDNK() {
                             </div>
                         </div>
                         <div>
-                            <div className="font-semibold">
+                            <div className="font-semibold text-base lg:text-xl">
                                 Kết nối với hồ sơ du học:
                             </div>
                             <div>
@@ -246,8 +246,8 @@ export default function HDNK() {
 
             {/* thu vien hoat dong ngoai khoa */}
             <Thuvien />
-            
-            <Dangkytuvan/>
+
+            <Dangkytuvan />
         </div>
     )
 }

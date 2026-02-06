@@ -22,12 +22,12 @@ export default function Thuvien({ className = '' }: Props) {
     }
 
     return (
-        <div className={`${className} bg-[#0F58EA] -mt-16 mb-24  min-h-[1000px] pt-12 rounded-[60px]`}>
-            <div className="max-w-6xl mx-auto  mt-8">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-[60px] text-[#FFCB1F] text-center`}>
+        <div className={`${className} bg-[#0F58EA] -mt-16 mb-24  lg:min-h-[1000px] pt-4 lg:pt-12 rounded-[30px] lg:rounded-[60px]`}>
+            <div className="max-w-6xl mx-auto  lg:mt-8">
+                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] text-[#FFCB1F] text-center`}>
                     Thư Viện Hoạt Động Ngoại Khóa
                 </div>
-                <div className="overflow-hidden mt-12 ">
+                <div className="overflow-hidden mt-4 lg:mt-12 ">
                     <div
                         className="flex items-center  transition-transform duration-500 ease-in-out"
                         style={{ transform: `translateX(-${curBigImg * 100}%)` }}
@@ -36,8 +36,8 @@ export default function Thuvien({ className = '' }: Props) {
                             <div key={pageIndex} className="w-full flex-shrink-0">
                                 <div className="flex justify-center">
                                     {data.bigImgList.slice(pageIndex * ITEMS_PER_PAGE, (pageIndex + 1) * ITEMS_PER_PAGE).map((item, index) => (
-                                        <div key={index} className="flex flex-col items-center text-center">
-                                            <div className="relative w-[1024px] h-[560px] mb-4 flex items-center justify-center overflow-hidden">
+                                        <div key={index} className="flex flex-col items-center text-center ">
+                                            <div className="relative w-screen lg:w-[1024px] min-h-64 lg:h-[560px] mb-4 flex items-center justify-center overflow-hidden">
                                                 <Image
                                                     src={item}
                                                     alt={""}
@@ -68,19 +68,21 @@ export default function Thuvien({ className = '' }: Props) {
                     </div>
                 </div>
 
-                <div className="flex gap-8 pb-8 justify-center">
+                <div className="flex gap-2 lg:gap-8 mx-2 lg:mx-0 pb-8 justify-center">
                     {
                         data.hdnkList.map((each, i) => {
                             return (
-                                <div key={i} className="w-[326px] text-[#FFFACC]">
+                                <div key={i} className="w-1/3 lg:w-[326px] text-[#FFFACC]">
                                     <div>
                                         <Image src={each.imgLink} alt="" width={326} height={204}></Image>
                                     </div>
-                                    <div className={`${SVNHelveticaNeueHeavy.className} text-[28px]`}>
-                                        {each.title}
-                                    </div>
-                                    <div className="text-justify text-sm">
-                                        {each.content}
+                                    <div className=" max-h-24 overflow-y-scroll lg:max-h-max lg:overflow-y-auto">
+                                        <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px]`}>
+                                            {each.title}
+                                        </div>
+                                        <div className="text-justify text-[10px] lg:text-sm ">
+                                            {each.content}
+                                        </div>
                                     </div>
                                 </div>
                             )
