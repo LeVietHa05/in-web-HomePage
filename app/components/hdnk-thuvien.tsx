@@ -24,7 +24,7 @@ export default function Thuvien({ className = '' }: Props) {
     return (
         <div className={`${className} bg-[#0F58EA] -mt-16 mb-24  lg:min-h-[1000px] pt-4 lg:pt-12 rounded-[30px] lg:rounded-[60px]`}>
             <div className="max-w-6xl mx-auto  lg:mt-8">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] text-[#FFCB1F] text-center`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] text-[#FFCB1F] text-center`}>
                     Thư Viện Hoạt Động Ngoại Khóa
                 </div>
                 <div className="overflow-hidden mt-4 lg:mt-12 ">

@@ -96,13 +96,13 @@ export default function Baccaohoc() {
 
             {/* lo trinh appply */}
             <div className="mt-5 lg:mt-4 mb-16 lg:mb-40 relative z-10 p-2 lg:px-12">
-                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-3xl lg:text-[96px] text-center`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-2xl lg:text-[96px] text-center`}>
                     LỘ TRÌNH APPLY
                 </div>
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] lg:text-xl">
                     <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             1
                         </div>
                         <div className="py-8">
@@ -116,7 +116,7 @@ export default function Baccaohoc() {
                     </div>
 
                     <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20 -mt-20 lg:mt-0`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
                         <div className="py-8">
@@ -129,7 +129,7 @@ export default function Baccaohoc() {
                         </div>
                     </div>
                     <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-20 pb-20 lg:pb-0`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
                         <div className="py-8">
@@ -142,7 +142,7 @@ export default function Baccaohoc() {
                         </div>
                     </div>
                     <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-20`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
                         <div className="py-8">
@@ -163,7 +163,7 @@ export default function Baccaohoc() {
             {/* chinh phuc voi */}
             <div className="bg-[#EAFDFF] min-h-[600px] w-full rounded-[32px] lg:rounded-[60px]  relative z-0 overflow-hidden mt-4 lg:mt-12 lg:mb-24 mb-16 lg:pt-8 pt-4">
 
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl lg:text-[60px] text-center text-[#001E7F]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl lg:text-[60px] text-center text-[#001E7F]`}>
                     CHINH PHỤC HỌC BỔNG VỚI
                 </div>
 

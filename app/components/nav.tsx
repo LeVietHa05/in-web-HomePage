@@ -25,15 +25,15 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-[1000] bg-[#001E7F] rounded-b-4xl">
-      <div className="max-w-[1440px] mx-auto px-5 py-4 flex items-center justify-between text-white font-bold font-[Helvetica]">
+    <nav className="fixed top-0 w-full z-[1000] bg-[#001E7F] rounded-b-lg lg:rounded-b-4xl">
+      <div className="max-w-[1440px] mx-auto p-2 lg:px-5 lg:py-4 flex items-center justify-between text-white font-bold font-[Helvetica]">
 
         <Link href="/">
           <Image src="/logo.png" alt="logo inception" width={140} height={120} />
         </Link>
 
         {/* DESKTOP */}
-        <div className="hidden lg:flex items-center space-x-6">
+        <div className="hidden lg:flex items-center space-x-6 translate-y-1/7">
           {navitems.map((e, i) => (
             <Link key={i} href={e.link} className={navClass(pathname.startsWith(e.link))}>
               {e.text}

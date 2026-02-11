@@ -13,7 +13,7 @@ export default function ThanhtichHS() {
 
             </div>
 
-            <div className={`${SVNHelveticaNeueHeavy.className} font-black absolute lg:w-[1800px] w-full h-16 lg:h-40 bg-[#EAFDFF] -skew-y-5 top-50  text-center text-3xl lg:text-[60px] uppercase text-[#004DEE] flex items-center justify-center lg:justify-start gap-4`}>
+            <div className={`${SVNHelveticaNeueHeavy.className} font-black absolute lg:w-[1800px] w-full h-16 lg:h-40 bg-[#EAFDFF] -skew-y-5 top-50  text-center text-2xl lg:text-[60px] uppercase text-[#004DEE] flex items-center justify-center lg:justify-start gap-4`}>
                 <span className="outline-text hidden lg:block"> HọC SINH </span>
                 <span> THÀNH TÍCH HọC SINH</span>
                 <span className="outline-text hidden lg:block"> THÀNH TÍCH </span>

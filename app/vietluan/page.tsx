@@ -63,13 +63,13 @@ export default function Vietluan() {
 
             {/* lo trinh appply */}
             <div className="mt-5 lg:mt-2 mb-40 relative z-10 lg:px-12 px-2">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-3xl lg:text-[96px] text-center pb-6 lg:pb-8`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-2xl lg:text-[96px] text-center pb-6 lg:pb-8`}>
                     QUY TRÌNH TƯ VẤN
                 </div>
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] text-sm lg:text-xl">
                     <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             1
                         </div>
                         <div className="py-3 lg:py-5">
@@ -80,7 +80,7 @@ export default function Vietluan() {
                     </div>
 
                     <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
                         <div className="py-3 lg:py-5">
@@ -90,7 +90,7 @@ export default function Vietluan() {
                         </div>
                     </div>
                     <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
                         <div className="py-3 lg:py-8">
@@ -100,7 +100,7 @@ export default function Vietluan() {
                         </div>
                     </div>
                     <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
                         <div className="py-3 lg:py-8">
@@ -121,14 +121,14 @@ export default function Vietluan() {
 
             {/* goi dich vu ho tr viet luan */}
             <div className="bg-[#FDFFD6] min-h-[1300px] lg:min-h-[1450px] -mt-24 pt-50 relative z-1 rounded-[30px] lg:rounded-[60px] text-[#004DEE]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] font-black text-center mb-8`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] font-black text-center mb-8`}>
                     Gói Dịch Vụ Hỗ Trợ Viết Luận <br />
                     (Essay Packages)
                 </div>
                 <div>
                     <div className={`max-w-[1080px] mx-auto bg-[#FFF175] font-bold  rounded-[30px] p-4 pb-8`}>
                         <div className="flex  items-center  gap-4 lg:gap-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
                             <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
@@ -147,7 +147,7 @@ export default function Vietluan() {
                     </div>
                     <div className={`max-w-[1080px] mx-auto bg-[#ECFEB0] font-bold  rounded-[30px] p-4 pb-8 `}>
                         <div className="flex  items-center  gap-4 lg:gap-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 2
                             </div>
                             <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
@@ -167,7 +167,7 @@ export default function Vietluan() {
                     </div>
                     <div className={`max-w-[1080px] mx-auto bg-[#EAFDFF] font-bold  rounded-[30px] p-4 pb-8 `}>
                         <div className="flex  items-center gap-4 lg:gap-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 3
                             </div>
                             <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
@@ -191,7 +191,7 @@ export default function Vietluan() {
             <Doingumentor imglink="/mentor-1.png" color1="#FDFFD6" color2="#001E7F" />
 
             <div className="bg-[#FFF175] relative z-1 -mt-24 pt-28 lg:pt-40 pb-8 lg:pb-20 rounded-[30px] lg:rounded-[60px] text-[#004DEE]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] font-black text-center `}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] font-black text-center `}>
                     BÀI LUẬN TIÊU BIỂU
                 </div>
             </div>

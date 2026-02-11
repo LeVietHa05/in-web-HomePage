@@ -18,7 +18,7 @@ export default function Camnhanhs() {
     }
     return (
         <div className="bg-[#EAFDFF] relative z-1 min-h-[550px] -mt-24 mb-16 pt-6 lg:pt-20 pb-12 lg:pb-40 rounded-[32px] lg:rounded-[60px] text-[#004DEE] overflow-hidden">
-            <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] text-center text-[#FFCB1F]`}>
+            <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] text-center text-[#FFCB1F]`}>
                 CẢM NHẬN HỌC SINH
             </div>
             <div className='flex w-fit' >
@@ -28,7 +28,7 @@ export default function Camnhanhs() {
                             <div className='flex-1 flex items-center justify-center'>
                                 <Image className="w-1/2 " src={each.studentImgLink} alt={each.name} width={310} height={310}></Image>
                             </div>
-                            <div className='flex-1 flex flex-col justify-center text-center'>
+                            <div className='flex-1 flex flex-col justify-center text-center text-center lg:text-left'>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-xl lg:text-[50px] font-black uppercase `}>{each.name}</div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-sm lg:text-[24px] font-black uppercase `}>{each.hocbong}</div>
                                 <div className={` text-[#001E7F]  text-[8px] lg:text-[20px] `}>{each.school}</div>

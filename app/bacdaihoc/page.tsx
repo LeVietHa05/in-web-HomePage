@@ -14,17 +14,17 @@ const data = [
     }, {
         link: "/hoatdongngoaikhoa",
         img: "/home-dichvu4.png",
-        title: "Hoạt Động Ngoại Khóa",
+        title: "Hoạt Động <br> Ngoại Khóa",
         content: "Tại Inception, các chương trình hoạt động ngoại khoá được thiết kế và triển khai đa dạng, có hệ thống, lấy trải nghiệm của học sinh làm trung tâm."
     }, {
         link: "/khoahoc",
         img: "/home-dichvu5.png",
-        title: "Khóa Học Bổ Trợ",
+        title: "Khóa Học<br> Bổ Trợ",
         content: "Các khoá học bổ trợ được thiết kế nhằm cung cấp nền tảng giáo dục khai phóng, trau dồi các kỹ năng học thuật và hoàn thiện hồ sơ du học."
     }, {
         link: "/hoatdongchuyennganh",
         img: "/home-dichvu-6.png",
-        title: "Hoạt Động Chuyên Ngành",
+        title: "Hoạt Động <br>Chuyên Ngành",
         content: "Hoạt động chuyên ngành tại Inception là một phần trong lộ trình chuẩn bị hồ sơ du học, hướng đến việc xây dựng nền tảng kiến thức chuyên ngành, tư duy nghiên cứu, và thành tích thi đấu học thuật."
     },
 ]
@@ -37,16 +37,16 @@ export default function Bacdaihoc() {
             </div>
 
             <div className="-mt-4 lg:-mt-32  text-[#004DEE] relative z-1 bg-[#EAFDFF] py-2 lg:py-12 px-4 lg:px-32 rounded-[32px] lg:rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left lg:text-center `}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left  `}>
                     Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học hiệu quả và cá nhân hoá
                 </div>
                 <div className="my-4 text-sm lg:text-base">
                     Mỗi học sinh làm việc cùng Inception được hỗ trợ bởi 2 mentor:
-                    <ul className="list-disc ml-4 space-y-4 mt-4">
-                        <li>
+                    <ul className="list-disc ml-4 space-y-4 mt-4 marker:">
+                        <li className="pl-8">
                             <b>Mentor chiến lược:</b> Đồng hành cùng học sinh phân tích hồ sơ hiện tại, xác định điểm mạnh, điểm yếu và xây dựng lộ trình, chiến lược hồ sơ phù hợp nhằm tối ưu khả năng trúng tuyển và học bổng tại các đại học hàng đầu thế giới.
                         </li>
-                        <li>
+                        <li className="pl-8">
                             <b>Mentor luận:</b> Đồng hành cùng học sinh trong toàn bộ quá trình viết bài luận cá nhân - từ khâu lên ý tưởng, xây dựng nội dung đến chỉnh sửa theo yêu cầu từng trường. Mentor giúp mỗi bài viết trở nên sâu sắc, chân thật và thể hiện rõ nét bản sắc riêng của từng bạn.
                         </li>
                     </ul>
@@ -55,14 +55,14 @@ export default function Bacdaihoc() {
 
             {/* lo trinh appply */}
             <div className="mt-12 relative z-10">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-3xl lg:text-[96px] text-center pb-16`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-2xl lg:text-[96px] text-center pb-16`}>
                     LỘ TRÌNH APPLY
                 </div>
 
                 <div className="bg-[#004DEE] rounded-[30px]">
                     <div className="text-[#FDFFD6]  p-3 lg:p-12">
                         <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                            <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                            <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
                             <div>
@@ -95,7 +95,7 @@ export default function Bacdaihoc() {
                     <div className="bg-[#407EFF] rounded-[30px] ">
                         <div className="text-[#FDFFD6] p-3 lg:p-12">
                             <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                                <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div>
@@ -144,7 +144,7 @@ export default function Bacdaihoc() {
                         <div className="bg-[#ADDDFF] rounded-[30px] ">
                             <div className="text-[#004DEE] p-3 lg:p-12">
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                                    <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                    <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                         3
                                     </div>
                                     <div>
@@ -194,7 +194,7 @@ export default function Bacdaihoc() {
                             <div className="bg-[#D8FBFF] rounded-[30px] ">
                                 <div className="text-[#407EFF] p-3 lg:p-12">
                                     <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                                        <div className={`w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                        <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                             4
                                         </div>
                                         <div>
@@ -237,7 +237,7 @@ export default function Bacdaihoc() {
 
             {/* goi san hoc bong */}
             <div className=" -mt-24 pt-50 relative z-1 bg-[#ADDDFF] rounded-[30px] lg:rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[48px] font-black text-center text-[#3253BC]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[48px] font-black text-center text-[#3253BC]`}>
                     GÓI SĂN HỌC BỔNG TẠI INCEPTION
                 </div>
                 <div className="text-2xl lg:text-[36px] text-center text-[#3253BC] font-medium mt-4 mb-6">
@@ -307,7 +307,7 @@ export default function Bacdaihoc() {
             {/* chinh phuc voi */}
             <div className="bg-[#fdffd6] min-h-[900px] w-full   relative z-0 overflow-hidden -mt-24 pt-40 mb-16 lg:mb-0">
 
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl lg:text-[60px] text-center text-[#001E7F]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl lg:text-[60px] text-center text-[#001E7F]`}>
                     CHINH PHỤC HỌC BỔNG VỚI
                 </div>
 
@@ -316,7 +316,7 @@ export default function Bacdaihoc() {
                         return (
                             <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
                                 <Image src={each.img} alt="" width={326} height={204}></Image>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`}>{each.title}</div>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`} dangerouslySetInnerHTML={{ __html: each.title }}></div>
                                 <div className="text-[10px] lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                             </a>
                         )

@@ -31,7 +31,7 @@ export default function HDCN() {
             </div>
             {/* thanh tich hdcn */}
             <div className="-mt-16 text-[#EAFDFF] relative z-8 bg-[#181A4D] pt-20 pb-6 lg:py-16 lg:pt-24 rounded-b-[32px] lg:rounded-b-[60px]">
-                <div className={`text-center text-3xl lg:text-[60px] ${SVNHelveticaNeueHeavy.className} pb-4 lg:pb-12`}>
+                <div className={`text-center text-2xl lg:text-[60px] ${SVNHelveticaNeueHeavy.className} pb-4 lg:pb-12`}>
                     Thành Tích <br></br>
                     Hoạt Động Chuyên Ngành
                 </div>
@@ -49,7 +49,7 @@ export default function HDCN() {
 
             {/* goi dich vu ho tr viet luan */}
             <div className="bg-[#407EFF] min-h-[1450px] -mt-32 mb-16 pt-8 lg:pb-16 relative z-1 rounded-[32px] lg:rounded-[60px] text-[#004DEE]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[60px] font-black text-center  pt-28 pb-6 lg:pb-12 text-[#FFF175]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] font-black text-center  pt-28 pb-6 lg:pb-12 text-[#FFF175]`}>
                     CHƯƠNG TRÌNH HỖ TRỢ <br />
                     TẠI INCEPTION
                 </div>
@@ -57,7 +57,7 @@ export default function HDCN() {
                     <div className={`max-w-[1080px] mx-auto bg-[#EAFDFF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
                         <div className="flex-6">
                             <div className="flex  items-center gap-4 lg:gap-12">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     1
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
@@ -87,7 +87,7 @@ export default function HDCN() {
                     <div className={`max-w-[1080px] mx-auto bg-[#D5F2FF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
                         <div className="flex-6">
                             <div className="flex  items-center gap-4 lg:gap-12">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
@@ -115,7 +115,7 @@ export default function HDCN() {
                     <div className={`max-w-[1080px] mx-auto bg-[#BDE8FF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
                         <div className="flex-6">
                             <div className="flex  items-center gap-4 lg:gap-12">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     3
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>

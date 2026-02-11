@@ -21,7 +21,7 @@ export default function TrainghiemHs({ type }: { type: string }) {
 
     return (
         <div className="bg-[#EAFDFF] lg:min-h-[700px] w-full rounded-[32px] lg:rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-16 lg:-mt-24 pt-8 lg:pt-16">
-            <div className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-3xl lg:text-[72px] font-black text-center`}>
+            <div className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-2xl lg:text-[72px] font-black text-center`}>
                 TRẢI NGHIỆM HỌC SINH
             </div>
             <div className='flex w-fit ' >
@@ -32,7 +32,7 @@ export default function TrainghiemHs({ type }: { type: string }) {
                             <div className='flex-1 flex items-center justify-center'>
                                 <Image className="w-1/2 " src={each.imglink2 ? each.imglink2 : each.imglink} alt={each.name} width={310} height={310}></Image>
                             </div>
-                            <div className='flex-1 text-center'>
+                            <div className='flex-1 lg:text-left text-center'>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-xl lg:text-[50px] font-black uppercase `}>{each.name}</div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-sm lg:text-[24px] font-black uppercase `}>{each.hocbong}</div>
                                 <div className={` text-[#001E7F] text-[8px] lg:text-[20px]   `}>{each.school}</div>

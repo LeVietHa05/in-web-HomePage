@@ -17,9 +17,9 @@ export default function HDNK() {
                 </div>
                 <div className="grid grid-cols-4 gap-2 lg:gap-8 mt-3 lg:mt-12">
                     <div className="col-span-2  ">
-                        <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex flex-col lg:flex-row items-center lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                            <div className="flex  items-center gap-2 lg:gap-4">
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     1
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -35,9 +35,9 @@ export default function HDNK() {
                         </div>
                     </div>
                     <div className="col-span-2  col-start-3">
-                        <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex  flex-col lg:flex-row  items-center lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                            <div className="flex  items-center gap-2 lg:gap-4">
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -53,9 +53,9 @@ export default function HDNK() {
                         </div>
                     </div>
                     <div className="col-span-2  row-start-2">
-                        <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex flex-col lg:flex-row items-center lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                            <div className="flex  items-center gap-2 lg:gap-4">
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     3
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -71,9 +71,9 @@ export default function HDNK() {
                         </div>
                     </div>
                     <div className="col-span-2  col-start-3 row-start-2">
-                        <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
-                            <div className="flex flex-col lg:flex-row items-center lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                            <div className="flex  items-center gap-2 lg:gap-4">
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     4
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -91,7 +91,7 @@ export default function HDNK() {
                     <div className="col-span-4 row-span-2 row-start-3">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} w-[68px] aspect-1/1 rounded-full border text-[40px] text-center shrink-0`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     5
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -109,7 +109,7 @@ export default function HDNK() {
             </div>
             {/* chuong trinh nk */}
             <div className="-mt-16 text-[#EAFDFF] relative z-8 bg-[#181A4D] pt-20 pb-6 lg:py-16 lg:pt-24 rounded-b-[32px] lg:rounded-b-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-3xl lg:text-[80px] text-center`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[80px] text-center`}>
                     Chương Trình Ngoại Khóa
                 </div>
             </div>
