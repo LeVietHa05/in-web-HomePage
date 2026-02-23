@@ -59,10 +59,10 @@ export default function Footer() {
                 <div className="space-y-4 *:hover:underline">
                     <div className="text-sm text-[#032852] font-semibold">Theo dõi ngay tại</div>
                     <div className="flex">
-                        <Link href={''}>
+                        <Link href={'https://www.facebook.com/inceptionplatform'}>
                             <Image className="h-6" src={'/icons/facebook.svg'} alt="" width={25} height={25}></Image>
                         </Link>
-                        <Link href={''} >
+                        <Link href={'https://www.tiktok.com/@duhocmycunginception'} >
                             <Image className="h-6" src={'/icons/tiktok.svg'} alt="" width={25} height={25}></Image>
                         </Link>
                     </div>

@@ -37,7 +37,7 @@ export default function Bacdaihoc() {
             </div>
 
             <div className="-mt-4 lg:-mt-32  text-[#004DEE] relative z-1 bg-[#EAFDFF] py-2 lg:py-12 px-4 lg:px-32 rounded-[32px] lg:rounded-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left  `}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left text-balance `}>
                     Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học hiệu quả và cá nhân hoá
                 </div>
                 <div className="my-4 text-sm lg:text-base">
@@ -62,7 +62,7 @@ export default function Bacdaihoc() {
                 <div className="bg-[#004DEE] rounded-[30px]">
                     <div className="text-[#FDFFD6]  p-3 lg:p-12">
                         <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                            <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                            <div className={`size-12 lg:size-15 pb-2 aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
                             <div>
@@ -95,7 +95,7 @@ export default function Bacdaihoc() {
                     <div className="bg-[#407EFF] rounded-[30px] ">
                         <div className="text-[#FDFFD6] p-3 lg:p-12">
                             <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                                <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`size-12 lg:size-15 pb-2 aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div>
@@ -144,7 +144,7 @@ export default function Bacdaihoc() {
                         <div className="bg-[#ADDDFF] rounded-[30px] ">
                             <div className="text-[#004DEE] p-3 lg:p-12">
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                                    <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                    <div className={`size-12 lg:size-15 pb-2 aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                         3
                                     </div>
                                     <div>
@@ -194,7 +194,7 @@ export default function Bacdaihoc() {
                             <div className="bg-[#D8FBFF] rounded-[30px] ">
                                 <div className="text-[#407EFF] p-3 lg:p-12">
                                     <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[40px] lg:leading-[68px] font-black flex items-center gap-4 lg:gap-12`}>
-                                        <div className={`size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                        <div className={`size-12 lg:size-15 pb-2 aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                             4
                                         </div>
                                         <div>
@@ -204,7 +204,7 @@ export default function Bacdaihoc() {
 
                                     <div className="text-sm lg:text-xl grid grid-cols-3 mt-4 text-[#407EFF]">
                                         <div>
-                                            <b>Tháng 06:</b>
+                                            <b>Tháng 05:</b>
                                             <ul className="list-disc ml-3 lg:ml-8">
                                                 <li>Chốt trường, đặt cọc</li>
                                                 <li>Nhận I-20</li>
@@ -244,25 +244,8 @@ export default function Bacdaihoc() {
                     BẬC ĐẠI HỌC
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 w-full lg:w-4/5 mx-auto text-[#004DEE] text-base lg:text-[20px] pb-8 lg:pb-20 px-2 lg:px-0">
-                    <div className="h-full">
-                        <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8">
-                            <ul className="list-disc ml-6 font-bold">
-                                <li>Tư vấn chiến lược xây dựng hồ sơ</li>
-                                <li>Xây dựng hoạt động ngoại khóa, thiện nguyện</li>
-                                <li>Hướng dẫn đăng ký, điền thông tin hồ sơ</li>
-                                <li>Viết và chỉnh sửa thư giới thiệu, resume,…</li>
-                                <li>Hỗ trợ hoàn thiện thông tin tài chính</li>
-                                <li>Hướng dẫn viết luận chính, luận phụ theo yêu cầu của trường</li>
-                            </ul>
-                            <div className="italic ">
-                                (Dành cho cách trường Đại học Quốc tế tại Việt Nam)
-                            </div>
-                        </div>
-                    </div>
-                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} block lg:hidden font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
-                        SPECIAL
-                    </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full lg:w-4/5 mx-auto text-[#004DEE] text-base lg:text-[20px] pb-8 lg:pb-20 px-2 lg:px-0">
+                    
 
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8 h-full">
@@ -292,9 +275,7 @@ export default function Bacdaihoc() {
                         </div>
 
                     </div>
-                    <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} hidden lg:block font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
-                        SPECIAL
-                    </div>
+                    
                     <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} hidden lg:block font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
                         STANDARD
                     </div>

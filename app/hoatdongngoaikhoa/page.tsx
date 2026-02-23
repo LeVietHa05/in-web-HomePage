@@ -6,7 +6,7 @@ import Dangkytuvan from "../components/dangkytuvan"
 export default function HDNK() {
     return (
         <div className="max-w-[1440px] mx-auto relative">
-            <div className="w-full aspect-1441/961 relative z-10 border-b-12 lg:border-b-24 border-[#FFCB1F] rounded-[24px] lg:rounded-[60px] mt-16 lg:mt-0">
+            <div className="w-full aspect-1441/750 relative z-10 border-b-12 lg:border-b-24 border-[#FFCB1F] rounded-[24px] lg:rounded-[60px] mt-16 lg:mt-0">
                 <Image src={'/hdnk/1.png'} alt="" fill></Image>
             </div>
             {/* loi ich khi tham gia hdnk */}
@@ -19,7 +19,7 @@ export default function HDNK() {
                     <div className="col-span-2  ">
                         <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     1
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -37,7 +37,7 @@ export default function HDNK() {
                     <div className="col-span-2  col-start-3">
                         <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -55,7 +55,7 @@ export default function HDNK() {
                     <div className="col-span-2  row-start-2">
                         <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     3
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -73,7 +73,7 @@ export default function HDNK() {
                     <div className="col-span-2  col-start-3 row-start-2">
                         <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     4
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -91,7 +91,7 @@ export default function HDNK() {
                     <div className="col-span-4 row-span-2 row-start-3">
                         <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
-                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     5
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} lg:py-4 text-base lg:text-[24px]`}>
@@ -196,7 +196,7 @@ export default function HDNK() {
             <div className="bg-[#EAFDFF] -mt-16 min-h-[740px] lg:min-h-[900px] pt-32">
                 <div className="max-w-5xl mx-auto ">
                     <div className="text-[#0F58EA] mb-4 lg:mb-12 px-3 lg:px-0">
-                        <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[32px] mb-4 `}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[32px] mb-4 text-pretty`}>
                             Cách Inception hỗ trợ học sinh triển khai
                             hoạt động ngoại khoá
                         </div>

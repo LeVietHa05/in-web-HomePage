@@ -10,21 +10,16 @@ const AUTOPLAY = 5000
 
 export default function CoursesSlider() {
   const [index, setIndex] = useState(0)
-  const [fade, setFade] = useState(true)
 
   const total = data.slides.length
-  const slide = data.slides[index]
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false)
-      setTimeout(() => {
-        setIndex((i) => (i + 1) % total)
-        setFade(true)
-      }, 300)
-    }, AUTOPLAY)
+    // const interval = setInterval(() => {
 
-    return () => clearInterval(interval)
+    //   setIndex((i) => (i + 1) % total)
+    // }, AUTOPLAY)
+
+    // return () => clearInterval(interval)
   }, [total])
 
   return (
@@ -36,40 +31,47 @@ export default function CoursesSlider() {
 
 
       {/* SLIDE */}
-      <div className="flex justify-center px-2 lg:px-4">
-        <div className={`bg-[#FFF175] w-full max-w-[1100px] min-h-[520px] md:h-[460px] rounded-[32px] md:rounded-[40px] p-3 lg:p-6 md:p-10 flex flex-col md:flex-row gap-8 md:gap-12 items-center transition-opacity duration-500 ${fade ? "opacity-100" : "opacity-0"}`}>
-          
-          {/* IMAGE */}
-          <div className="w-full md:w-3/5 h-[220px] sm:h-[280px] md:h-[360px] relative">
-            <Image
-              src={slide.image}
-              alt={slide.title}
-              fill
-              sizes="(max-width: 768px) 100vw, 60vw"
-              className="rounded-[24px] object-cover"
-            />
+      <div className="flex justify-center px-2 lg:px-4 overflow-hidden">
+        <div className={` w-full max-w-[1100px]   overflow-hidden`}>
+          <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${index * 100}%)` }}>
+            {data.slides.map((slide, i) => (
+              <div key={i} className="bg-[#FFF175] min-w-full min-h-[520px] md:h-[460px] rounded-[32px] md:rounded-[40px] p-3 lg:p-6 md:p-10 flex flex-col lg:flex-row items-center">
+                {/* IMAGE */}
+                <div className="w-full md:w-3/5 h-[220px] sm:h-[280px] md:h-[360px] relative">
+                  <Image
+                    src={slide.image}
+                    alt={slide.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 60vw"
+                    className="rounded-[24px] object-cover"
+                  />
+                </div>
+                {/* CONTENT */}
+                <div className="flex justify-between flex-col p-4 lg:p-[30px] lg:h-full w-full md:w-2/5 text-center md:text-right">
+                  <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] text-[22px] md:text-[28px] font-black mb-4`}>
+                    {slide.title}
+                  </h3>
+
+                  <div className="space-y-3 mb-6">
+                    {slide.desc.map((t: string, i: number) => (
+                      <p key={i} className="text-[#3253BC] text-[16px] md:text-[20px]">
+                        {t}
+                      </p>
+                    ))}
+                  </div>
+
+                  <Link href={`/khoahoc/${slide.id}`}>
+                    <button className="bg-[#004DEE] text-[#FEFFB7] px-6 py-3 rounded-full text-[16px] md:text-[18px] font-bold hover:scale-105 transition">
+                      {slide.button}
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
 
-          {/* CONTENT */}
-          <div className="flex justify-between flex-col p-4 lg:p-[30px] lg:h-full w-full md:w-2/5 text-center md:text-right">
-            <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] text-[22px] md:text-[28px] font-black mb-4`}>
-              {slide.title}
-            </h3>
 
-            <div className="space-y-3 mb-6">
-              {slide.desc.map((t: string, i: number) => (
-                <p key={i} className="text-[#3253BC] text-[16px] md:text-[20px]">
-                  {t}
-                </p>
-              ))}
-            </div>
 
-            <Link href={`/khoahoc/${slide.id}`}>
-              <button className="bg-[#004DEE] text-[#FEFFB7] px-6 py-3 rounded-full text-[16px] md:text-[18px] font-bold hover:scale-105 transition">
-                {slide.button}
-              </button>
-            </Link>
-          </div>
         </div>
       </div>
 

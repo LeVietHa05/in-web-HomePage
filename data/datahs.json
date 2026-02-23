@@ -16,7 +16,7 @@
   {
     "name": "Vũ Bảo Khánh",
     "imglink": "/hs/vubaokhanh.png",
-    "school": "UC Los Angeles",
+    "school": "University of California, Los Angeles",
     "hocbong": "",
     "type": "hocsinh"
   },
@@ -28,7 +28,7 @@
     "type": "hocsinh"
   },
   {
-    "name": "Nguyễn Đặng Minh Anh",
+    "name": "Ng. Đặng Minh Anh",
     "imglink": "/hs/nguyendangminhanh.png",
     "imglink2": "/hs/nguyendangminhanh2.png",
     "school": "University of Chicago",
@@ -39,8 +39,8 @@
   {
     "name": "Lê Trung Kiên",
     "imglink": "/hs/letrungkien.png",
-    "school": "University of North Carolina at Chapel ",
-    "hocbong": "Học Bổng Toàn Phần",
+    "school": "University of North Carolina at Chapel Hill",
+    "hocbong": "Học Bổng Toàn Phần Robertson",
     "type": "hocsinh"
   },
   {
@@ -102,7 +102,7 @@
     "name": "Nguyễn Hà Vy",
     "imglink": "/hs/nguyenhavy.png",
     "school": "Grinnell College",
-    "hocbong": "Học Bổng Toàn Phần",
+    "hocbong": "Học Bổng 6,4 Tỷ VND",
     "type": "hocsinh"
   },
   {
@@ -117,7 +117,7 @@
   {
     "name": "Đào Thị Quỳnh Anh",
     "imglink": "/hs/daothiquynhanh.png",
-    "school": "Amhers College",
+    "school": "Amherst College",
     "hocbong": "Học Bổng Toàn Phần",
     "type": "hocsinh"
   },
@@ -141,7 +141,7 @@
     "imglink": "/hs/vuanhthu.png",
     "school": "Colby College",
     "hocbong": "Học Bổng Toàn Phần",
-    "speech": "“Em gặp anh Trung và chị Chi vào thời điểm em mất phương hướng nhất. Anh Trung mang cho em nhiều perspective mới, những sự criticism để em phải nhìn lại chính mình. Kể ra em cũng hơi lười tí, gửi bài hơi sát nhưng ít khi anh từ chối giúp. Kể cả em có phải đập PS hoàn toàn, anh vẫn dành cả sáng để ngồi nhìn mấy bức ảnh. Và kể cả em quay lại bài luận ban đầu anh cũng không phản đối. Em biết mình không phải một đứa năng trò chuyện hay đến văn phòng nhiều bằng các bạn. Dẫu vậy, chưa bao giờ em thiếu sự quan tâm của anh, chị. Inception với em viết ra thì khó, nó vượt lên trên một bộ máy, một trung tâm, một cái tên.Em ngưỡng mộ Inception lắm!”",
+    "speech": "“Em gặp anh Trung và chị Chi vào thời điểm em mất phương hướng nhất. Anh Trung mang cho em nhiều perspective mới, những sự criticism để em phải nhìn lại chính mình. Kể ra em cũng hơi lười tí, gửi bài hơi sát nhưng ít khi anh từ chối giúp. Kể cả em có phải đập PS hoàn toàn, anh vẫn dành cả sáng để ngồi nhìn mấy bức ảnh. Và kể cả em quay lại bài luận ban đầu anh cũng không phản đối. Em biết mình không phải một đứa năng trò chuyện hay đến văn phòng nhiều bằng các bạn. Dẫu vậy, chưa bao giờ em thiếu sự quan tâm của anh, chị. Inception với em viết ra thì khó, nó vượt lên trên một bộ máy, một trung tâm, một cái tên. Em ngưỡng mộ Inception lắm!”",
     "type": "hocsinh"
   },
   {
@@ -163,8 +163,8 @@
   {
     "name": "LÊ NHẬT QUANG",
     "imglink": "/hs/lenhatquang.png",
-    "school": "VinUniversity tại University of Michigan at Ann-Arbor",
-    "hocbong": "HỌC BỔNG TOÀN PHẦN BẬC THẠC SĨ",
+    "school": "  University of Michigan at Ann-Arbor",
+    "hocbong": "HỌC BỔNG TOÀN PHẦN BẬC THẠC SĨ tại Vin University",
     "speech": "“Em học ngành kỹ thuật nên không giỏi khoản viết lách lắm, cũng không biết làm sao để mô tả các nghiên cứu của mình trong bài luận. Anh Tú đã hướng dẫn em về cách viết rất nhiều, anh yêu cầu em phải tự tìm hiểu về SLAM model để biết cách viết. Anh còn đốc thúc, nhắc nhở em để đảm bảo tiến độ apply mỗi khi em bù đầu với những công việc ở trường đại học.”",
     "type": "caohoc"
   }

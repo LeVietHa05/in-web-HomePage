@@ -22,7 +22,7 @@ const thanhtichData = [
         name: "University of Notre Dame",
         imageLink: "/notredame.png"
     }, {
-        name: "University of California Irvine | ",
+        name: "University of California Irvine ",
         imageLink: "/irvine.png",
         otherText: "$16000"
     }, {
@@ -35,7 +35,7 @@ const thanhtichData = [
         name: "University of California, San Diego",
         imageLink: "/sandiego.png"
     }, {
-        name: "Indiana University Bloomington | ",
+        name: "Indiana University Bloomington ",
         imageLink: "/indiana.png",
         otherText: "$1270"
     }, {
@@ -102,7 +102,7 @@ export default function Baccaohoc() {
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] lg:text-xl">
                     <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2   aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             1
                         </div>
                         <div className="py-8">
@@ -116,7 +116,7 @@ export default function Baccaohoc() {
                     </div>
 
                     <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20 -mt-20 lg:mt-0`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
                         <div className="py-8">
@@ -129,7 +129,7 @@ export default function Baccaohoc() {
                         </div>
                     </div>
                     <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-20 pb-20 lg:pb-0`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
                         <div className="py-8">
@@ -142,15 +142,16 @@ export default function Baccaohoc() {
                         </div>
                     </div>
                     <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 -mt-20`}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
                         <div className="py-8">
                             <div>
-                                Hoàn thiện hồ sơ, CV
+                                Hướng dẫn liên lạc, trao đổi với các thầy viết thư giới thiệu, các chuyên gia
+                                tăng cơ hội xin học bổng
                             </div>
                             <div>
-                                Viết luận cho các trường
+                                Hướng dẫn phỏng vấn
                             </div>
                         </div>
                     </div>

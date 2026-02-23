@@ -15,7 +15,7 @@ interface ThanhtichProps {
 const ITEMS_PER_PAGE = 8
 
 export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
-    const [itemsPerPage, setItemsPerPage] = useState(8)
+    const [itemsPerPage, setItemsPerPage] = useState(10)
     const [currentPage, setCurrentPage] = useState(0)
 
 
@@ -26,7 +26,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
         const update = () => {
             if (mobile.matches) setItemsPerPage(4)
             else if (tablet.matches) setItemsPerPage(6)
-            else setItemsPerPage(8)
+            else setItemsPerPage(10)
             setCurrentPage(1)
         }
 
@@ -43,11 +43,13 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
     const totalPages = Math.ceil(data.length / itemsPerPage)
 
     useEffect(() => {
-        const timer = setInterval(() => {
-            setCurrentPage((prevPage) => (prevPage + 1) % totalPages)
-        }, 5000) // Auto change every 5 seconds
+        if (totalPages > 1) {
+            const timer = setInterval(() => {
+                setCurrentPage((prevPage) => (prevPage + 1) % totalPages)
+            }, 5000) // Auto change every 5 seconds
+            return () => clearInterval(timer)
+        }
 
-        return () => clearInterval(timer)
     }, [totalPages])
     // const startIndex = currentPage * ITEMS_PER_PAGE
     // const endIndex = startIndex + ITEMS_PER_PAGE
@@ -71,7 +73,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
                 >
                     {Array.from({ length: totalPages }, (_, pageIndex) => (
                         <div key={pageIndex} className="w-full flex-shrink-0">
-                            <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-6 px-8">
+                            <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-6 px-8">
                                 {data.slice(pageIndex * itemsPerPage, (pageIndex + 1) * itemsPerPage).map((item, index) => (
                                     <div key={index} className="flex flex-col items-center text-center">
                                         <div className="relative w-32 h-32 mb-4 flex items-center justify-center overflow-hidden">

@@ -32,7 +32,7 @@ export default function Camnhanhs() {
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-xl lg:text-[50px] font-black uppercase `}>{each.name}</div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-sm lg:text-[24px] font-black uppercase `}>{each.hocbong}</div>
                                 <div className={` text-[#001E7F]  text-[8px] lg:text-[20px] `}>{each.school}</div>
-                                <div className={`pt-4 text-[#001E7F] text-[10px] lg:text-[18px] text-justify  `}>{each.text}</div>
+                                <div className={`pt-4 text-[#001E7F] text-[10px] lg:text-[18px] text-justify  `} dangerouslySetInnerHTML={{ __html: each.text }}></div>
                             </div>
                         </div>
                     )

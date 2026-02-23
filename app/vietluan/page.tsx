@@ -16,7 +16,7 @@ export default function Vietluan() {
             <div className="relative h-screen max-h-[600px] lg:max-h-[840px] w-full z-0">
                 <Image src={'/home-bg.png'} fill alt=""></Image>
                 <div className="relative top-1/2 left-1/2 -translate-1/2 flex flex-col lg:flex-row w-fit ">
-                    <div className="flex flex-col justify-around pl-4 lg:pl-20">
+                    <div className="flex flex-col justify-around px-2 lg:pl-20">
                         <div>
                             <div className={`${SVNHelveticaNeueHeavy.className} text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
                                 CHINH PHỤC HỌC BỔNG DU HỌC <br />
@@ -28,7 +28,7 @@ export default function Vietluan() {
                             </div>
                         </div>
                         <div className="mt-4">
-                            <Link target="blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform?fbclid=IwY2xjawPAgm1leHRuA2FlbQIxMABicmlkETFnYW1GY0tkalRyNjJpeUFEc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeWuwKPgq6ZEw84-RCqF2t1ZEAWdN1JMOcKiAzt6WsU9VGKbx6KQpGDClpLp0_aem_nN7Zo1VnwPX59kn2E6Tdaw'} className={`${SVNHelveticaNeueHeavy.className} text-[23px] text-[#FDFFD6] bg-[#407EFF] rounded-full p-2 px-8 w-fit animate-pulse hover:animate-none`}>
+                            <Link target="blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform?fbclid=IwY2xjawPAgm1leHRuA2FlbQIxMABicmlkETFnYW1GY0tkalRyNjJpeUFEc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeWuwKPgq6ZEw84-RCqF2t1ZEAWdN1JMOcKiAzt6WsU9VGKbx6KQpGDClpLp0_aem_nN7Zo1VnwPX59kn2E6Tdaw'} className={`${SVNHelveticaNeueHeavy.className} text-[23px] text-[#FDFFD6] bg-[#407EFF] rounded-full p-2 px-8 w-fit cursor-pointer `}>
                                 TƯ VẤN VIẾT LUẬN
                             </Link>
                         </div>
@@ -42,11 +42,11 @@ export default function Vietluan() {
                 </div>
             </div>
 
-            <div className="-mt-32 text-[#004DEE] relative z-1 bg-[#EAFDFF] py-12 pl-4 lg:pl-28 rounded-[60px]">
+            <div className="-mt-32 text-[#004DEE] relative z-1 bg-[#EAFDFF] py-4 lg:py-12 pl-4 lg:pl-28 rounded-[32px] lg:rounded-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl  `}>
                     Tại Sao Học Sinh Lựa Chọn Inception Để Tư Vấn Bài Luận?
                 </div>
-                <div className="my-4 text-sm">
+                <div className="my-4 text-sm lg:text-base">
                     <ul className="list-disc ml-4 space-y-4 mt-4">
                         <li>
                             Trực tiếp trao đổi 1:1 cùng mentor để tìm ra ý tưởng độc đáo, mang đậm màu sắc cá nhân.
@@ -69,7 +69,7 @@ export default function Vietluan() {
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] text-sm lg:text-xl">
                     <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             1
                         </div>
                         <div className="py-3 lg:py-5">
@@ -80,7 +80,7 @@ export default function Vietluan() {
                     </div>
 
                     <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
                         <div className="py-3 lg:py-5">
@@ -90,7 +90,7 @@ export default function Vietluan() {
                         </div>
                     </div>
                     <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
                         <div className="py-3 lg:py-8">
@@ -100,7 +100,7 @@ export default function Vietluan() {
                         </div>
                     </div>
                     <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
-                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                        <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
                         <div className="py-3 lg:py-8">
@@ -128,7 +128,7 @@ export default function Vietluan() {
                 <div>
                     <div className={`max-w-[1080px] mx-auto bg-[#FFF175] font-bold  rounded-[30px] p-4 pb-8`}>
                         <div className="flex  items-center  gap-4 lg:gap-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
                             <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
@@ -147,7 +147,7 @@ export default function Vietluan() {
                     </div>
                     <div className={`max-w-[1080px] mx-auto bg-[#ECFEB0] font-bold  rounded-[30px] p-4 pb-8 `}>
                         <div className="flex  items-center  gap-4 lg:gap-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 2
                             </div>
                             <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
@@ -167,7 +167,7 @@ export default function Vietluan() {
                     </div>
                     <div className={`max-w-[1080px] mx-auto bg-[#EAFDFF] font-bold  rounded-[30px] p-4 pb-8 `}>
                         <div className="flex  items-center gap-4 lg:gap-12">
-                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 3
                             </div>
                             <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>

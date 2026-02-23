@@ -6,8 +6,8 @@ import Dangkytuvan from "../components/dangkytuvan"
 export default function HDCN() {
     return (
         <div className="max-w-[1440px] mx-auto relative">
-            <div className="w-full aspect-1441/961 relative z-10 border-b-12 lg:border-b-24 border-[#FFCB1F] rounded-[24px] lg:rounded-[60px] mt-16 lg:mt-0">
-                <Image src={'/hdcn/1.png'} alt="" fill></Image>
+            <div className="w-full aspect-1441/729 relative z-10 border-b-8 lg:border-b-24 border-[#FFCB1F] rounded-[12px] lg:rounded-[48px] mt-16 lg:mt-0">
+                <Image className="rounded-lg" src={'/hdcn/1.png'} alt="" fill></Image>
             </div>
             {/*  */}
             <div className="-mt-16 text-[#004DEE] relative z-9 bg-[#EAFDFF] py-16 px-2 lg:px-64 rounded-b-[32px] lg:rounded-b-[60px]">
@@ -57,7 +57,7 @@ export default function HDCN() {
                     <div className={`max-w-[1080px] mx-auto bg-[#EAFDFF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
                         <div className="flex-6">
                             <div className="flex  items-center gap-4 lg:gap-12">
-                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     1
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
@@ -87,7 +87,7 @@ export default function HDCN() {
                     <div className={`max-w-[1080px] mx-auto bg-[#D5F2FF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
                         <div className="flex-6">
                             <div className="flex  items-center gap-4 lg:gap-12">
-                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
@@ -115,7 +115,7 @@ export default function HDCN() {
                     <div className={`max-w-[1080px] mx-auto bg-[#BDE8FF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
                         <div className="flex-6">
                             <div className="flex  items-center gap-4 lg:gap-12">
-                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:w-[68px] aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     3
                                 </div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>

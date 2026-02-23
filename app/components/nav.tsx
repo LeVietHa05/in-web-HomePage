@@ -25,15 +25,15 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-[1000] bg-[#001E7F] rounded-b-lg lg:rounded-b-4xl">
-      <div className="max-w-[1440px] mx-auto p-2 lg:px-5 lg:py-4 flex items-center justify-between text-white font-bold font-[Helvetica]">
+    <nav className="fixed top-0 w-full z-[1000] bg-[#001E7F] rounded-b-lg lg:rounded-b-2xl 2xl:rounded-b-4xl">
+      <div className="max-w-[1440px] mx-auto p-2 xl:px-5 xl:py-4 flex items-center justify-between text-white font-bold font-[Helvetica] text-xs md:text-sm xl:text-base">
 
         <Link href="/">
           <Image src="/logo.png" alt="logo inception" width={140} height={120} />
         </Link>
 
         {/* DESKTOP */}
-        <div className="hidden lg:flex items-center space-x-6 translate-y-1/7">
+        <div className="hidden lg:flex items-center space-x-2 lg:space-x-4 2xl:space-x-6 translate-y-1/7 ">
           {navitems.map((e, i) => (
             <Link key={i} href={e.link} className={navClass(pathname.startsWith(e.link))}>
               {e.text}
@@ -42,7 +42,7 @@ export default function Nav() {
         </div>
 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform" target="_blank" className="hidden lg:block">
-          <div className="bg-[#407EFF] px-5 py-3 rounded-full border border-white hover:bg-white hover:text-[#001E7F] transition-all">
+          <div className="bg-[#407EFF] p-1 lg:px-3 2xl:px-5 lg:py-1 2xl:py-3 rounded-full border border-white hover:bg-white hover:text-[#001E7F] transition-all">
             TƯ VẤN NGAY
           </div>
         </a>
