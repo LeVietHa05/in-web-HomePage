@@ -27,7 +27,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
             if (mobile.matches) setItemsPerPage(4)
             else if (tablet.matches) setItemsPerPage(6)
             else setItemsPerPage(10)
-            setCurrentPage(1)
+            setCurrentPage(0)
         }
 
         update()
