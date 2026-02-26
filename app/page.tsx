@@ -78,10 +78,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[#ADDDFF] rounded-[32px] lg:rounded-[60px] w-full flex justify-center gap-3 lg:gap-10 items-start lg:p-12 p-4 lg:px-20 font-[Helvetica] font-bold lg:text-2xl text-base text-center lg:h-64 -mt-24 z-2 relative">
-        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-10 lg:py-4"> TƯ VẤN ĐẠI HỌC</div>
-        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-10 lg:py-4"> TƯ VẤN CAO HỌC</div>
-        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-10 lg:py-4"> TƯ VẤN NGOẠI KHOÁ</div>
+      <div className="bg-[#ADDDFF] rounded-[32px] lg:rounded-[60px] w-full flex justify-center gap-3 lg:gap-10 items-start lg:p-12 p-4 lg:px-20 font-[Helvetica] font-bold lg:text-xl xl:text-2xl text-base text-center lg:h-64 -mt-24 z-2 relative">
+        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN ĐẠI HỌC</div>
+        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN CAO HỌC</div>
+        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN NGOẠI KHOÁ</div>
       </div>
 
       {/* thanh tich  */}

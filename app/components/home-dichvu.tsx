@@ -45,12 +45,14 @@ export default function Dichvucuachungtoi() {
                 CỦA CHÚNG TÔI
             </div>
 
-            <div className="lg:w-[1080px] w-full mx-auto mt-8 lg:mt-20 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-10 px-2 lg:px-0">
+            <div className="lg:w-[1024px] w-full mx-4 lg:mx-auto mt-8 lg:mt-20 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-10 px-2 lg:px-0">
                 {data.filter(e => e.title).map((each, i) => {
                     return (
                         <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
-                            <Image src={each.img} alt="" width={326} height={204}></Image>
-                            <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`} dangerouslySetInnerHTML={{__html: each.title}}></div>
+                            <div className="flex items-center justify-center">
+                                <Image src={each.img} alt="" width={326} height={204}></Image>
+                            </div>
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`} dangerouslySetInnerHTML={{ __html: each.title }}></div>
                             <div className="text-[10px] lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                         </a>
                     )

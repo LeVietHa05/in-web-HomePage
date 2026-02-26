@@ -11,12 +11,12 @@ import Camnhanhs from "../components/vietluan-camnhanhs"
 
 export default function Vietluan() {
     return (
-        <div className="max-w-[1440px] mx-auto relative">
+        <div className="max-w-[1440px] w-full mx-auto relative">
             {/* header */}
-            <div className="relative h-screen max-h-[600px] lg:max-h-[840px] w-full z-0">
+            <div className="relative h-screen max-h-[600px] lg:max-h-[840px] lg:min-h-[768px] w-full z-0">
                 <Image src={'/home-bg.png'} fill alt=""></Image>
                 <div className="relative top-1/2 left-1/2 -translate-1/2 flex flex-col lg:flex-row w-fit ">
-                    <div className="flex flex-col justify-around px-2 lg:pl-20">
+                    <div className="flex flex-col lg:justify-evenly justify-around px-2 lg:pl-20">
                         <div>
                             <div className={`${SVNHelveticaNeueHeavy.className} text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
                                 CHINH PHỤC HỌC BỔNG DU HỌC <br />
@@ -33,7 +33,7 @@ export default function Vietluan() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex -space-x-50 lg:items-end hidden lg:flex">
+                    <div className="flex -space-x-50 lg:items-end hidden lg:flex overflow-hidden">
                         <div className="shrink-0 w-1/2 lg:w-auto ">
                             <Image src={'/mentor-1.png'} alt="text" width={438} height={657}></Image>
                         </div>
@@ -63,7 +63,7 @@ export default function Vietluan() {
 
             {/* lo trinh appply */}
             <div className="mt-5 lg:mt-2 mb-40 relative z-10 lg:px-12 px-2">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-2xl lg:text-[96px] text-center pb-6 lg:pb-8`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[#FFCB1F] text-2xl lg:text-[72px] xl:text-[96px] text-center pb-6 lg:pb-8`}>
                     QUY TRÌNH TƯ VẤN
                 </div>
 

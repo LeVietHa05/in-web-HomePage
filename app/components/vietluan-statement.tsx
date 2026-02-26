@@ -19,8 +19,8 @@ export default function Statement() {
             <div className='flex w-fit' >
                 {data.map((each, i) => {
                     return (
-                        <div key={i} className="px-2 lg:px-16 w-screen lg:w-[1440px]  mx-auto transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentPage * 100}%)` }}>
-                            <div className="bg-[#F9FFE6] rounded-[24px] lg:rounded-[40px] min-h-[800px] lg:min-h-[1200px]">
+                        <div key={i} className="px-2 lg:px-16 w-screen max-w-[1440px] mx-auto transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentPage * 100}%)` }}>
+                            <div className="bg-[#F9FFE6] rounded-[24px] lg:rounded-[40px] pb-8 lg:pb-16 h-full">
                                 <div className="text-center">
                                     <div className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] `}>
                                         <div className="text-xl lg:text-[40px]">

@@ -96,7 +96,7 @@ export default function Baccaohoc() {
 
             {/* lo trinh appply */}
             <div className="mt-5 lg:mt-4 mb-16 lg:mb-40 relative z-10 p-2 lg:px-12">
-                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-2xl lg:text-[96px] text-center`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} mb-8 font-black text-[#FFCB1F] text-2xl lg:text-[72px] xl:text-[96px] text-center`}>
                     LỘ TRÌNH APPLY
                 </div>
 
@@ -168,7 +168,7 @@ export default function Baccaohoc() {
                     CHINH PHỤC HỌC BỔNG VỚI
                 </div>
 
-                <div className="w-full lg:w-[1080px] mx-auto mt-4 lg:mt-20 grid-cols-2 grid lg:grid-cols-4 gap-2 lg:gap-10 px-2 lg:px-0">
+                <div className="w-full lg:w-[1024px] mx-auto mt-4 lg:mt-20 grid-cols-2 grid lg:grid-cols-4 gap-2 lg:gap-4 xl:gap-10 px-2 lg:px-0">
                     {data.filter(e => e.title).map((each, i) => {
                         return (
                             <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
