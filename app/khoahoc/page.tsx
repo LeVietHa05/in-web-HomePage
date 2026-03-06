@@ -50,10 +50,10 @@ export default function KhoaHocBoTro() {
       <div className="w-full bg-[#3253BC] py-30 -mt-20">
         <div className="max-w-[1200px] mx-auto px-2 lg:px-6 flex flex-col items-center gap-14 overflow-hidden">
 
-          <div className="flex flex-row lg:items-center lg:justify-center -ml-12 lg:ml-0 lg:px-10 -space-x-36">
-            <Image src="/mentor-1.png" alt="Mentor 1" width={386} height={517} className="object-contain w-3/5 lg:w-auto" />
-            <Image src="/mentor-2.png" alt="Mentor 2" width={386} height={517} className="object-contain w-3/5 lg:w-auto" />
-            <Image src="/mentor-3.png" alt="Mentor 3" width={386} height={517} className="object-contain w-3/5 lg:w-auto" />
+          <div className="max-w-[1024px] flex flex-row items-center justify-center  lg:ml-0 lg:px-10 -space-x-12 lg:-space-x-36">
+            <Image src="/mentor-1.png" alt="Mentor 1" width={386} height={517} className="object-contain w-1/3" />
+            <Image src="/mentor-2.png" alt="Mentor 2" width={386} height={517} className="object-contain w-1/3" />
+            <Image src="/mentor-3.png" alt="Mentor 3" width={386} height={517} className="object-contain w-1/3" />
           </div>
 
           <div className="w-full bg-[#ADDDFF] px-10 py-8 -mt-25 text-[#004DEE] text-base lg:text-[20px] font-[700] text-justify leading-normal font-['Helvetica']">

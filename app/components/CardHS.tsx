@@ -18,7 +18,7 @@ export default function CardHS({ name, imglink, school, hocbong }: { name: strin
             </div>
             {hocbong && (
                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] absolute -top-8 xl:-top-10 -right-12 lg:-right-16 xl:-right-20 w-36 lg:w-48 xl:w-70 h-15 flex xl:items-center justify-center`}>
-                    <div className="relative z-1 text-[12px] lg:text-sm xl:text-xl">
+                    <div className="relative z-1 text-[12px] lg:text-sm xl:text-xl text-center">
                         {hocbong}
                     </div>
                     <div>

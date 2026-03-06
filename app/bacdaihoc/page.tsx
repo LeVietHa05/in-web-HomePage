@@ -38,7 +38,7 @@ export default function Bacdaihoc() {
 
             <div className="-mt-4 lg:-mt-32  text-[#004DEE] relative z-1 bg-[#EAFDFF] py-2 lg:py-12 px-4 lg:px-32 rounded-[32px] lg:rounded-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left text-balance `}>
-                    Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học hiệu quả và cá nhân hoá
+                    Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học  <br/>hiệu quả và cá nhân hoá
                 </div>
                 <div className="my-4 text-sm lg:text-base">
                     Mỗi học sinh làm việc cùng Inception được hỗ trợ bởi 2 mentor:

@@ -24,7 +24,7 @@ export default function IELTSHero() {
             </p>
 
             <div className="pt-4">
-              <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform?fbclid=IwY2xjawPAgm1leHRuA2FlbQIxMABicmlkETFnYW1GY0tkalRyNjJpeUFEc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeWuwKPgq6ZEw84-RCqF2t1ZEAWdN1JMOcKiAzt6WsU9VGKbx6KQpGDClpLp0_aem_nN7Zo1VnwPX59kn2E6Tdaw" target="_blank">
+              <Link href="https://m.me/2023975994519638" target="_blank">
                 <button className="bg-[#004DEE] text-white px-8 py-3 rounded-full font-black text-[16px] sm:text-[18px] hover:scale-105 transition">
                   ĐĂNG KÝ TƯ VẤN
                 </button>
