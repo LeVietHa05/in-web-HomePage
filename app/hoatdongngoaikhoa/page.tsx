@@ -11,8 +11,8 @@ export default function HDNK() {
             </div>
             {/* loi ich khi tham gia hdnk */}
             <div className="-mt-16 text-[#004DEE] relative z-9 bg-[#ECFEB0] py-16 px-2 lg:px-64 rounded-b-[32px] lg:rounded-b-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl text-center text-[#004DEE] lg:text-[60px]`}>
-                    Lợi Ích Khi Tham Gia
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl text-center text-[#004DEE] lg:text-[60px] text-balance`}>
+                    Lợi Ích Khi Tham Gia 
                     Hoạt Động Ngoại Khóa
                 </div>
                 <div className="grid grid-cols-4 gap-2 lg:gap-8 mt-3 lg:mt-12">
@@ -118,7 +118,7 @@ export default function HDNK() {
                 <div className="max-w-5xl mx-auto mt-4 lg:mt-20">
                     <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row">
                         <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
-                            <div className={`${SVNHelveticaNeueHeavy.className} `}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-pretty`}>
                                 1. Dự án xã hội, cộng đồng, thiện nguyện
                             </div>
                             <div className="text-sm">
@@ -145,7 +145,7 @@ export default function HDNK() {
                 <div className="max-w-5xl mx-auto  mt-8">
                     <div className="flex  flex-col lg:flex-row-reverse gap-2 lg:gap-8  ">
                         <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
-                            <div className={`${SVNHelveticaNeueHeavy.className} `}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-pretty`}>
                                 2. Câu lạc bộ học thuật và kỹ năng
                             </div>
                             <div className="text-sm">
@@ -170,8 +170,8 @@ export default function HDNK() {
                 <div className="max-w-5xl mx-auto  mt-8">
                     <div className="flex  flex-col lg:flex-row gap-2 lg:gap-8  ">
                         <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
-                            <div className={`${SVNHelveticaNeueHeavy.className} `}>
-                                3. Hoạt động nghệ thuật &
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-pretty`}>
+                                3. Hoạt động nghệ thuật & 
                                 sáng tạo
                             </div>
                             <div className="text-sm">
@@ -197,7 +197,7 @@ export default function HDNK() {
                 <div className="max-w-5xl mx-auto ">
                     <div className="text-[#0F58EA] mb-4 lg:mb-12 px-3 lg:px-0">
                         <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[32px] mb-4 text-pretty`}>
-                            Cách Inception hỗ trợ học sinh triển khai
+                            Cách Inception hỗ trợ học sinh triển khai <br/>
                             hoạt động ngoại khoá
                         </div>
                         <div className="text-base lg:text-xl">

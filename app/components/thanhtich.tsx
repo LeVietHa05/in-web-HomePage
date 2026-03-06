@@ -14,8 +14,8 @@ interface ThanhtichProps {
 
 const ITEMS_PER_PAGE = 8
 
-export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
-    const [itemsPerPage, setItemsPerPage] = useState(10)
+export default function Thanhtich({ data, initItemperpage }: { data: ThanhtichProps[], initItemperpage: number }) {
+    const [itemsPerPage, setItemsPerPage] = useState(initItemperpage)
     const [currentPage, setCurrentPage] = useState(0)
 
 
@@ -26,7 +26,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
         const update = () => {
             if (mobile.matches) setItemsPerPage(4)
             else if (tablet.matches) setItemsPerPage(6)
-            else setItemsPerPage(10)
+            else setItemsPerPage(itemsPerPage)
             setCurrentPage(0)
         }
 
@@ -38,7 +38,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
             mobile.removeEventListener("change", update)
             tablet.removeEventListener("change", update)
         }
-    }, [])
+    }, [itemsPerPage])
 
     const totalPages = Math.ceil(data.length / itemsPerPage)
 
@@ -73,7 +73,7 @@ export default function Thanhtich({ data }: { data: ThanhtichProps[] }) {
                 >
                     {Array.from({ length: totalPages }, (_, pageIndex) => (
                         <div key={pageIndex} className="w-full flex-shrink-0">
-                            <div className="grid grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-6 px-8">
+                            <div className={`${itemsPerPage == 10? "lg:grid-cols-5" : "lg:grid-cols-4"} grid grid-cols-2 gap-2 lg:gap-6 px-8`}>
                                 {data.slice(pageIndex * itemsPerPage, (pageIndex + 1) * itemsPerPage).map((item, index) => (
                                     <div key={index} className="flex flex-col items-center text-center">
                                         <div className="relative w-32 h-32 mb-4 flex items-center justify-center overflow-hidden">

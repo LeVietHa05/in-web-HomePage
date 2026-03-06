@@ -64,7 +64,7 @@ export default function IELTSHero() {
         </div>
       </div>
 
-      <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-[36px] sm:text-[48px] lg:text-[60px]`}>
+      <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-[36px] sm:text-[48px] lg:text-[60px] text-center`}>
         Nội dung Khóa học
       </div>
 

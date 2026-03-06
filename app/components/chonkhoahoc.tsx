@@ -25,7 +25,7 @@ export default function CoursesSlider() {
   return (
     <div className="bg-[#ECFEB0] rounded-[32px] md:rounded-[40px] py-8 lg:py-16 md:py-28 -mt-20 overflow-hidden">
       {/* TITLE */}
-      <h2 className={`${SVNHelveticaNeueHeavy.className} whitespace-pre-line text-[#3253BC] text-center text-xl lg:text-[32px] md:text-[60px] font-black mb-4 md:mb-16`}>
+      <h2 className={`${SVNHelveticaNeueHeavy.className} whitespace-pre-line text-[#3253BC] text-center text-xl lg:text-[60px] md:text-[32px] font-black mb-4 md:mb-16`}>
         {data.sectionTitle}
       </h2>
 
@@ -35,31 +35,34 @@ export default function CoursesSlider() {
         <div className={` w-full max-w-[1100px]   overflow-hidden`}>
           <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${index * 100}%)` }}>
             {data.slides.map((slide, i) => (
-              <div key={i} className="bg-[#FFF175] min-w-full min-h-[520px] md:h-[460px] rounded-[32px] md:rounded-[40px] p-3 lg:p-6 md:p-10 flex flex-col lg:flex-row items-center">
+              <div key={i} className="bg-[#FFF175] min-w-full min-h-[520px] md:h-[460px] rounded-[32px] md:rounded-[40px] p-3 lg:p-6 md:p-10 flex flex-col lg:flex-row items-start">
                 {/* IMAGE */}
-                <div className="w-full md:w-3/5 h-[220px] sm:h-[280px] md:h-[360px] relative">
+                <div className="w-full md:w-3/5 h-[220px] sm:h-[280px] md:h-[360px] relative ">
                   <Image
                     src={slide.image}
                     alt={slide.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 60vw"
-                    className="rounded-[24px] object-cover"
+                    className="rounded-[24px] object-cover mt-4 lg:mt-[30px] "
                   />
                 </div>
                 {/* CONTENT */}
                 <div className="flex justify-between flex-col p-4 lg:p-[30px] lg:h-full w-full md:w-2/5 text-center md:text-right">
-                  <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] text-[22px] md:text-[28px] font-black mb-4`}>
-                    {slide.title}
-                  </h3>
+                  <div>
 
-                  <div className="space-y-3 mb-6">
-                    {slide.desc.map((t: string, i: number) => (
-                      <p key={i} className="text-[#3253BC] text-[16px] md:text-[20px]">
-                        {t}
-                      </p>
-                    ))}
+                    <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#3253BC] text-[22px] md:text-[28px] font-black mb-4`}>
+                      {slide.title}
+                    </h3>
+
+                    <div className=" mb-6">
+                      {slide.desc.map((t: string, i: number) => (
+                        <div key={i} className="text-[#3253BC] text-[16px] md:text-[20px]">
+                          {t}
+                        </div>
+                      ))}
+                    </div>
+
                   </div>
-
                   <Link href={`/khoahoc/${slide.id}`}>
                     <button className="bg-[#004DEE] text-[#FEFFB7] px-6 py-3 rounded-full text-[16px] md:text-[18px] font-bold hover:scale-105 transition">
                       {slide.button}

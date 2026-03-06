@@ -85,7 +85,7 @@ export default function Home() {
       </div>
 
       {/* thanh tich  */}
-      <Thanhtich data={thanhtichData} />
+      <Thanhtich data={thanhtichData} initItemperpage={8}/>
 
       {/* Thanh tich hoc sinh */}
       <ThanhtichHS />

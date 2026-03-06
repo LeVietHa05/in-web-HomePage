@@ -77,8 +77,7 @@ export default function Thuvien({ className = '' }: Props) {
                                         <Image src={each.imgLink} alt="" width={326} height={204}></Image>
                                     </div>
                                     <div className=" max-h-24 overflow-y-scroll lg:max-h-max lg:overflow-y-auto">
-                                        <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px]`}>
-                                            {each.title}
+                                        <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px]`} dangerouslySetInnerHTML={{ __html: each.title }}>
                                         </div>
                                         <div className="text-justify text-[10px] lg:text-sm ">
                                             {each.content}

@@ -54,17 +54,17 @@ const data = [
     }, {
         link: "/hoatdongngoaikhoa",
         img: "/home-dichvu4.png",
-        title: "Hoạt Động Ngoại Khóa",
+        title: "Hoạt Động <br> Ngoại Khóa",
         content: "Tại Inception, các chương trình hoạt động ngoại khoá được thiết kế và triển khai đa dạng, có hệ thống, lấy trải nghiệm của học sinh làm trung tâm."
     }, {
         link: "/khoahoc",
         img: "/home-dichvu5.png",
-        title: "Khóa Học Bổ Trợ",
+        title: "Khóa Học<br> Bổ Trợ",
         content: "Các khoá học bổ trợ được thiết kế nhằm cung cấp nền tảng giáo dục khai phóng, trau dồi các kỹ năng học thuật và hoàn thiện hồ sơ du học."
     }, {
         link: "/hoatdongchuyennganh",
         img: "/home-dichvu-6.png",
-        title: "Hoạt Động Chuyên Ngành",
+        title: "Hoạt Động <br>Chuyên Ngành",
         content: "Hoạt động chuyên ngành tại Inception là một phần trong lộ trình chuẩn bị hồ sơ du học, hướng đến việc xây dựng nền tảng kiến thức chuyên ngành, tư duy nghiên cứu, và thành tích thi đấu học thuật."
     },
 ]
@@ -76,11 +76,11 @@ export default function Baccaohoc() {
                 <Image src={'/baccaohoc/1.png'} alt="" fill></Image>
             </div>
 
-            <Thanhtich data={thanhtichData} />
+            <Thanhtich data={thanhtichData} initItemperpage={10}/>
 
             <div className="-mt-32 text-[#ECFEB0] relative z-1 bg-[#004DEE] py-12 px-4 lg:px-32 pt-44 rounded-[32px] lg:rounded-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl `}>
-                    Inception mang giải pháp học thuật toàn diện cho hành trình chinh phục học bổng cao học tại các trường đại học hàng đầu thế giới.
+                    Inception mang giải pháp học thuật toàn diện cho hành trình <br/> chinh phục học bổng cao học tại các trường đại học <br/> hàng đầu thế giới.
                 </div>
                 <div className="my-4 text-sm lg:text-base">
                     <ul className="list-disc ml-4 space-y-4 mt-4">
@@ -173,7 +173,7 @@ export default function Baccaohoc() {
                         return (
                             <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">
                                 <Image src={each.img} alt="" width={326} height={204}></Image>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`}>{each.title}</div>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px] text-[#004DEE] font-black  pt-1 lg:pt-8`} dangerouslySetInnerHTML={{ __html: each.title }}></div>
                                 <div className="text-[10px] lg:text-[14px] text-[#004DEE] pt-1 lg:pt-4 max-h-24 overflow-y-auto lg:max-h-none">{each.content}</div>
                             </a>
                         )

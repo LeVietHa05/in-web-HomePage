@@ -18,7 +18,7 @@ export default function HDCN() {
                     Hoạt động chuyên ngành tại Inception là một phần trong lộ trình chuẩn bị hồ sơ du học, hướng đến việc xây dựng nền tảng học thuật, tư duy nghiên cứu và thành tích cá nhân cho học sinh. Inception triển khai các hoạt động nghiên cứu khoa học, phát triển sản phẩm cá nhân, và hỗ trợ học sinh tham gia các cuộc thi trong nước và quốc tế.
                 </div>
                 <div className="bg-[#ECFEB0] p-2 lg:p-8  text-base lg:text-[20px] rounded-[16px] lg:rounded-[30px]">
-                    <div className="font-bold ">
+                    <div className="font-bold text-pretty">
                         Mỗi năm, Inception đồng hành cùng hơn 100 học sinh từ khắp các tỉnh thành trong cả nước:
                     </div>
                     <ul className="list-disc ml-12 text-sm lg:text-base">
@@ -54,19 +54,19 @@ export default function HDCN() {
                     TẠI INCEPTION
                 </div>
                 <div>
-                    <div className={`max-w-[1080px] mx-auto bg-[#EAFDFF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
-                        <div className="flex-6">
-                            <div className="flex  items-center gap-4 lg:gap-12">
-                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
-                                    1
-                                </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
-                                    <div>
-                                        Nghiên Cứu Khoa Học
-                                    </div>
+                    <div className={`max-w-[1080px] mx-auto bg-[#EAFDFF] rounded-[30px] p-4 pb-8 `}>
+                        <div className="flex  items-center gap-4 lg:gap-12">
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                1
+                            </div>
+                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[32px]`}>
+                                <div>
+                                    Nghiên Cứu Khoa Học
                                 </div>
                             </div>
-                            <div className="px-3 lg:px-12 text-base lg:text-xl ">
+                        </div>
+                        <div className=" flex flex-col lg:flex-row gap-2">
+                            <div className="flex-6 px-3 lg:px-12 text-base lg:text-xl ">
                                 <p className="font-bold">
                                     Inception đồng hành từ giai đoạn hình thành ý tưởng
                                     đến công bố nghiên cứu:
@@ -79,24 +79,25 @@ export default function HDCN() {
                                     <li>Hỗ trợ đăng bài tại các tạp chí quốc tế và hội thảo khoa học uy tín</li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="flex-4 flex items-center justify-center">
-                            <Image src={'/hdcn/2.png'} alt="" width={355} height={253}></Image>
+                            <div className="flex-4 flex items-center justify-center">
+                                <Image src={'/hdcn/2.png'} alt="" width={355} height={253}></Image>
+                            </div>
                         </div>
                     </div>
-                    <div className={`max-w-[1080px] mx-auto bg-[#D5F2FF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
-                        <div className="flex-6">
-                            <div className="flex  items-center gap-4 lg:gap-12">
-                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
-                                    2
-                                </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
-                                    <div>
-                                        Cuộc Thi Khoa Học Kỹ Thuật
-                                    </div>
+                    <div className={`max-w-[1080px] mx-auto bg-[#D5F2FF] rounded-[30px] p-4 pb-8`}>
+
+                        <div className="flex  items-center gap-4 lg:gap-12">
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                2
+                            </div>
+                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[32px]`}>
+                                <div>
+                                    Cuộc Thi Khoa Học Kỹ Thuật
                                 </div>
                             </div>
-                            <div className="px-3 lg:px-12 text-base lg:text-xl ">
+                        </div>
+                        <div className=" flex flex-col lg:flex-row gap-2">
+                            <div className="flex-6 px-3 lg:px-12 text-base lg:text-xl ">
                                 <p className="font-bold">
                                     Học sinh được ghép nhóm và cố vấn toàn diện để tham gia các cuộc thi khoa học kỹ thuật:
                                 </p>
@@ -107,24 +108,25 @@ export default function HDCN() {
                                     <li>Phát triển kỹ năng mềm: làm việc nhóm, giao tiếp, tư duy phản biện, etc.</li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="flex-4 flex items-center justify-center">
-                            <Image src={'/hdcn/3.png'} alt="" width={355} height={253}></Image>
+                            <div className="flex-4 flex items-center justify-center">
+                                <Image src={'/hdcn/3.png'} alt="" width={355} height={253}></Image>
+                            </div>
                         </div>
                     </div>
-                    <div className={`max-w-[1080px] mx-auto bg-[#BDE8FF] rounded-[30px] p-4 pb-8 flex flex-col lg:flex-row gap-2`}>
-                        <div className="flex-6">
-                            <div className="flex  items-center gap-4 lg:gap-12">
-                               <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
-                                    3
-                                </div>
-                                <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[40px]`}>
-                                    <div>
-                                        Dự Án Cá Nhân Chuyên Ngành
-                                    </div>
+                    <div className={`max-w-[1080px] mx-auto bg-[#BDE8FF] rounded-[30px] p-4 pb-8`}>
+
+                        <div className="flex  items-center gap-4 lg:gap-12">
+                            <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
+                                3
+                            </div>
+                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[32px]`}>
+                                <div>
+                                    Dự Án Cá Nhân Chuyên Ngành
                                 </div>
                             </div>
-                            <div className="px-3 lg:px-12 text-base lg:text-xl ">
+                        </div>
+                        <div className="flex flex-col lg:flex-row gap-2">
+                            <div className="flex-6 px-3 lg:px-12 text-base lg:text-xl ">
                                 <p className="font-bold">
                                     Inception đồng hành từ giai đoạn hình thành ý tưởng
                                     đến công bố nghiên cứu:
@@ -137,9 +139,10 @@ export default function HDCN() {
                                     <li>Hỗ trợ đăng bài tại các tạp chí quốc tế và hội thảo khoa học uy tín</li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="flex-4 flex items-center justify-center">
-                            <Image src={'/hdcn/4.png'} alt="" width={355} height={253}></Image>
+
+                            <div className="flex-4 flex items-center justify-center">
+                                <Image src={'/hdcn/4.png'} alt="" width={355} height={253}></Image>
+                            </div>
                         </div>
                     </div>
                 </div>
