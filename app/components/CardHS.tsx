@@ -9,7 +9,7 @@ export default function CardHS({ name, imglink, school, hocbong }: { name: strin
                 <div className="size-24 xl:size-40">
                     <Image src={imglink} width={150} height={150} alt=""></Image>
                 </div>
-                <div className={`${SVNHelveticaNeueHeavy.className} text-sm lg:text-base xl:text-xl`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-[Helvetica] text-sm lg:text-base xl:text-xl`}>
                     {name}
                 </div>
                 <div className="font-[Helvetica] text-[10px] text-sm">
@@ -18,7 +18,7 @@ export default function CardHS({ name, imglink, school, hocbong }: { name: strin
             </div>
             {hocbong && (
                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] absolute -top-8 xl:-top-10 -right-12 lg:-right-16 xl:-right-20 w-36 lg:w-48 xl:w-70 h-15 flex xl:items-center justify-center`}>
-                    <div className="relative z-1 text-[12px] lg:text-sm xl:text-xl text-center">
+                    <div className="relative z-1 text-[10px] lg:text-sm xl:text-xl text-center">
                         {hocbong}
                     </div>
                     <div>

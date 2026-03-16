@@ -45,7 +45,7 @@ export default function Dichvucuachungtoi() {
                 CỦA CHÚNG TÔI
             </div>
 
-            <div className="lg:w-[1024px] w-full mx-4 lg:mx-auto mt-8 lg:mt-20 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-10 px-2 lg:px-0">
+            <div className="lg:w-[1024px] w-full lg:mx-auto mt-8 lg:mt-20 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-10 px-2 lg:px-0">
                 {data.filter(e => e.title).map((each, i) => {
                     return (
                         <a key={i} href={each.link} className="*:hover:scale-105 *:duration-300">

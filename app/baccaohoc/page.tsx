@@ -76,11 +76,11 @@ export default function Baccaohoc() {
                 <Image src={'/baccaohoc/1.png'} alt="" fill></Image>
             </div>
 
-            <Thanhtich data={thanhtichData} initItemperpage={10}/>
+            <Thanhtich data={thanhtichData} initItemperpage={10} />
 
             <div className="-mt-32 text-[#ECFEB0] relative z-1 bg-[#004DEE] py-12 px-4 lg:px-32 pt-44 rounded-[32px] lg:rounded-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl `}>
-                    Inception mang giải pháp học thuật toàn diện cho hành trình <br/> chinh phục học bổng cao học tại các trường đại học <br/> hàng đầu thế giới.
+                    Inception mang giải pháp học thuật toàn diện cho hành trình <br /> chinh phục học bổng cao học tại các trường đại học <br /> hàng đầu thế giới.
                 </div>
                 <div className="my-4 text-sm lg:text-base">
                     <ul className="list-disc ml-4 space-y-4 mt-4">
@@ -100,12 +100,12 @@ export default function Baccaohoc() {
                     LỘ TRÌNH APPLY
                 </div>
 
-                <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] lg:text-xl">
-                    <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 pb-20`}>
+                <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] text-sm lg:text-xl">
+                    <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-2 lg:p-4 pb-20`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2   aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             1
                         </div>
-                        <div className="py-8">
+                        <div className="py-4 lg:py-8">
                             <div>
                                 Định hướng quốc gia, bậc học, ngành học, mức học bổng cho các ngành
                             </div>
@@ -119,7 +119,7 @@ export default function Baccaohoc() {
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
-                        <div className="py-8">
+                        <div className="py-4 lg:py-8">
                             <div>
                                 Lên danh sách các trường
                             </div>
@@ -132,7 +132,7 @@ export default function Baccaohoc() {
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
-                        <div className="py-8">
+                        <div className="py-4 lg:py-8">
                             <div>
                                 Hoàn thiện hồ sơ, CV
                             </div>
@@ -145,7 +145,7 @@ export default function Baccaohoc() {
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
-                        <div className="py-8">
+                        <div className="py-4 lg:py-8">
                             <div>
                                 Hướng dẫn liên lạc, trao đổi với các thầy viết thư giới thiệu, các chuyên gia
                                 tăng cơ hội xin học bổng
@@ -183,7 +183,9 @@ export default function Baccaohoc() {
 
 
             {/* Dang ky tu van */}
-            <Dangkytuvan />
+            <div className="-mt-12">
+                <Dangkytuvan />
+            </div>
         </div>
     )
 }

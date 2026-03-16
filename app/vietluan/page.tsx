@@ -18,17 +18,17 @@ export default function Vietluan() {
                 <div className="relative top-1/2 left-1/2 -translate-1/2 flex flex-col lg:flex-row w-fit ">
                     <div className="flex flex-col lg:justify-evenly justify-around px-2 lg:pl-20">
                         <div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
-                                CHINH PHỤC HỌC BỔNG DU HỌC <br />
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
+                                CHINH PHỤC HỌC BỔNG DU HỌC <br className="hidden lg:block"/>
                                 VỚI BÀI LUẬN CÁ NHÂN HOÁ
                             </div>
-                            <div className="text-[#EAFDFF] text-xl lg:text-[28px]">
+                            <div className="text-[#EAFDFF] text-lg lg:text-[28px]">
                                 Inception đồng hành cùng bạn viết nên <br />
                                 hành trình học bổng riêng biệt!
                             </div>
                         </div>
                         <div className="mt-4">
-                            <Link target="blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform?fbclid=IwY2xjawPAgm1leHRuA2FlbQIxMABicmlkETFnYW1GY0tkalRyNjJpeUFEc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeWuwKPgq6ZEw84-RCqF2t1ZEAWdN1JMOcKiAzt6WsU9VGKbx6KQpGDClpLp0_aem_nN7Zo1VnwPX59kn2E6Tdaw'} className={`${SVNHelveticaNeueHeavy.className} text-[23px] text-[#FDFFD6] bg-[#407EFF] rounded-full p-2 px-8 w-fit cursor-pointer `}>
+                            <Link target="blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform?fbclid=IwY2xjawPAgm1leHRuA2FlbQIxMABicmlkETFnYW1GY0tkalRyNjJpeUFEc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeWuwKPgq6ZEw84-RCqF2t1ZEAWdN1JMOcKiAzt6WsU9VGKbx6KQpGDClpLp0_aem_nN7Zo1VnwPX59kn2E6Tdaw'} className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[23px] text-[#FDFFD6] bg-[#407EFF] rounded-full p-2 px-8 w-fit cursor-pointer `}>
                                 TƯ VẤN VIẾT LUẬN
                             </Link>
                         </div>
@@ -120,8 +120,8 @@ export default function Vietluan() {
             </div>
 
             {/* goi dich vu ho tr viet luan */}
-            <div className="bg-[#FDFFD6] min-h-[1300px] lg:min-h-[1450px] -mt-24 pt-50 relative z-1 rounded-[30px] lg:rounded-[60px] text-[#004DEE]">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] font-black text-center mb-8`}>
+            <div className="bg-[#FDFFD6] pb-24 lg:pb-32 -mt-24 pt-50 relative z-1 rounded-[30px] lg:rounded-[60px] text-[#004DEE]">
+                <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[60px] font-black text-center mb-8`}>
                     Gói Dịch Vụ Hỗ Trợ Viết Luận <br />
                     (Essay Packages)
                 </div>
@@ -131,14 +131,14 @@ export default function Vietluan() {
                             <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-base lg:text-[40px]`}>
                                 <div>
                                     Bài Luận Lẻ
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <ul className="list-disc ml-4 lg:ml-24 text-sm lg:text-xl font-bold pr-4 lg:pr-12">
+                            <ul className="list-disc ml-4 lg:ml-24 text-xs lg:text-xl font-bold pr-4 lg:pr-12">
                                 <li>Phù hợp với học sinh cần hỗ trợ từng bài luận cụ thể.</li>
                                 <li>Làm việc theo quy trình 4-5 buổi/bài luận, bao gồm khai thác ý tưởng, xây dựng bố cục, hướng dẫn viết bản nháp, chỉnh sửa nội dung và diễn đạt đến khi hoàn thiện.</li>
                                 <li>Áp dụng cho bài luận ở tất cả các quốc gia trên thế giới.</li>
@@ -150,14 +150,14 @@ export default function Vietluan() {
                             <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 2
                             </div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-base lg:text-[40px]`}>
                                 <div>
                                     Personal Statement
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <ul className="list-disc ml-4 lg:ml-24 text-sm lg:text-xl font-bold pr-4 lg:pr-12">
+                            <ul className="list-disc ml-4 lg:ml-24 text-xs lg:text-xl font-bold pr-4 lg:pr-12">
                                 <li>Phù hợp với học sinh cần hướng dẫn viết bài luận chính app Mỹ (Personal Statement).</li>
                                 <li>Không giới hạn thời gian và số buổi làm việc.</li>
                                 <li>Quy trình làm việc được cá nhân hóa theo năng lực và lộ trình của học sinh.</li>
@@ -170,14 +170,14 @@ export default function Vietluan() {
                             <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 3
                             </div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-xl lg:text-[40px]`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} flex py-2 lg:py-8 text-base lg:text-[40px]`}>
                                 <div>
                                     Combo Luận
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <ul className="list-disc ml-4 lg:ml-24 text-sm lg:text-xl font-bold pr-4 lg:pr-12">
+                            <ul className="list-disc ml-4 lg:ml-24 text-xs lg:text-xl font-bold pr-4 lg:pr-12">
                                 <li>Phù hợp với học sinh cần hoàn thiện nhiều bài luận.</li>
                                 <li>Hướng dẫn trọn gói theo danh sách trường muốn apply: gồm bài luận chính (Personal Statement), các bài luận phụ (không giới hạn số lượng), và thư giới thiệu.</li>
                                 <li>Có thể tùy chọn mở rộng để thêm các trường top-ranking (Top 10-20 NU,...)</li>
@@ -203,7 +203,9 @@ export default function Vietluan() {
             <Camnhanhs />
 
             {/* Dang ky tu van */}
-            <Dangkytuvan />
+            <div className="-mt-12">
+                <Dangkytuvan />
+            </div>
         </div >
     )
 }

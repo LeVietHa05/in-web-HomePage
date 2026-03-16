@@ -38,7 +38,7 @@ export default function Bacdaihoc() {
 
             <div className="-mt-4 lg:-mt-32  text-[#004DEE] relative z-1 bg-[#EAFDFF] py-2 lg:py-12 px-4 lg:px-32 rounded-[32px] lg:rounded-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-base lg:text-2xl text-left text-balance `}>
-                    Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học  <br/>hiệu quả và cá nhân hoá
+                    Inception đồng hành cùng học sinh chuẩn bị hồ sơ học bổng du học  <br />hiệu quả và cá nhân hoá
                 </div>
                 <div className="my-4 text-sm lg:text-base">
                     Mỗi học sinh làm việc cùng Inception được hỗ trợ bởi 2 mentor:
@@ -152,7 +152,7 @@ export default function Bacdaihoc() {
                                     </div>
                                 </div>
 
-                                <div className="text-sm lg:text-xl grid grid-cols-3 mt-4 text-[#004DEE]">
+                                <div className="text-sm lg:text-xl grid grid-cols-3 gap-2 mt-4 text-[#004DEE]">
                                     <div>
                                         <b>Tháng 11:</b>
                                         <ul className="list-disc ml-3 lg:ml-8">
@@ -202,7 +202,7 @@ export default function Bacdaihoc() {
                                         </div>
                                     </div>
 
-                                    <div className="text-sm lg:text-xl grid grid-cols-3 mt-4 text-[#407EFF]">
+                                    <div className="text-sm lg:text-xl grid grid-cols-3 gap-2 mt-4 text-[#407EFF]">
                                         <div>
                                             <b>Tháng 05:</b>
                                             <ul className="list-disc ml-3 lg:ml-8">
@@ -245,7 +245,7 @@ export default function Bacdaihoc() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full lg:w-4/5 mx-auto text-[#004DEE] text-base lg:text-[20px] pb-8 lg:pb-20 px-2 lg:px-0">
-                    
+
 
                     <div className="h-full">
                         <div className=" bg-[#F9FFE6] rounded-[30px] p-4 pb-8 h-full">
@@ -275,7 +275,7 @@ export default function Bacdaihoc() {
                         </div>
 
                     </div>
-                    
+
                     <div className={`border-b-6 text-[#004DEE] ${SVNHelveticaNeueHeavy.className} hidden lg:block font-black lg:text-[40px] text-center pb-3 w-fit px-4 mx-auto`}>
                         STANDARD
                     </div>
@@ -286,7 +286,7 @@ export default function Bacdaihoc() {
             </div>
 
             {/* chinh phuc voi */}
-            <div className="bg-[#fdffd6] min-h-[900px] w-full   relative z-0 overflow-hidden -mt-24 pt-40 mb-16 lg:mb-0">
+            <div className="bg-[#fdffd6] pb-12 lg:pb-28 w-full   relative z-0 overflow-hidden -mt-24 pt-40 mb-16 lg:mb-0">
 
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-2xl lg:text-[60px] text-center text-[#001E7F]`}>
                     CHINH PHỤC HỌC BỔNG VỚI
@@ -310,7 +310,9 @@ export default function Bacdaihoc() {
 
 
             {/* Dang ky tu van */}
-            <Dangkytuvan />
+            <div className="mt-12 ">
+                <Dangkytuvan />
+            </div>
         </div>
     )
 }
