@@ -12,7 +12,7 @@ export default function HDNK() {
             {/* loi ich khi tham gia hdnk */}
             <div className="-mt-16 text-[#004DEE] relative z-9 bg-[#ECFEB0] py-16 px-2 lg:px-64 rounded-b-[32px] lg:rounded-b-[60px]">
                 <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl text-center text-[#004DEE] lg:text-[60px] text-balance`}>
-                    Lợi Ích Khi Tham Gia 
+                    Lợi Ích Khi Tham Gia
                     Hoạt Động Ngoại Khóa
                 </div>
                 <div className="grid grid-cols-4 gap-2 lg:gap-8 mt-3 lg:mt-12">
@@ -171,7 +171,7 @@ export default function HDNK() {
                     <div className="flex  flex-col lg:flex-row gap-2 lg:gap-8  ">
                         <div className="flex-4 bg-[#EAFDFF] rounded-[16px] lg:rounded-[30px] p-2 lg:p-8 mx-4 lg:mx-0">
                             <div className={`${SVNHelveticaNeueHeavy.className} text-pretty`}>
-                                3. Hoạt động nghệ thuật & 
+                                3. Hoạt động nghệ thuật &
                                 sáng tạo
                             </div>
                             <div className="text-sm">
@@ -197,7 +197,7 @@ export default function HDNK() {
                 <div className="max-w-5xl mx-auto ">
                     <div className="text-[#0F58EA] mb-4 lg:mb-12 px-3 lg:px-0">
                         <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[32px] mb-4 text-pretty`}>
-                            Cách Inception hỗ trợ học sinh triển khai <br/>
+                            Cách Inception hỗ trợ học sinh triển khai <br />
                             hoạt động ngoại khoá
                         </div>
                         <div className="text-base lg:text-xl">
@@ -247,7 +247,9 @@ export default function HDNK() {
             {/* thu vien hoat dong ngoai khoa */}
             <Thuvien />
 
-            <Dangkytuvan />
+            <div className="-mt-18">
+                <Dangkytuvan />
+            </div>
         </div>
     )
 }

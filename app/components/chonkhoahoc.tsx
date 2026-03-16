@@ -56,7 +56,7 @@ export default function CoursesSlider() {
 
                     <div className=" mb-6">
                       {slide.desc.map((t: string, i: number) => (
-                        <div key={i} className="text-[#3253BC] text-[16px] md:text-[20px]">
+                        <div key={i} className="text-[#3253BC] text-sm md:text-[20px]">
                           {t}
                         </div>
                       ))}
@@ -64,7 +64,7 @@ export default function CoursesSlider() {
 
                   </div>
                   <Link href={`/khoahoc/${slide.id}`}>
-                    <button className="bg-[#004DEE] text-[#FEFFB7] px-6 py-3 rounded-full text-[16px] md:text-[18px] font-bold hover:scale-105 transition">
+                    <button className="bg-[#004DEE] text-[#FEFFB7] px-6 py-3 rounded-full text-sm md:text-[18px] font-bold hover:scale-105 transition">
                       {slide.button}
                     </button>
                   </Link>

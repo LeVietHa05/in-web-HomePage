@@ -4,12 +4,12 @@ import Link from "next/link"
 
 export default function Dangkytuvan() {
     return (
-        <div className="bg-[#407EFF] w-full rounded-[32px] lg:rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-12 border-12 lg:border-24 border-[#004DEE]">
+        <div className="bg-[#407EFF] w-full rounded-[32px] lg:rounded-[60px]  relative z-2  overflow-x-hidden overflow-y-hidden -mt-6 lg:-mt-12 border-12 lg:border-24 border-[#004DEE]">
 
             <div className="flex items-center">
                 <div className="bg-[#ADDDFF] w-1/2 lg:w-fit lg:p-12 rounded-[36px] relative">
                     <Image className="relative z-100 " src={'/dangky-plane.png'} alt="" width={500} height={440}></Image>
-                    <div className="absolute left-0 z-1 top-0 h-full w-full  rounded-[36px] bg-[#ADDDFF]">
+                    <div className="absolute left-0 z-1 top-0 h-full w-full rounded-r-[32px] lg:rounded-[36px] bg-[#ADDDFF]">
 
                     </div>
                     <div className="absolute -right-2 lg:-right-5 z-0 top-0 h-full w-full  rounded-[36px] border-y-8 lg:border-y-24 border-r-11 lg:border-r-32 border-[#004DEE]"></div>

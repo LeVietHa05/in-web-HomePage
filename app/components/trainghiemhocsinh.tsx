@@ -51,7 +51,7 @@ export default function TestimonialsComposite({ course }: Props) {
 
   return (
     <div className="bg-[#EAFDFF] rounded-[40px] overflow-hidden -mt-12 lg:-mt-20 mb-5 min-h-[1150px] py-8 lg:py-20 md:py-24 flex flex-col justify-start">
-      <h2 className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-[40px] md:text-[72px] font-black text-center  mb-4 lg:mb-10 md:mb-24`}>
+      <h2 className={`${SVNHelveticaNeueHeavy.className} text-[#FFCB1F] text-2xl lg:text-[40px] xl:text-[72px] font-black text-center  mb-4 lg:mb-10 md:mb-24`}>
         {data.sectionTitle}
       </h2>
 
@@ -69,17 +69,17 @@ export default function TestimonialsComposite({ course }: Props) {
           )}
 
           <div className={`flex-1 transition-all duration-500 ease-in-out ${fade ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"}`}>
-            <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-[32px] md:text-[50px] font-black`}>
+            <h3 className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE]  md:text-[32px] lg:text-[50px] font-black`}>
               {slide.name}
             </h3>
 
-            <p className="mt-2 text-[#001E7F] text-[16px] md:text-[18px] font-bold">
+            <p className="mt-2 text-[#001E7F] text-xs md:text-base lg:text-[18px] font-bold">
               {slide.class}
             </p>
 
             <div className="mt-4 md:mt-6 space-y-3 md:space-y-4">
               {slide.content.map((p, i) => (
-                <p key={i} className="text-[#001E7F] text-[15px] md:text-[18px] text-justify">
+                <p key={i} className="text-[#001E7F] text-xs md:text-[18px] text-justify">
                   {p.text}
                 </p>
               ))}

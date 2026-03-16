@@ -79,13 +79,13 @@ export default function Home() {
       </div>
 
       <div className="bg-[#ADDDFF] rounded-[32px] lg:rounded-[60px] w-full flex justify-center gap-3 lg:gap-10 items-start lg:p-12 p-4 lg:px-20 font-[Helvetica] font-bold lg:text-xl xl:text-2xl text-base text-center lg:h-64 -mt-24 z-2 relative">
-        <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN ĐẠI HỌC</div>
+        <div className="bg-[#407EFF] h-full text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN ĐẠI HỌC</div>
         <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN CAO HỌC</div>
         <div className="bg-[#407EFF] text-[#FDFFD6] rounded-[16px] lg:rounded-full p-4 lg:px-8 lg:py-4"> TƯ VẤN NGOẠI KHOÁ</div>
       </div>
 
       {/* thanh tich  */}
-      <Thanhtich data={thanhtichData} initItemperpage={8}/>
+      <Thanhtich data={thanhtichData} initItemperpage={8} />
 
       {/* Thanh tich hoc sinh */}
       <ThanhtichHS />
@@ -100,7 +100,9 @@ export default function Home() {
       <Doingumentor imglink="/mentor-2.png" color1="#ADDDFF" color2="#001E7F" />
 
       {/* Trai nghiem hoc sinh */}
-      <TrainghiemHs type="hocsinh" />
+      <div className="mt-12">
+        <TrainghiemHs type="hocsinh" />
+      </div>
 
       <div className="my-12">
 

@@ -22,9 +22,9 @@ export default function Thuvien({ className = '' }: Props) {
     }
 
     return (
-        <div className={`${className} bg-[#0F58EA] -mt-16 mb-24  lg:min-h-[1000px] pt-4 lg:pt-12 rounded-[30px] lg:rounded-[60px]`}>
+        <div className={`${className} bg-[#0F58EA] -mt-8 lg:-mt-16 mb-24  lg:min-h-[1000px] pt-4 lg:pt-12 rounded-[30px] lg:rounded-[60px]`}>
             <div className="max-w-6xl mx-auto  lg:mt-8">
-                <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-[60px] text-[#FFCB1F] text-center`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} text-xl lg:text-[60px] text-[#FFCB1F] text-center`}>
                     Thư Viện Hoạt Động Ngoại Khóa
                 </div>
                 <div className="overflow-hidden mt-4 lg:mt-12 ">
@@ -37,7 +37,7 @@ export default function Thuvien({ className = '' }: Props) {
                                 <div className="flex justify-center">
                                     {data.bigImgList.slice(pageIndex * ITEMS_PER_PAGE, (pageIndex + 1) * ITEMS_PER_PAGE).map((item, index) => (
                                         <div key={index} className="flex flex-col items-center text-center ">
-                                            <div className="relative w-screen lg:w-[1024px] min-h-64 lg:h-[560px] mb-4 flex items-center justify-center overflow-hidden">
+                                            <div className="relative w-screen lg:w-[1024px] min-h-48 lg:h-[560px] mb-4 flex items-center justify-center overflow-hidden">
                                                 <Image
                                                     src={item}
                                                     alt={""}
@@ -55,7 +55,7 @@ export default function Thuvien({ className = '' }: Props) {
                         ))}
                     </div>
                     {/* Pagination Dots */}
-                    <div className="flex justify-center my-8 space-x-2">
+                    <div className="flex justify-center mb-3 lg:my-8 space-x-2">
                         {Array.from({ length: totalPages }, (_, index) => (
                             <button
                                 key={index}
@@ -77,7 +77,7 @@ export default function Thuvien({ className = '' }: Props) {
                                         <Image src={each.imgLink} alt="" width={326} height={204}></Image>
                                     </div>
                                     <div className=" max-h-24 overflow-y-scroll lg:max-h-max lg:overflow-y-auto">
-                                        <div className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[28px]`} dangerouslySetInnerHTML={{ __html: each.title }}>
+                                        <div className={`${SVNHelveticaNeueHeavy.className} text-sm lg:text-[28px]`} dangerouslySetInnerHTML={{ __html: each.title }}>
                                         </div>
                                         <div className="text-justify text-[10px] lg:text-sm ">
                                             {each.content}

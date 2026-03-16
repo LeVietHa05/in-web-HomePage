@@ -8,7 +8,7 @@ export const helveticaNeueHeavy = localFont({
 
 export const SVNHelveticaNeueHeavy = localFont({
   src: "/../../public/SVN-Helvetica Neue Heavy.ttf",
-  variable: "--font-helvetica-neue-heavy",
+  variable: "--font-helvetica-neue-svn",
 });
 
 export const montserrat = Montserrat({
