@@ -18,16 +18,16 @@ export default function Vietluan() {
                 <div className="relative top-1/2 left-1/2 -translate-1/2 flex flex-col lg:flex-row w-fit ">
                     <div className="flex flex-col lg:justify-evenly justify-around px-2 lg:pl-20">
                         <div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} text-2xl lg:text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
-                                CHINH PHỤC HỌC BỔNG DU HỌC <br className="hidden lg:block"/>
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-center lg:text-left text-[22px] lg:text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
+                                CHINH PHỤC HỌC BỔNG DU HỌC <br className="hidden lg:block" />
                                 VỚI BÀI LUẬN CÁ NHÂN HOÁ
                             </div>
-                            <div className="text-[#EAFDFF] text-lg lg:text-[28px]">
+                            <div className="text-[#EAFDFF] text-center lg:text-left text-lg lg:text-[28px]">
                                 Inception đồng hành cùng bạn viết nên <br />
                                 hành trình học bổng riêng biệt!
                             </div>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 flex justify-center lg:justify-start">
                             <Link target="blank" href={'https://docs.google.com/forms/d/e/1FAIpQLSf3PIufEyO_LTr2-mXyw6WYgNIIOoX77iUDR7IhzrXRV8VmVg/viewform?fbclid=IwY2xjawPAgm1leHRuA2FlbQIxMABicmlkETFnYW1GY0tkalRyNjJpeUFEc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeWuwKPgq6ZEw84-RCqF2t1ZEAWdN1JMOcKiAzt6WsU9VGKbx6KQpGDClpLp0_aem_nN7Zo1VnwPX59kn2E6Tdaw'} className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-[23px] text-[#FDFFD6] bg-[#407EFF] rounded-full p-2 px-8 w-fit cursor-pointer `}>
                                 TƯ VẤN VIẾT LUẬN
                             </Link>
@@ -68,7 +68,7 @@ export default function Vietluan() {
                 </div>
 
                 <div className=" grid grid-cols-1 lg:grid-cols-2 text-[#004DEE] text-sm lg:text-xl">
-                    <div className={`bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
+                    <div className={`bg-[#ECFEB0] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 `}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             1
                         </div>
@@ -79,7 +79,7 @@ export default function Vietluan() {
                         </div>
                     </div>
 
-                    <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
+                    <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 `}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
@@ -89,7 +89,7 @@ export default function Vietluan() {
                             </div>
                         </div>
                     </div>
-                    <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
+                    <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 `}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
@@ -99,7 +99,7 @@ export default function Vietluan() {
                             </div>
                         </div>
                     </div>
-                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-12 rounded-[30px] p-4 `}>
+                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 `}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
