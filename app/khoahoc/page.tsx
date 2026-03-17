@@ -16,7 +16,7 @@ export default function KhoaHocBoTro() {
         <div className="relative z-10 max-w-[1440px] mx-auto h-full lg:px-[120px] flex items-center ">
           <div className="grid grid-cols-1 lg:grid-cols-[2.2fr_1fr] gap-12 items-center w-full">
             <div>
-              <h1 className={`${SVNHelveticaNeueHeavy.className} text-[#FFF175] text-3xl md:text-[52px] lg:text-[72px] font-black leading-tight mb-10 px-2`}>
+              <h1 className={`${SVNHelveticaNeueHeavy.className} text-[#FFF175] text-3xl md:text-[52px] lg:text-[72px] font-black leading-tight mb-10 px-2 text-center lg:text-left`}>
                 KHÓA HỌC BỔ TRỢ<br />TẠI INCEPTION
               </h1>
 

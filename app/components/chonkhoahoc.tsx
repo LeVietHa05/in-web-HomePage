@@ -56,7 +56,7 @@ export default function CoursesSlider() {
 
                     <div className=" mb-6">
                       {slide.desc.map((t: string, i: number) => (
-                        <div key={i} className="text-[#3253BC] text-sm md:text-[20px]">
+                        <div key={i} className="text-[#3253BC] text-[13px] md:text-[20px]">
                           {t}
                         </div>
                       ))}

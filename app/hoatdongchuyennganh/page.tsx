@@ -11,7 +11,7 @@ export default function HDCN() {
             </div>
             {/*  */}
             <div className="-mt-16 text-[#004DEE] relative z-9 bg-[#EAFDFF] py-16 px-2 lg:px-64 rounded-b-[32px] lg:rounded-b-[60px]">
-                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-3xl text-center text-[#004DEE] lg:text-[60px]`}>
+                <div className={`${SVNHelveticaNeueHeavy.className} font-black text-[26px] text-center text-[#004DEE] lg:text-[60px]`}>
                     Hoạt Động Chuyên Ngành
                 </div>
                 <div className="my-4 text-base lg:text-xl">
@@ -59,7 +59,7 @@ export default function HDCN() {
                             <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 1
                             </div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[32px]`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-base lg:text-[32px]`}>
                                 <div>
                                     Nghiên Cứu Khoa Học
                                 </div>
@@ -67,11 +67,11 @@ export default function HDCN() {
                         </div>
                         <div className=" flex flex-col lg:flex-row gap-2">
                             <div className="flex-6 px-3 lg:px-12 text-base lg:text-xl ">
-                                <p className="font-bold">
+                                <p className="font-bold text-sm">
                                     Inception đồng hành từ giai đoạn hình thành ý tưởng
                                     đến công bố nghiên cứu:
                                 </p>
-                                <ul className="list-disc ml-12 ">
+                                <ul className="list-disc ml-12 text-[13px]">
                                     <li>Họp nhóm định hướng đề tài có tính ứng dụng thực tế</li>
                                     <li>Lên kế hoạch nghiên cứu chi tiết theo từng buổi</li>
                                     <li>Đào tạo kiến thức chuyên ngành xuyên suốt quá trình</li>
@@ -90,7 +90,7 @@ export default function HDCN() {
                             <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 2
                             </div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[32px]`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-base lg:text-[32px]`}>
                                 <div>
                                     Cuộc Thi Khoa Học Kỹ Thuật
                                 </div>
@@ -98,10 +98,10 @@ export default function HDCN() {
                         </div>
                         <div className=" flex flex-col lg:flex-row gap-2">
                             <div className="flex-6 px-3 lg:px-12 text-base lg:text-xl ">
-                                <p className="font-bold">
+                                <p className="font-bold text-sm">
                                     Học sinh được ghép nhóm và cố vấn toàn diện để tham gia các cuộc thi khoa học kỹ thuật:
                                 </p>
-                                <ul className="list-disc ml-12 ">
+                                <ul className="list-disc ml-12 text-[13px]">
                                     <li>Hỗ trợ lên ý tưởng, lựa chọn đề tài phù hợp tiêu chí từng cuộc thi</li>
                                     <li>Đào tạo chuyên môn, kỹ năng làm poster, báo cáo, phản biện và thuyết trình</li>
                                     <li>Lựa chọn hình thức thi phù hợp (online hoặc offline)</li>
@@ -119,7 +119,7 @@ export default function HDCN() {
                             <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                 3
                             </div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-2xl lg:text-[32px]`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} py-8 text-base lg:text-[32px]`}>
                                 <div>
                                     Dự Án Cá Nhân Chuyên Ngành
                                 </div>
@@ -127,11 +127,11 @@ export default function HDCN() {
                         </div>
                         <div className="flex flex-col lg:flex-row gap-2">
                             <div className="flex-6 px-3 lg:px-12 text-base lg:text-xl ">
-                                <p className="font-bold">
+                                <p className="font-bold text-sm">
                                     Inception đồng hành từ giai đoạn hình thành ý tưởng
                                     đến công bố nghiên cứu:
                                 </p>
-                                <ul className="list-disc ml-12 ">
+                                <ul className="list-disc ml-12 text-[13px]">
                                     <li>Họp nhóm định hướng đề tài có tính ứng dụng thực tế</li>
                                     <li>Lên kế hoạch nghiên cứu chi tiết theo từng buổi</li>
                                     <li>Đào tạo kiến thức chuyên ngành xuyên suốt quá trình</li>
