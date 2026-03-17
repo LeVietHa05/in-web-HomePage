@@ -33,7 +33,7 @@ export default function TrainghiemHs({ type }: { type: string }) {
                                 <Image className="lg:w-1/2 " src={each.imglink2 ? each.imglink2 : each.imglink} alt={each.name} width={310} height={310}></Image>
                             </div>
                             <div className='flex-5 lg:text-left text-center'>
-                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-xl lg:text-[36px] xl:text-[50px] font-black uppercase `}>{each.name}</div>
+                                <div className={`${SVNHelveticaNeueHeavy.className} text-[#004DEE] text-xl lg:text-[32px] xl:text-[42px] font-black uppercase `}>{each.name}</div>
                                 <div className={`${SVNHelveticaNeueHeavy.className} text-[#001E7F] text-[13px] lg:text-lg xl:text-[24px] font-black uppercase `}>{each.hocbong}</div>
                                 <div className={` text-[#001E7F] text-[8px] lg:text-base xl:text-[20px]   `}>{each.school}</div>
                                 <div className={`pt-4 text-[#001E7F] text-[10px] lg:text-[15px] xl:text-[18px] text-justify  `}>{each.speech}</div>
