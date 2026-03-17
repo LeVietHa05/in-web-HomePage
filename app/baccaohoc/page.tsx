@@ -115,7 +115,7 @@ export default function Baccaohoc() {
                         </div>
                     </div>
 
-                    <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 pb-20 -mt-20 lg:mt-0`}>
+                    <div className={`bg-[#FDFFD6] lg:bg-[#ECFEB0] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 pb-20 lg:pb-4 -mt-20 lg:mt-0`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             2
                         </div>
@@ -128,7 +128,7 @@ export default function Baccaohoc() {
                             </div>
                         </div>
                     </div>
-                    <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 -mt-20 pb-20 lg:pb-0`}>
+                    <div className={`bg-[#ECFEB0] lg:bg-[#FDFFD6] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 -mt-20 lg:mt-0 pb-20 lg:pb-4`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             3
                         </div>
@@ -141,7 +141,7 @@ export default function Baccaohoc() {
                             </div>
                         </div>
                     </div>
-                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 -mt-20`}>
+                    <div className={`bg-[#FDFFD6] font-bold flex items-center gap-4 lg:gap-12 rounded-[30px] p-4 -mt-20 lg:mt-0`}>
                         <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                             4
                         </div>
