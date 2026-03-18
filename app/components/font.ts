@@ -1,14 +1,11 @@
 import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 
-export const helveticaNeueHeavy = localFont({
-  src: "/../../public/HelveticaNeue Heavy.ttf",
-  variable: "--font-helvetica-neue-heavy",
-});
 
 export const SVNHelveticaNeueHeavy = localFont({
   src: "/../../public/SVN-Helvetica Neue Heavy.ttf",
   variable: "--font-helvetica-neue-svn",
+  weight: "800",
 });
 
 export const montserrat = Montserrat({

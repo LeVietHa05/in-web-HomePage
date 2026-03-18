@@ -2,7 +2,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { helveticaNeueHeavy } from "./font"
+import { SVNHelveticaNeueHeavy } from "./font"
 import Image from "next/image"
 
 interface ThanhtichProps {
@@ -61,7 +61,7 @@ export default function Thanhtich({ data, initItemperpage }: { data: ThanhtichPr
 
     return (
         <div className="bg-[#fefefe] min-h-96 w-full rounded-[32px] lg:rounded-[60px] py-4  lg:-mt-24 relative z-3">
-            <div className={`${helveticaNeueHeavy.className} font-bold font-[Helvetica] text-2xl lg:text-[60px] text-center text-[#001E7F] mb-8`}>
+            <div className={`${SVNHelveticaNeueHeavy.className} font-bold font-[Helvetica] text-2xl lg:text-[60px] text-center text-[#001E7F] mb-8`}>
                 THÀNH TÍCH INCEPTION
             </div>
 
@@ -87,7 +87,7 @@ export default function Thanhtich({ data, initItemperpage }: { data: ThanhtichPr
                                                 }}
                                             />
                                         </div>
-                                        <h3 className={`${helveticaNeueHeavy.className} text-base lg:text-xl font-medium text-[#407EFF] leading-tight`}>
+                                        <h3 className={`${SVNHelveticaNeueHeavy.className} text-base lg:text-xl font-medium text-[#407EFF] leading-tight`}>
                                             {item.name} <div className="text-[#f27240]">{item.otherText}</div>
                                         </h3>
                                     </div>
