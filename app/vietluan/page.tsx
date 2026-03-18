@@ -18,7 +18,7 @@ export default function Vietluan() {
                 <div className="relative top-1/2 left-1/2 -translate-1/2 flex flex-col lg:flex-row w-fit ">
                     <div className="flex flex-col lg:justify-evenly justify-around px-2 lg:pl-20">
                         <div>
-                            <div className={`${SVNHelveticaNeueHeavy.className} text-center lg:text-left text-[22px] lg:text-4xl lg:text-[48px] text-[#FFF175] mb-4`}>
+                            <div className={`${SVNHelveticaNeueHeavy.className} text-center lg:text-left text-[clamp(22px,4vw,48px)] text-[#FFF175] mb-4`}>
                                 CHINH PHỤC HỌC BỔNG DU HỌC <br className="hidden lg:block" />
                                 VỚI BÀI LUẬN CÁ NHÂN HOÁ
                             </div>

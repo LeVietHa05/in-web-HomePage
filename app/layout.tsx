@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { helveticaNeueHeavy } from "./components/font";
+import { SVNHelveticaNeueHeavy } from "./components/font";
 import "./globals.css";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${helveticaNeueHeavy.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${SVNHelveticaNeueHeavy.variable} antialiased`}
       >
         <Nav />
         {children}

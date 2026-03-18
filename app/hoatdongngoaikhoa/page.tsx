@@ -17,7 +17,7 @@ export default function HDNK() {
                 </div>
                 <div className="grid grid-cols-4 gap-2 lg:gap-8 mt-3 lg:mt-12">
                     <div className="col-span-2  ">
-                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                        <div className="p-2 lg:p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     1
@@ -35,7 +35,7 @@ export default function HDNK() {
                         </div>
                     </div>
                     <div className="col-span-2  col-start-3">
-                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                        <div className="p-2 lg:p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     2
@@ -47,13 +47,13 @@ export default function HDNK() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4 text-sm">
+                            <div className="font-bold pb-4 text-sm lg:text-base text-justify">
                                 Qua việc tham gia, tổ chức hay dẫn dắt CLB và dự án, các bạn học được cách lãnh đạo, phối hợp và sẻ chia với cộng đồng.
                             </div>
                         </div>
                     </div>
                     <div className="col-span-2  row-start-2">
-                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                        <div className="p-2 lg:p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     3
@@ -65,13 +65,13 @@ export default function HDNK() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4 text-sm">
+                            <div className="font-bold pb-4 text-sm lg:text-base text-justify">
                                 Những trải nghiệm thực tế giúp bạn khám phá sở thích, phát triển kỹ năng và tạo dấu ấn khác biệt gắn với ngành học tương lai.
                             </div>
                         </div>
                     </div>
                     <div className="col-span-2  col-start-3 row-start-2">
-                        <div className="p-2 bg-[#FFF175] rounded-[20px] h-full">
+                        <div className="p-2 lg:p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-2 lg:gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     4
@@ -83,13 +83,13 @@ export default function HDNK() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4 text-sm">
+                            <div className="font-bold pb-4 text-sm lg:text-base text-justify">
                                 Hoạt động ngoại khóa là “chất liệu” để viết bài luận và kể câu chuyện riêng, giúp hồ sơ xin học bổng nổi bật và đáng nhớ.
                             </div>
                         </div>
                     </div>
                     <div className="col-span-4 row-span-2 row-start-3">
-                        <div className="p-4 bg-[#FFF175] rounded-[20px] h-full">
+                        <div className="p-2 lg:p-4 bg-[#FFF175] rounded-[20px] h-full">
                             <div className="flex  items-center gap-4">
                                 <div className={`${SVNHelveticaNeueHeavy.className} size-12 lg:size-15 pb-2  aspect-1/1 rounded-full border text-center flex items-center justify-center text-2xl`}>
                                     5
@@ -100,7 +100,7 @@ export default function HDNK() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-bold pb-4 text-sm">
+                            <div className="font-bold pb-4 text-sm lg:text-base text-justify">
                                 Bạn có thêm nhiều bạn bè, thầy cô, mentor, tạo nền tảng kết nối xã hội và thích nghi tốt với môi trường học tập quốc tế.
                             </div>
                         </div>
